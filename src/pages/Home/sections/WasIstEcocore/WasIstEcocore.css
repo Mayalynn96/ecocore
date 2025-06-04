@@ -1,7 +1,6 @@
-
-
 #ecocoreSection {
     display: flex;
+    height: 45vw;
 }
 
 #firstImageSection, #wasIstEcocore{
@@ -10,8 +9,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
 }
 
 .paragraph p {
@@ -33,13 +30,17 @@
     border: solid var(--secondary-color);
 }
 
+#firstImage:hover {
+    width: 32vw;
+}
+
 .rightArrow {
     height: 3vw;
     padding-top: 0.5vw;
 }
 
 .mehrDiv {
-    width: 50vw;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;

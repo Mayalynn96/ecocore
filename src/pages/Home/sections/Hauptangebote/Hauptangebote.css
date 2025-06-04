@@ -1,0 +1,11 @@
+#hauptangeboteSection {
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    justify-content: space-evenly;
+}
+
+#hauptangeboteDiv {
+    display: flex;
+    justify-content: space-evenly;
+}

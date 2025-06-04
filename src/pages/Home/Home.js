@@ -4,6 +4,7 @@ import Header from '../../componants/Header/Header';
 import HeroBanner from './sections/HeroBanner/HeroBanner'
 import './Home.css'
 import WasIstEcocore from './sections/WasIstEcocore/WasIstEcocore';
+import Hauptangebote from './sections/Hauptangebote/Hauptangebote';
 
 function Home() {
 
@@ -13,9 +14,7 @@ function Home() {
             <Header />
             <main>
                 <WasIstEcocore />
-                <section id='hauptAngeboteSection'>
-
-                </section>
+                <Hauptangebote />
             </main>
        </section> 
     )

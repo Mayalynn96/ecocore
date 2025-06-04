@@ -1,0 +1,31 @@
+.iconImage {
+    height: 10vw;
+}
+
+.iconDiv {
+    background-color: var(--secondary-color);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    Box-sizing: border-box;
+}
+
+.iconDiv:hover {
+    border: solid var(--darkText) 5px;
+}
+
+.iconDiv:active {
+    background-color: var(--primary-transparent);
+}
+
+.iconDiv p {
+    color: var(--darkText);
+    font-weight: bold;
+    font-size: 1.3vw;
+    text-align: center;
+}
