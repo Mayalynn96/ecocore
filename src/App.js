@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router"
 import Home from "./pages/Home/Home";
+import EcoCore from "./pages/EcoCore/EcoCore";
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Routes>
       <Route index element={<Home />} />
       <Route path="home" element={<Home />} />
+      <Route path="ecocore" element={<EcoCore />} />
       </Routes>
     </Router>
   );

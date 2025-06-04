@@ -39,6 +39,7 @@ header {
     height: fit-content;
     margin: 0.50vw;
     margin-left: 3.25vw;
+    cursor: pointer;
 }
 
 .logoDiv p {

@@ -1,0 +1,49 @@
+#heroImage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    animation: fadeIn 3s;
+}
+
+#heroDiv {
+    background-color: var(--primary-color);
+}
+
+#logoAndSlogan {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+    animation: 2s slide-right;
+}
+
+#slogan, .logoDivBig {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.50vw;
+    background-color: var(--primary-transparent);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+#slogan p {
+    font-family: "DM Serif Text", serif;
+    color: var(--lightText);
+    padding: 0.25vw;
+    font-size: 3.5vw;
+    margin: 0;
+}
+
+.logoDivBig p {
+    color: var(--lightText);
+    font-weight: bold;
+    padding: 0.25vw;
+    font-size: 5vw;
+    margin: 0;
+}
