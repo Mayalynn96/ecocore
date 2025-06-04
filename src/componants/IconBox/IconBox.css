@@ -6,7 +6,7 @@
     background-color: var(--secondary-color);
     width: 15vw;
     height: 15vw;
-    border-radius: 20px;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +16,7 @@
 }
 
 .iconDiv:hover {
-    border: solid var(--darkText) 5px;
+    border: solid var(--darkText) 0.5vw;
 }
 
 .iconDiv:active {

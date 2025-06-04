@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import './Hauptangebote.css'
-import Logo from '../../logo.svg';
 import RightArrow from "../../arrow-right.svg";
 import IconBox from '../../../../componants/IconBox/IconBox';
 import SolarEnergy from "./solarEnergy.svg"

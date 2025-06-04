@@ -1,0 +1,17 @@
+.image-gallery img {
+    width: 60vw;
+}
+
+#referenzenSection {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+#logo2 {
+    position: absolute;
+    height: 25vw;
+    z-index: -1;
+    right: 2vw;
+    transform: translateY(-13vw);
+}

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import Header from '../../componants/Header/Header';
 import HeroBanner from './sections/HeroBanner/HeroBanner'
 import './Home.css'
 import WasIstEcocore from './sections/WasIstEcocore/WasIstEcocore';
 import Hauptangebote from './sections/Hauptangebote/Hauptangebote';
+import Referenzen from './sections/Referenzen/Referenzen';
 
 function Home() {
 
@@ -15,6 +15,7 @@ function Home() {
             <main>
                 <WasIstEcocore />
                 <Hauptangebote />
+                <Referenzen />
             </main>
        </section> 
     )
