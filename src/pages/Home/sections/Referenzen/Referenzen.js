@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import './Referenzen.css'
 import Logo from '../../logo.svg';
 import RightArrow from "../../arrow-right.svg";
-import Example1 from "./Example1.jpg";
-import Example2 from "./Example2.jpg";
-import Example3 from "./Example3.jpg"
+import Example1 from "./Example1.webp";
+import Example2 from "./Example2.webp";
+import Example3 from "./Example3.webp"
 import ImageGallery from "react-image-gallery";
 // import stylesheet if you're not already using CSS @import
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -15,15 +15,18 @@ function Referenzen() {
     const images = [
         {
             original: Example1,
-            description: "EFH Arlesheim 2014/17"
+            description: "EFH Arlesheim 2014/17",
+            originalAlt: "example1"
         },
         {
             original: Example2,
-            description: "Waldenburg 2016"
+            description: "Waldenburg 2016",
+            originalAlt: "example2"
         },
         {
             original: Example3,
-            description: "Projekt Riehen 2017"
+            description: "Projekt Riehen 2017",
+            originalAlt: "example3"
         },
     ];
 

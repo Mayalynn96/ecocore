@@ -16,7 +16,7 @@
 }
 
 .iconDiv:hover {
-    border: solid var(--darkText) 0.5vw;
+    border: solid var(--darkText) 0.3vw;
 }
 
 .iconDiv:active {

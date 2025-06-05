@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import Header from '../../componants/Header/Header';
+import "./EcoCore.css"
 
 function EcoCore() {
     const navigate = useNavigate();

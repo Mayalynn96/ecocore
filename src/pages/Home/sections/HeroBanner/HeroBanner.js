@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from "./BannerImageBlurred.png";
+import HeroImage from "./BannerImageBlurred.webp";
 import './HeroBanner.css'
 
 function HeroBanner() {

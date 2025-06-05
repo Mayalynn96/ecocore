@@ -5,6 +5,7 @@ import './Home.css'
 import WasIstEcocore from './sections/WasIstEcocore/WasIstEcocore';
 import Hauptangebote from './sections/Hauptangebote/Hauptangebote';
 import Referenzen from './sections/Referenzen/Referenzen';
+import HaufigeFragen from './sections/HaufigeFragen/HaufigeFragen';
 
 function Home() {
 
@@ -16,6 +17,7 @@ function Home() {
                 <WasIstEcocore />
                 <Hauptangebote />
                 <Referenzen />
+                <HaufigeFragen />
             </main>
        </section> 
     )
