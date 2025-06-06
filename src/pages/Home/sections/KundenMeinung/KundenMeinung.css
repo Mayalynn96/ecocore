@@ -1,0 +1,32 @@
+#banner2Image {
+    width: 100vw;
+}
+
+#kundenMeinungDiv {
+    position: absolute;
+    z-index: 999;
+    background-color: var(--primary-transparent);
+    color: var(--secondary-color);
+    width: 70vw;
+    font-size: 1.8vw;
+    left: 15vw;
+    transform: translateY(10vw);
+}
+
+.star {
+    height: 4vw;
+}
+
+#starDiv {
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+#kundenMeinungName {
+    font-style: italic;
+    margin: 1vw;
+}
+
+#kundenMeinungText{
+    margin: 1vw;
+}

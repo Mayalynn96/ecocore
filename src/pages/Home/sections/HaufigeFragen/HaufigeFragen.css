@@ -2,31 +2,7 @@
     color: var(--darkText);
     display: flex;
     justify-content: center;
-}
-
-.fragenDiv {
-    width: 70vw;
-}
-
-.frageUndAntwort {
-    border-bottom: solid var(--darkText) 0.15vw ;
-}
-
-.arrowDown {
-    height: 3vw;
-    width: 3vw;
-    cursor: pointer;
-}
-
-.antwortDiv {
-    margin-bottom: 1vw;
-}
-
-.arrowDown:active {
-    transform: translateY(0.5vw);
-}
-
-.frageDiv {
-    display: flex;
+    flex-direction: column;
     align-items: center;
+    margin-top: 20px;
 }
