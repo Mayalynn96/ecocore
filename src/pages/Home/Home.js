@@ -7,6 +7,7 @@ import Hauptangebote from './sections/Hauptangebote/Hauptangebote';
 import Referenzen from './sections/Referenzen/Referenzen';
 import HaufigeFragen from './sections/HaufigeFragen/HaufigeFragen';
 import KundenMeinung from './sections/KundenMeinung/KundenMeinung';
+import Partner from './sections/Partner/Partner';
 
 function Home() {
 
@@ -20,6 +21,7 @@ function Home() {
                 <Referenzen />
                 <KundenMeinung />
                 <HaufigeFragen />
+                <Partner />
             </main>
         </section>
     )

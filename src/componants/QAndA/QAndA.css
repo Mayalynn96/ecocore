@@ -23,6 +23,7 @@
 .frageDiv {
     display: flex;
     align-items: center;
+    margin: 1vw;
 }
 
 .answerDiv p{

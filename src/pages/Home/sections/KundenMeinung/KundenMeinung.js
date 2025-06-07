@@ -1,16 +1,9 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
 import "./KundenMeinung.css"
-import RightArrow from "../../arrow-right.svg";
 import Star from './star.svg'
 import Banner2 from './Banner2b.webp'
 
 function KundenMeinung() {
-    const navigate = useNavigate();
-
-    const handleNavigation = (destination) => {
-        navigate(`/${destination}`);
-    };
 
     return (
         <section id='kundenMeinungSection'>
