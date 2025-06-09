@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ecocore/static/css/main.39e29984.css",
+    "main.js": "/ecocore/static/js/main.39c7b707.js",
+    "static/media/bannerB.webp": "/ecocore/static/media/bannerB.eeb73106706082977a85.webp",
+    "static/media/Example3.webp": "/ecocore/static/media/Example3.01a96986a6024847a6c0.webp",
+    "static/media/Example2.webp": "/ecocore/static/media/Example2.46d728fc5eaaf3c557f4.webp",
+    "static/media/Example1.webp": "/ecocore/static/media/Example1.0819ba3d25b2ab179de2.webp",
+    "static/media/firstImage.webp": "/ecocore/static/media/firstImage.8c776c69a459ec78d1fa.webp",
+    "static/media/Banner2b.webp": "/ecocore/static/media/Banner2b.3b32c671dc13aeaf7106.webp",
+    "static/media/Screenshot7.webp": "/ecocore/static/media/Screenshot7.e5939c17d6bc48b7b487.webp",
+    "static/media/Screenshot1.webp": "/ecocore/static/media/Screenshot1.1352984c645e61d1bd42.webp",
+    "static/media/Screenshot6.webp": "/ecocore/static/media/Screenshot6.0033ddd70e79b9257e93.webp",
+    "static/media/Screenshot2.webp": "/ecocore/static/media/Screenshot2.5c4126292d5aba82f849.webp",
+    "static/media/Screenshot5.webp": "/ecocore/static/media/Screenshot5.740c174a68ff1a97aa74.webp",
+    "static/media/Screenshot3.webp": "/ecocore/static/media/Screenshot3.116a5abe71c4941f3923.webp",
+    "static/media/Screenshot4.webp": "/ecocore/static/media/Screenshot4.c0b72d917e86422526e1.webp",
+    "static/media/project.svg": "/ecocore/static/media/project.917d705bc6f19419c8ef2aced6dd0e97.svg",
+    "static/media/install.svg": "/ecocore/static/media/install.7a053b3a7f080e2d5db52f37dab8d752.svg",
+    "static/media/logo.svg": "/ecocore/static/media/logo.3d487d121cab2f31cc6e7657c3be2992.svg",
+    "static/media/solarEnergy.svg": "/ecocore/static/media/solarEnergy.4ddf4316b735f321c3b5f1aff58c747e.svg",
+    "static/media/star.svg": "/ecocore/static/media/star.0e5dbb4a7fff49598c926afd55bd6e24.svg",
+    "index.html": "/ecocore/index.html",
+    "static/media/linkedin.svg": "/ecocore/static/media/linkedin.2ed19cc12eebd88e221c23117b00dc55.svg",
+    "static/media/arrow-right.svg": "/ecocore/static/media/arrow-right.28eb95d9366c622ee0626a55745c79d2.svg",
+    "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
+    "static/media/analyse.svg": "/ecocore/static/media/analyse.35bd88ba9eb82d9d0ea07c26e3f6c0da.svg",
+    "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
+    "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
+    "main.39e29984.css.map": "/ecocore/static/css/main.39e29984.css.map",
+    "main.39c7b707.js.map": "/ecocore/static/js/main.39c7b707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39e29984.css",
+    "static/js/main.39c7b707.js"
+  ]
+}
