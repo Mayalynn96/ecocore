@@ -3,9 +3,11 @@ import Home from "./pages/Home/Home";
 import EcoCore from "./pages/EcoCore/EcoCore";
 import './App.css';
 
+// basename="/ecocore"
+
 function App() {
   return (
-    <Router>
+    <Router >
       <Routes>
       <Route index element={<Home />} />
       <Route path="home" element={<Home />} />

@@ -13,7 +13,7 @@ import Footer from '../../componants/Footer/Footer';
 function Home() {
 
     return (
-        <section className='mainSection'>
+        <section id='mainSection'>
             <HeroBanner />
             <Header />
             <main>

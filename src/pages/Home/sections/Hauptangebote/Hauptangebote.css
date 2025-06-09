@@ -10,10 +10,15 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 600px) {
     #hauptangeboteSection {
-        height: 50vh;
+        height: 80vh;
+    }
+
+    #hauptangeboteDiv {
+        flex-wrap: wrap;
     }
 }
