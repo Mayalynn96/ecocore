@@ -1,5 +1,6 @@
-#hauptAngeboteSection {
-    height: 1000px;
+#mainSection {
+  overflow: hidden;
+  position: relative;
 }
 
 @keyframes fadeIn {

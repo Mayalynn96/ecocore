@@ -1,8 +1,102 @@
+
 :root {
   --primary-color: #354664;
-  --primary-transparent: #3546649e;
+  --primary-transparent: #35466419;
   --secondary-color: #E7E7E7;
   --darkText: #354664;
   --lightText: #B0B0B0;
   --background-color: #ffffff;
+  --dark-blue: #354664;
+  --light-blue: #5888d0;
+  --dark-grey: #B0B0B0;
+  --light-grey: #E7E7E7;
+  --orange: #e28325;
+}
+
+section {
+  overflow: hidden;
+}
+
+h1 {
+  color: var(--light-blue);
+  font-size: 36px;
+  font-family: "Oxanium", sans-serif;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: var(--light-blue);
+}
+
+p, li{
+  font-size: 18px;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+button{
+  font-size: 24px;
+  background-color: var(--orange);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 25px 10px;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out,
+}
+
+button:hover {
+  background-color: var(--dark-blue);
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.backgroundSunIcon {
+  height: 500px;
+  width: 500px;
+  z-index: -10;
+}
+
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: clamp(12px, 2vw, 18px);
+  }
+
+  p, li{
+    font-size: clamp(12px, 2vw, 18px);
+    
+  }
+
+  .backgroundSunIcon {
+  height: 300px;
+  width: 300px;
+}
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  p, li{
+    font-size: 12px;
+  }
 }

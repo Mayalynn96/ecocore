@@ -1,11 +1,19 @@
 #hauptangeboteSection {
     display: flex;
     flex-direction: column;
-    height: 35vw;
+    height: 90vh;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #hauptangeboteDiv {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #hauptangeboteSection {
+        height: 50vh;
+    }
 }

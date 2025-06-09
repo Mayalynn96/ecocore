@@ -1,5 +1,6 @@
 #heroImage {
-    width: 100%;
+    min-width: 100vw;
+    height: 100%;
     margin: 0;
     padding: 0;
     display:inline-block;
@@ -8,6 +9,8 @@
 
 #heroDiv {
     background-color: var(--primary-color);
+    height: 100vh;
+    overflow: hidden;
 }
 
 #logoAndSlogan {
@@ -28,16 +31,18 @@
     width: fit-content;
     margin: 0.50vw;
     background-color: var(--primary-transparent);
+    backdrop-filter: blur(10px)
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 #slogan p {
     font-family: "DM Serif Text", serif;
-    color: var(--lightText);
+    color: var(--light-grey);
     padding: 0.25vw;
     font-size: 3.5vw;
     margin: 0;
+    font-style: italic;
 }
 
 .logoDivBig p {
@@ -46,4 +51,28 @@
     padding: 0.25vw;
     font-size: 5vw;
     margin: 0;
+}
+
+@media (max-width: 600px) {
+    #heroDiv {
+    height: 30vh;
+}
+
+#heroImage {
+    height: 30vh;
+}
+
+.logoDivBig p {
+    font-size: 24px;
+}
+
+#slogan p {
+    font-size: 16px;
+}
+
+#logoAndSlogan {
+    margin: 0;
+    padding: 5px;
+}
+
 }

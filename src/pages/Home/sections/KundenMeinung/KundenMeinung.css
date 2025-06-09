@@ -1,16 +1,23 @@
+#kundenMeinungSection {
+    overflow: hidden;
+    height: 90vh;
+}
+
 #banner2Image {
-    width: 100%;
+    min-width: 100%;
+    height: 90vh;
 }
 
 #kundenMeinungDiv {
     position: absolute;
     z-index: 999;
     background-color: var(--primary-transparent);
-    color: var(--secondary-color);
+    color: var(--light-grey);
     width: 70vw;
     font-size: 1.8vw;
     left: 15vw;
     transform: translateY(10vw);
+    backdrop-filter: blur(10px);
 }
 
 .star {
@@ -29,4 +36,39 @@
 
 #kundenMeinungText{
     margin: 1vw;
+}
+
+#sun3 {
+    position: absolute;
+    z-index: -1;
+    left: -250px;
+    transform: translateY(-250px);
+}
+
+@media (max-width: 950px) {
+    #kundenMeinungDiv p {
+        font-size: 20px;
+    }
+
+    #sun3 {
+        transform: translateY(-150px);
+        left: -150px;
+    }
+}
+
+@media (max-width: 600px) {
+    #kundenMeinungDiv p {
+        font-size: 16px;
+    }
+
+    #kundenMeinungSection, #banner2Image {
+        min-height: 45vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sun3 {
+        transform: translateY(-150px);
+        left: -150px;
+    }
 }

@@ -14,7 +14,7 @@ function WasIstEcocore() {
 
     return (
         <section id='ecocoreSection'>
-                    <img src={Logo} alt='logo' id='logo1'/>
+                    <img src={Logo} alt='logo' id='logo1' className='backgroundSunIcon'/>
                     <div id='wasIstEcocore'>
                         <div className='paragraph'>
                         <h1>Was ist Eco Core?</h1>
@@ -24,9 +24,9 @@ function WasIstEcocore() {
                             um – von Energie und Trinkwasser bis Bildung, oft unterstützt durch kreative Finanzierungsmodelle 
                             wie Microfinancing oder Crowdfunding.</p>
                         </div>
-                        <div className='mehrDiv' onClick={() => handleNavigation("ecocore")}>
-                            <p>Mehr Erfahren</p>
-                            <img src={RightArrow} alt='right pointing arrow' className='rightArrow'/>
+                        <div>
+                            <button onClick={() => handleNavigation("ecocore")}>Mehr erfahren</button>
+                            <button>Jetzt beratten lassen</button>
                         </div>
                     </div>
                     <div id='firstImageSection'>

@@ -1,5 +1,6 @@
 .fragenDiv {
     width: 70vw;
+    margin: 5vw 0;
 }
 
 .frageUndAntwort {
@@ -12,9 +13,6 @@
     cursor: pointer;
 }
 
-.antwortDiv {
-    margin-bottom: 1vw;
-}
 
 .arrowDown:active {
     transform: translateY(0.5vw);
@@ -24,8 +22,10 @@
     display: flex;
     align-items: center;
     margin: 1vw;
+    justify-content: space-between;
 }
 
-.answerDiv p{
+.answerDiv p, .answerDiv li{
     margin: 1vw;
+    transition: 1s;
 }

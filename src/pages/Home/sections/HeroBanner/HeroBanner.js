@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from "./BannerImageBlurred.webp";
+import HeroImage from "./bannerB.webp";
 import './HeroBanner.css'
 
 function HeroBanner() {
@@ -13,7 +13,7 @@ function HeroBanner() {
                     <p>Core</p>
                 </div>
                 <div id='slogan'>
-                    <p>Slogan Goes Here!</p>
+                    <p>Intelligent investieren – mit der Kraft der Sonne!</p>
                 </div>
             </div>
         </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import "./KundenMeinung.css"
 import Star from './star.svg'
 import Banner2 from './Banner2b.webp'
+import Logo from "../../logo.svg"
 
 function KundenMeinung() {
 
@@ -22,6 +23,7 @@ function KundenMeinung() {
                 <p id='kundenMeinungName'>- Tonya Silverman</p>
             </div>
             <img src={Banner2} alt='Sonnenuntergang uber photovoltaik' id='banner2Image' />
+            <img src={Logo} alt='Sonne' id='sun3' className='backgroundSunIcon'/>
         </section>
     )
 }

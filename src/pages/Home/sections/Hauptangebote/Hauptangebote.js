@@ -18,15 +18,15 @@ function Hauptangebote() {
 
     return (
         <section id='hauptangeboteSection'>
+            <h1>Haupt Angebote</h1>
             <div id='hauptangeboteDiv'>
                 <IconBox text={'Photovoltaik'} icon={SolarEnergy} />
                 <IconBox text={"Analyse"} icon={Analyse} />
-                <IconBox text={"Entwicklungsprojekte"} icon={Project} />
+                <IconBox text={"Entwicklungs-projekte"} icon={Project} />
                 <IconBox text={"Installation"} icon={Istall} />
             </div>
-            <div className='mehrDiv' onClick={() => handleNavigation("angebote")}>
-                <p>Alle Angebote</p>
-                <img src={RightArrow} alt='right pointing arrow' className='rightArrow' />
+            <div>
+                <button onClick={() => handleNavigation("angebote")}>Alle Angebote</button>
             </div>
         </section>
     )

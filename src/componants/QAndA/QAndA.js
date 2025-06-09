@@ -6,12 +6,10 @@ const FAQSection = (faqs) => {
     const FAQItem = ({ question, answer }) => {
         const [isOpen, setIsOpen] = useState(false);
 
-        console.log(answer)
-
         return (
             <div className='frageUndAntwort'>
                 <div className='frageDiv'>
-                    <h3>{question}</h3>
+                    <h2>{question}</h2>
                     <img src={Arrow} alt='arrow down' className='arrowDown' onClick={() => setIsOpen(!isOpen)} />
                 </div>
                 {isOpen &&

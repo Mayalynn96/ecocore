@@ -49,10 +49,10 @@ function HaufigeFragen() {
 
     return (
         <section id='heufigeFragenSection'>
+            <h1>Häufig gestellten Fragen</h1>
             {QAndA(faq)}
-            <div className='mehrDiv' onClick={() => handleNavigation("FAQ")}>
-                <p>Mehr Fragen und Antworten</p>
-                <img src={RightArrow} alt='right pointing arrow' className='rightArrow' />
+            <div>
+                <button onClick={() => handleNavigation("FAQ")}>Mehr Fragen und Antworten</button>
             </div>
         </section>
     )

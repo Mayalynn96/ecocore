@@ -8,6 +8,7 @@ import Referenzen from './sections/Referenzen/Referenzen';
 import HaufigeFragen from './sections/HaufigeFragen/HaufigeFragen';
 import KundenMeinung from './sections/KundenMeinung/KundenMeinung';
 import Partner from './sections/Partner/Partner';
+import Footer from '../../componants/Footer/Footer';
 
 function Home() {
 
@@ -23,6 +24,7 @@ function Home() {
                 <HaufigeFragen />
                 <Partner />
             </main>
+            <Footer/>
         </section>
     )
 }

@@ -38,11 +38,11 @@ function Referenzen() {
 
     return (
         <section id='referenzenSection'>
+            <h1>Referenzen</h1>
             <ImageGallery items={images} size={'30vw'} />
-            <img src={Logo} alt='Logo'id='logo2'/>
-            <div className='mehrDiv' onClick={() => handleNavigation("referenzen")}>
-                <p>Mehr Referenzen</p>
-                <img src={RightArrow} alt='right pointing arrow' className='rightArrow' />
+            <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIcon'/>
+            <div>
+                <button onClick={() => handleNavigation("referenzen")}>Mehr Referenzen</button>
             </div>
         </section>
     )

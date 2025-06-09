@@ -11,8 +11,8 @@ import Screenshot7 from './Screenshot7.webp'
 function Partner() {
 
     return (
-        <div class="logos">
-            <div class="logo-slider">
+        <div className="logos">
+            <div className="logo-slider">
                 <img src={Screenshot1} alt="Studio Schaffer Basel" className='logoImg' />
                 <img src={Screenshot2} alt="EcoInvest" className='logoImg' />
                 <img src={Screenshot3} alt="My Way Better Biking" className='logoImg' />
@@ -21,7 +21,7 @@ function Partner() {
                 <img src={Screenshot6} alt="Unser Bier" className='logoImg' />
                 <img src={Screenshot7} alt="Global Footprint Network" className='logoImg' />
             </div>
-            <div class="logo-slider">
+            <div className="logo-slider">
                 <img src={Screenshot1} alt="Studio Schaffer Basel" className='logoImg' />
                 <img src={Screenshot2} alt="EcoInvest" className='logoImg' />
                 <img src={Screenshot3} alt="My Way Better Biking" className='logoImg' />
