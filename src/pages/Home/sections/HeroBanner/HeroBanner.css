@@ -31,7 +31,7 @@
     width: fit-content;
     margin: 0.50vw;
     background-color: var(--primary-transparent);
-    backdrop-filter: blur(10px)
+    backdrop-filter: blur(10px);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');

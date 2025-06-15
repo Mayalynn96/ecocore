@@ -5,9 +5,10 @@ import "./Referenzen.css"
 function Referenzen() {
 
     return (
-       <section>
+       <section id='referenzenPageSection'>
             <Header />
             <main>
+                <h1>Referenzen</h1>
             </main>
        </section> 
     )

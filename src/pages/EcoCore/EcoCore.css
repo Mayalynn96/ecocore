@@ -1,0 +1,20 @@
+#ecoCorePageSection main{
+    display: flex;
+    justify-content: center;
+}
+
+#ecocorePageLogo {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 0.50vw;
+    
+}
+
+#ecocorePageLogo p {
+    color: var(--lightText);
+    font-weight: bold;
+    padding: 0.25vw;
+    font-size: 5vw;
+}

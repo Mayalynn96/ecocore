@@ -12,9 +12,13 @@ function EcoCore() {
     };
 
     return (
-       <section>
+       <section id='ecoCorePageSection'>
             <Header />
             <main>
+                <div id='ecocorePageLogo'>
+                    <p style={{ color: '#569728' }}>eco</p>
+                    <p>core</p>
+                </div>
             </main>
             {/* <Footer /> */}
        </section> 

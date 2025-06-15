@@ -6,9 +6,10 @@ import Footer from '../../componants/Footer/Footer';
 function Angebote() {
 
     return (
-       <section>
+       <section id='angebotePageSection'>
             <Header />
             <main>
+                <h1>Angebote</h1>
             </main>
             {/* <Footer /> */}
        </section> 
