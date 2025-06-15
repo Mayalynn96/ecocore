@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router >
+    <Router basename="/ecocore">
       <Routes>
       <Route index element={<Home />} />
       <Route path="home" element={<Home />} />

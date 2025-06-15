@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 import Header from '../../componants/Header/Header';
 import "./EcoCore.css"
+import Footer from '../../componants/Footer/Footer';
 
 function EcoCore() {
     const navigate = useNavigate();
@@ -15,6 +16,7 @@ function EcoCore() {
             <Header />
             <main>
             </main>
+            {/* <Footer /> */}
        </section> 
     )
 }

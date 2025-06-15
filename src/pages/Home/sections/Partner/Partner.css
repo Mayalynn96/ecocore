@@ -41,9 +41,9 @@
     z-index: 999;
 }
 
-.logos:hover .logo-slider {
+/* .logos:hover .logo-slider {
     animation-play-state: paused;
-}
+} */
 
 @keyframes slide {
     from {

@@ -11,10 +11,7 @@
   --dark-grey: #B0B0B0;
   --light-grey: #E7E7E7;
   --orange: #e28325;
-}
-
-section {
-  overflow: hidden;
+  --green: #569728;
 }
 
 h1 {
@@ -35,7 +32,7 @@ p, li{
 
 button{
   font-size: 24px;
-  background-color: var(--orange);
+  background-color: var(--green);
   color: white;
   border: none;
   padding: 10px;
@@ -57,6 +54,13 @@ button:hover {
   height: 500px;
   width: 500px;
   z-index: -10;
+  opacity: 80%;
+}
+
+.backgroundSunIconRight {
+  height: 500px;
+  z-index: -10;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 950px) {
@@ -81,6 +85,10 @@ button:hover {
   height: 300px;
   width: 300px;
 }
+.backgroundSunIconRight {
+  height: 300px;
+}
+
 }
 
 @media (max-width: 600px) {

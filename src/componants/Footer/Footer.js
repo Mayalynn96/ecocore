@@ -16,16 +16,16 @@ function Footer() {
         <footer>
             <div id='footerContent'>
                 <div className='logoDiv' onClick={() => handleNavigation("home")}>
-                    <p style={{ color: '#ffffff' }}>Eco</p>
-                    <p>Core</p>
+                    <p style={{ color: '#569728' }}>eco</p>
+                    <p>core</p>
                 </div>
                 <div id='footerAdress'>
                     <div>
-                        <p>Laufenstrasse 16</p>
-                        <p>4053 Basel</p>
+                        <p>Wartenbergstrasse 41</p>
+                        <p>4052 Basel</p>
                     </div>
-                    <p>Tel + 41 61 331 57 76</p>
-                    <p>Email info@ecocore.ch</p>
+                    <p>+41 78 422 67 87</p>
+                    <p>info@ecocore.ch</p>
                 </div>
                 <div id='footerSocialMedia'>
                     <img src={LinkedIn} alt='linkedIn' className='icon' />

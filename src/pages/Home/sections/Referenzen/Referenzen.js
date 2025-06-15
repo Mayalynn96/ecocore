@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import './Referenzen.css'
-import Logo from '../../logo.svg';
+import Logo from './halfSun.webp';
 import RightArrow from "../../arrow-right.svg";
 import Example1 from "./Example1.webp";
 import Example2 from "./Example2.webp";
@@ -40,7 +40,7 @@ function Referenzen() {
         <section id='referenzenSection'>
             <h1>Referenzen</h1>
             <ImageGallery items={images} size={'30vw'} />
-            <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIcon'/>
+            <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIconRight'/>
             <div>
                 <button onClick={() => handleNavigation("referenzen")}>Mehr Referenzen</button>
             </div>
