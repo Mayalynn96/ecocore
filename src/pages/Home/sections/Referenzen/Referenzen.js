@@ -1,33 +1,45 @@
-import React from 'react';
+import React, {importAll} from 'react';
 import { useNavigate } from "react-router-dom";
 import './Referenzen.css'
 import Logo from './halfSun.webp';
-import RightArrow from "../../arrow-right.svg";
-import Example1 from "./Example1.webp";
-import Example2 from "./Example2.webp";
-import Example3 from "./Example3.webp"
+import Example1 from "./ReferenzBilder/img01.webp";
+import Example2 from "./ReferenzBilder/img02.webp";
+import Example3 from "./ReferenzBilder/img03.webp";
+import Example4 from "./ReferenzBilder/img04.webp";
+import Example5 from "./ReferenzBilder/img05.webp";
+import Example6 from "./ReferenzBilder/img06.webp";
 import ImageGallery from "react-image-gallery";
 // import stylesheet if you're not already using CSS @import
 import "react-image-gallery/styles/css/image-gallery.css";
 
 
 function Referenzen() {
+
     const images = [
         {
             original: Example1,
-            description: "EFH Arlesheim 2014/17",
             originalAlt: "example1"
         },
         {
             original: Example2,
-            description: "Waldenburg 2016",
             originalAlt: "example2"
         },
         {
             original: Example3,
-            description: "Projekt Riehen 2017",
             originalAlt: "example3"
         },
+        {
+            original: Example4,
+            originalAlt: "example4"
+        },
+        {
+            original: Example5,
+            originalAlt: "example5"
+        },
+        {
+            original: Example6,
+            originalAlt: "example6"
+        }
     ];
 
     const navigate = useNavigate();

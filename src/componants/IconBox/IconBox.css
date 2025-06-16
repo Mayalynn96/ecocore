@@ -3,7 +3,7 @@
 }
 
 .iconDiv {
-    background-color: var(--secondary-color);
+    background-color: var(--light-grey);
     width: 15vw;
     height: 15vw;
     display: flex;
@@ -12,7 +12,7 @@
     align-items: center;
     cursor: pointer;
     Box-sizing: border-box;
-    transition: box-shadow .2s ease-in-out,
+    transition: box-shadow .2s ease-in-out;
 }
 
 .iconDiv:hover {
@@ -27,6 +27,7 @@
     color: var(--darkText);
     font-size: 1.3vw;
     text-align: center;
+    font-weight: bold;
 }
 
 @media (max-width: 950px) {
@@ -37,6 +38,9 @@
 }
 
 @media (max-width: 768px) {
+    .iconImage {
+    height: 15vw;
+}
     .iconDiv p {
     font-size: 14px;
 }
@@ -44,7 +48,7 @@
 .iconDiv {
     height: 30vw;
     width: 30vw;
-    margin: 5vw;
+    margin: 2vw;
 }
 
 }

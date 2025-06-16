@@ -3,6 +3,8 @@ import Home from "./pages/Home/Home";
 import EcoCore from "./pages/EcoCore/EcoCore";
 import Angebote from "./pages/Angebote/Angebote";
 import Referenzen from "./pages/Referenzen/Referenzen";
+import FAQ from "./pages/FAQ/FAQ";
+import Kontakt from "./pages/Kontakt/Kontakt";
 import './App.css';
 
 // basename="/ecocore"
@@ -16,6 +18,8 @@ function App() {
       <Route path="ecocore" element={<EcoCore />} />
       <Route path="angebote" element={<Angebote />}/>
       <Route path="referenzen" element={<Referenzen />}/>
+      <Route path="FAQ" element={<FAQ />}/>
+      <Route path="kontakt" element={<Kontakt />}/>
       </Routes>
     </Router>
   );

@@ -1,5 +1,5 @@
 .image-gallery img {
-    height: 50vh;
+    height: 70vh;
 }
 
 #referenzenSection {
@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 600px) {
+    .image-gallery img {
+    height: 50vh;
+}
     #referenzenSection {
         height: 70vh;
     }
