@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" id="SolarPower">
+  <defs>
+    <linearGradient id="a" x1="3.768" x2="65.768" y1="68.096" y2="2.376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#569728" class="stopColorfff200 svgShape"></stop>
+      <stop offset="1" stop-color="#1155cd" class="stopColorcd118c svgShape"></stop>
+    </linearGradient>
+    <linearGradient xlink:href="#a" id="b" x1="5.44" x2="67.44" y1="69.673" y2="3.954"></linearGradient>
+    <linearGradient xlink:href="#a" id="c" x1="7.936" x2="69.936" y1="72.028" y2="6.308"></linearGradient>
+    <linearGradient xlink:href="#a" id="d" x1="-17.261" x2="44.739" y1="48.257" y2="-17.463"></linearGradient>
+    <linearGradient xlink:href="#a" id="e" x1="-22.253" x2="39.747" y1="43.548" y2="-22.172"></linearGradient>
+    <linearGradient xlink:href="#a" id="f" x1="-17.05" x2="44.95" y1="48.457" y2="-17.263" gradientTransform="rotate(45 23.071 5.93)"></linearGradient>
+    <linearGradient xlink:href="#a" id="g" x1="-11.97" x2="50.03" y1="53.249" y2="-12.471"></linearGradient>
+    <linearGradient xlink:href="#a" id="h" x1="-9.99" x2="52.009" y1="55.116" y2="-10.604" gradientTransform="rotate(45 23.071 20.071)"></linearGradient>
+    <linearGradient xlink:href="#a" id="i" x1="-12.27" x2="49.73" y1="52.966" y2="-12.754"></linearGradient>
+    <linearGradient xlink:href="#a" id="j" x1="-17.473" x2="44.527" y1="48.057" y2="-17.663" gradientTransform="rotate(45 8.93 20.072)"></linearGradient>
+    <linearGradient xlink:href="#a" id="k" x1="-22.552" x2="39.448" y1="43.265" y2="-22.454"></linearGradient>
+    <linearGradient xlink:href="#a" id="l" x1="-24.532" x2="37.468" y1="41.398" y2="-24.322" gradientTransform="rotate(45 8.929 5.93)"></linearGradient>
+  </defs>
+  <g fill="#354664" class="color000000 svgShape">
+    <path fill="url(#a)" d="M59,17H39a3.009,3.009,0,0,0-3,3V32a3.009,3.009,0,0,0,3,3h7v2H44v2h4V55H23V54a1,1,0,0,0-1-1H19V52H29a1.014,1.014,0,0,0,.73-.31,1.059,1.059,0,0,0,.27-.74l-1-19A1.007,1.007,0,0,0,28,31H4a1.007,1.007,0,0,0-1,.95l-1,19a1.059,1.059,0,0,0,.27.74A1.014,1.014,0,0,0,3,52H13v8H11v2H21V60H19V59h3a1,1,0,0,0,1-1V57H49a1,1,0,0,0,1-1V39h4V37H52V35h7a3.009,3.009,0,0,0,3-3V20A3.009,3.009,0,0,0,59,17ZM21,33h6.05l.21,4H21Zm0,6h6.37l.26,5H21Zm0,7h6.74l.21,4H21ZM11,50H4.05l.21-4H11Zm0-6H4.37l.26-5H11Zm0-7H4.74l.21-4H11Zm2-4h6v4H13Zm0,6h6v5H13Zm4,21H15V52h2ZM13,50V46h6v4Zm8,7H19V55h2ZM50,37H48V35h2Zm10-5a1,1,0,0,1-1,1H39a1,1,0,0,1-1-1V20a1,1,0,0,1,1-1H59a1,1,0,0,1,1,1Z"></path>
+    <polygon fill="url(#b)" points="46 26 49 26 49 21 46 26"></polygon>
+    <polygon fill="url(#c)" points="49 31 52 26 49 26 49 31"></polygon>
+    <path fill="url(#d)" d="M16,20a7,7,0,1,0-7-7A7.008,7.008,0,0,0,16,20ZM16,8a5,5,0,1,1-5,5A5.006,5.006,0,0,1,16,8Z"></path>
+    <rect width="2" height="2" x="15" y="2" fill="url(#e)"></rect>
+    <rect width="2" height="2" x="22.071" y="4.929" fill="url(#f)" transform="rotate(-45 23.07 5.929)"></rect>
+    <rect width="2" height="2" x="25" y="12" fill="url(#g)"></rect>
+    <rect width="2" height="2" x="22.071" y="19.071" fill="url(#h)" transform="rotate(-45 23.07 20.07)"></rect>
+    <rect width="2" height="2" x="15" y="22" fill="url(#i)"></rect>
+    <rect width="2" height="2" x="7.929" y="19.071" fill="url(#j)" transform="rotate(-45 8.929 20.07)"></rect>
+    <rect width="2" height="2" x="5" y="12" fill="url(#k)"></rect>
+    <rect width="2" height="2" x="7.929" y="4.929" fill="url(#l)" transform="rotate(-45 8.929 5.929)"></rect>
+  </g>
+</svg>
