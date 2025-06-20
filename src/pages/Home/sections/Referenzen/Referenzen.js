@@ -1,4 +1,4 @@
-import React, {importAll} from 'react';
+import React from 'react';
 import { useNavigate } from "react-router-dom";
 import './Referenzen.css'
 import Logo from './halfSun.webp';
@@ -7,7 +7,6 @@ import Example2 from "./ReferenzBilder/img02.webp";
 import Example3 from "./ReferenzBilder/img03.webp";
 import Example4 from "./ReferenzBilder/img04.webp";
 import Example5 from "./ReferenzBilder/img05.webp";
-import Example6 from "./ReferenzBilder/img06.webp";
 import ImageGallery from "react-image-gallery";
 // import stylesheet if you're not already using CSS @import
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -35,10 +34,6 @@ function Referenzen() {
         {
             original: Example5,
             originalAlt: "example5"
-        },
-        {
-            original: Example6,
-            originalAlt: "example6"
         }
     ];
 
@@ -51,7 +46,9 @@ function Referenzen() {
     return (
         <section id='referenzenSection'>
             <h1>Referenzen</h1>
-            <ImageGallery items={images} size={'30vw'} />
+            <div id="imageGalleryHome">
+                <ImageGallery items={images} size={'30vw'} />
+            </div>
             <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIconRight'/>
             <div>
                 <button onClick={() => handleNavigation("referenzen")}>Mehr Referenzen</button>

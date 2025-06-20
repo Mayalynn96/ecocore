@@ -2,7 +2,6 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import './WasIstEcocore.css'
 import Logo from '../../logo.svg';
-import RightArrow from "../../arrow-right.svg";
 import FirstImage from "./firstImage.webp";
 
 function WasIstEcocore() {
