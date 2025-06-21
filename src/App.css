@@ -49,6 +49,29 @@ button:hover {
   background-color: var(--dark-blue);
 }
 
+input, textarea {
+  border-radius: 10px;
+  border: 2px solid var(--lightText);
+  height: 30px;
+  cursor: pointer;
+  color: var(--dark-blue);
+  width: 250px;
+}
+
+textarea {
+  height: 50px;
+}
+
+input:focus, textarea:focus {
+  border: 2px solid var(--lightText);
+  background-color: rgb(163, 170, 205);
+  cursor: text;
+}
+
+label {
+  color: var(--dark-blue);
+}
+
 .icon {
   height: 50px;
   width: 50px;
@@ -74,6 +97,10 @@ button:hover {
 
   h2 {
     font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 
   button {
@@ -102,6 +129,10 @@ button:hover {
 
   h2 {
     font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
   }
 
   button {

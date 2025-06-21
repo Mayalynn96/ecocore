@@ -1,15 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from "react-router-dom";
+import React from 'react';
 import Header from '../../componants/Header/Header';
 import "./EcoCore.css"
 import Footer from '../../componants/Footer/Footer';
 
 function EcoCore() {
-    const navigate = useNavigate();
-
-    const handleNavigation = (destination) => {
-     navigate(`/${destination}`); 
-    };
 
     return (
        <section id='ecoCorePageSection'>
@@ -19,10 +13,11 @@ function EcoCore() {
                     <p style={{ color: '#569728' }}>eco</p>
                     <p>core</p>
                 </div>
-                <div>
+                <div className='titleForPage'>
                     <h2>Unsere Kernkompetenzen</h2>
                     <p>Wir konzentrieren unsere Arbeit auf drei zentrale Bereiche, in denen wir Erfahrung, 
                         Leidenschaft und Nachhaltigkeit vereinen:</p>
+                        <br/>
                 </div>
                 <div className='kernkompetenz'>
                     <div className='kernTextDiv'>
@@ -35,9 +30,9 @@ function EcoCore() {
                         <img src='http://ecocore.ch/wp-content/uploads/2016/07/Kernbereiche.jpg' alt='testImage'/>
                     </div>
                 </div>
-                 <div className='kernkompetenz'>
+                 <div className='kernkompetenz reverse-column'>
                     <div className='kernImgDiv'>
-                        <img src='http://ecocore.ch/wp-content/uploads/2016/07/Kernbereiche.jpg' alt='testImage'/>
+                        <img src='http://ecocore.ch/wp-content/uploads/2017/09/2017-09-04-PHOTO-00000024.jpg' alt='testImage'/>
                     </div>
                     <div className='kernTextDiv'>
                         <h3>🏗️ Architekturprojekte mit und ohne Solarintegration</h3>
@@ -56,7 +51,7 @@ function EcoCore() {
                             Crowdfunding oder Sponsoring. So unterstützen wir lokale Strukturen mit sinnvollen, zukunftsfähigen Lösungen.</p>
                     </div>
                     <div className='kernImgDiv'>
-                        <img src='http://ecocore.ch/wp-content/uploads/2016/07/Kernbereiche.jpg' alt='testImage'/>
+                        <img src='http://ecocore.ch/wp-content/uploads/2018/11/DSC_0049_bearbeitet-1.jpg' alt='testImage'/>
                     </div>
                 </div>
             </main>
