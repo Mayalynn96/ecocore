@@ -27,6 +27,17 @@ function Kontakt() {
         }
     }
 
+    const handleFormSubmit = (e) => {
+            setNameInput("");
+            setFirstNameInput("");
+            setEmailInput("");
+            setTelNumberInput("");
+            setAdressInput("");
+            setMessageInput("");
+
+        
+    }
+
     return (
        <section id='kontaktPageSection'>
             <Header />
@@ -36,15 +47,18 @@ function Kontakt() {
                     <form>
                     <label>Name:</label>
                     <input value={nameInput} onChange={handleInputChange} id='nameInput'></input>
-                    <label>Vroname:</label>
+                    <label>Vorname:</label>
                     <input value={firstNameInput} onChange={handleInputChange} id='firstNameInput'></input>
                     <label>Email:</label>
                     <input value={emailInput} onChange={handleInputChange} id='emailInput'></input>
                     <label>Telefon Number:</label>
                     <input value={telNumberInput} onChange={handleInputChange} id='telNumberInput'></input>
+                    <label>Adresse:</label>
+                    <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
                     <label>Nachricht:</label>
                     <textarea value={messageInput} onChange={handleInputChange} id='messageInput'></textarea>
                 </form>
+                <button onClick={handleFormSubmit}>Senden (NOT DONE)</button>
                 </div>
             </main>
        </section> 

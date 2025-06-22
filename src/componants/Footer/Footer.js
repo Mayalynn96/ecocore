@@ -12,6 +12,11 @@ function Footer() {
         navigate(`/${destination}`);
     };
 
+    const handleClick = (e) => {
+    e.preventDefault(); // Prevent default anchor behavior if needed
+    window.open('https://www.google.com/maps/place/Wartenbergstrasse+41,+4052+Basel,+Switzerland/@47.5473469,7.604628,17z/data=!3m1!4b1!4m6!3m5!1s0x4791b833f4b6cb31:0xf06d6eee7e837b6f!8m2!3d47.5473469!4d7.6072029!16s%2Fg%2F11c20wqmpl?entry=ttu&g_ep=EgoyMDI1MDYxNy4wIKXMDSoASAFQAw%3D%3D', '_blank');
+  };
+
     return (
         <footer>
             <div id='footerContent'>
@@ -20,7 +25,7 @@ function Footer() {
                     <p>core</p>
                 </div>
                 <div id='footerAdress'>
-                    <div>
+                    <div onClick={handleClick} id='footerAdressClick'>
                         <p>Wartenbergstrasse 41</p>
                         <p>4052 Basel</p>
                     </div>

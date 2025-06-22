@@ -1,4 +1,27 @@
 #angebotePageSection main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.angebotePageDiv {
+    display: flex;
+}
+
+.angeboteImgDiv, .angeboteTextDiv {
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angeboteTextDiv {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.angeboteImgDiv img {
+    width: 20vw;
 }

@@ -4,7 +4,7 @@ import './Hauptangebote.css'
 import IconBox from '../../../../componants/IconBox/IconBox';
 import SolarEnergy from "./solar-power.svg"
 import Analyse from "./search-analysis.svg"
-import Project from "./project-management.svg"
+import Project from "./save-world.svg"
 import Istall from "./wrench.svg"
 
 

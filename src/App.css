@@ -55,7 +55,7 @@ input, textarea {
   height: 30px;
   cursor: pointer;
   color: var(--dark-blue);
-  width: 250px;
+  width: 350px;
 }
 
 textarea {

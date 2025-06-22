@@ -3,6 +3,10 @@ footer {
     color: var(--secondary-color);
 }
 
+#footerAdressClick {
+    cursor: pointer;
+}
+
 #footerAdress {
     display: flex;
     width: 50vw;
