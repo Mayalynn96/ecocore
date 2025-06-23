@@ -32,7 +32,7 @@ function Angebote() {
                             </p>
                         </div>
                     </div>
-                    <div className='angebotePageDiv'>
+                    <div className='angebotePageDiv reverse-column'>
                         <div className='angeboteTextDiv'>
                             <h2>Analyse</h2>
                             <p>Am Anfang jedes erfolgreichen Solarprojekts steht eine präzise Analyse.
@@ -63,7 +63,7 @@ function Angebote() {
                             </p>
                         </div>
                     </div>
-                    <div className='angebotePageDiv'>
+                    <div className='angebotePageDiv reverse-column'>
                         <div className='angeboteTextDiv'>
                             <h2>Installation</h2>
                             <p>Wir sorgen für eine fachgerechte, effiziente und sichere Installation Ihrer Photovoltaikanlage – 

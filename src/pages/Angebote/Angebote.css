@@ -6,6 +6,10 @@
     margin: 10px;
 }
 
+.angeboteTextDiv p {
+    color: var(--dark-blue);
+}
+
 .angebotePageDiv {
     display: flex;
 }
@@ -24,4 +28,24 @@
 
 .angeboteImgDiv img {
     width: 20vw;
+}
+
+@media (max-width: 900px) {
+    .angebotePageDiv {
+        flex-direction: column;
+    }
+
+    .angeboteImgDiv, .angeboteTextDiv {
+        width: 90vw;
+        margin: 20px;
+    }
+
+    .angeboteImgDiv img {
+        width: 50vw;
+    }
+
+    .reverse-column {
+    flex-direction: column-reverse;
+   }
+
 }
