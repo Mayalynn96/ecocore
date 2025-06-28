@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Header from '../../componants/Header/Header';
 import "./Angebote.css"
 import Footer from '../../componants/Footer/Footer';
@@ -10,13 +10,24 @@ import Finance from "./money.svg"
 
 function Angebote() {
 
+    useEffect(() => {
+ window.scrollTo(0, 0);
+ document.body.scrollTop = 0;
+ const href = window.location.href.substring(
+   window.location.href.lastIndexOf('#') + 1,
+ );
+ if (window.location.href.lastIndexOf('#') > 0) {
+   document.getElementById(href)?.scrollIntoView();
+ }
+})
+
     return (
         <section id='angebotePageSection'>
             <Header />
             <main>
                 <h1>Angebote</h1>
                 <div>
-                    <div className='angebotePageDiv'>
+                    <div className='angebotePageDiv' id='photovoltaik'>
                         <div className='angeboteImgDiv'>
                             <img src={SolarEnergy} alt='Solar Energie' />
                         </div>
@@ -32,7 +43,7 @@ function Angebote() {
                             </p>
                         </div>
                     </div>
-                    <div className='angebotePageDiv reverse-column'>
+                    <div className='angebotePageDiv reverse-column' id='analyse'>
                         <div className='angeboteTextDiv'>
                             <h2>Analyse</h2>
                             <p>Am Anfang jedes erfolgreichen Solarprojekts steht eine präzise Analyse.
@@ -48,12 +59,12 @@ function Angebote() {
                             <img src={Analyse} alt='Analyse' />
                         </div>
                     </div>
-                    <div className='angebotePageDiv'>
+                    <div className='angebotePageDiv' id='entwicklungsprojekte'>
                         <div className='angeboteImgDiv'>
-                            <img src={Project} alt='Entwiklungsprojekte' />
+                            <img src={Project} alt='Entwicklungsprojekte' />
                         </div>
                         <div className='angeboteTextDiv'>
-                            <h2>Entwiklungsprojekte</h2>
+                            <h2>Entwicklungsprojekte</h2>
                             <p>Wir engagieren uns für nachhaltige Entwicklungsprojekte in Ländern des Globalen Südens – 
                                 mit Fokus auf erneuerbare Energien, sauberes Trinkwasser und Bildung. Unsere Projekte zielen darauf ab, 
                                 lokale Lebensbedingungen langfristig zu verbessern und dabei umweltfreundliche Technologien sinnvoll einzusetzen.</p>
@@ -63,7 +74,7 @@ function Angebote() {
                             </p>
                         </div>
                     </div>
-                    <div className='angebotePageDiv reverse-column'>
+                    <div className='angebotePageDiv reverse-column' id='installation'>
                         <div className='angeboteTextDiv'>
                             <h2>Installation</h2>
                             <p>Wir sorgen für eine fachgerechte, effiziente und sichere Installation Ihrer Photovoltaikanlage – 
@@ -78,9 +89,9 @@ function Angebote() {
                             <img src={Install} alt='Analyse' />
                         </div>
                     </div>
-                    <div className='angebotePageDiv'>
+                    <div className='angebotePageDiv' id='Finanzierung'>
                         <div className='angeboteImgDiv'>
-                            <img src={Finance} alt='Entwiklungsprojekte' />
+                            <img src={Finance} alt='finanzierung' />
                         </div>
                         <div className='angeboteTextDiv'>
                             <h2>Finanzierung</h2>

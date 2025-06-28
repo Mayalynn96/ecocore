@@ -31,6 +31,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px 0;
+    height: 90vh;
+    align-items: center;
 }
 
 .kernTextDiv {
@@ -43,6 +45,7 @@
 
 .kernImgDiv {
     width: 45vw;
+    height: 70%;
     padding: 10px;
     display: flex;
     justify-content: center;

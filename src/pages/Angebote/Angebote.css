@@ -12,6 +12,7 @@
 
 .angebotePageDiv {
     display: flex;
+    height: 90vh;
 }
 
 .angeboteImgDiv, .angeboteTextDiv {

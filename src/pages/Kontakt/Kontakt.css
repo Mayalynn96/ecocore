@@ -11,7 +11,23 @@
     flex-direction: column;
 }
 
+#kontaktForm h2{
+ text-align: center;
+ width: 100%;
+}
+
 #kontaktForm form {
     display: flex;
     flex-direction: column;
+}
+
+#sonnendachCH {
+    height: 70vh;
+    width: 45vw;
+}
+
+.pageSection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
