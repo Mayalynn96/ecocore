@@ -28,6 +28,14 @@
 
 .pageSection {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+    #sonnendachCH {
+    height: 70vh;
+    width: 70vw;
+}
 }

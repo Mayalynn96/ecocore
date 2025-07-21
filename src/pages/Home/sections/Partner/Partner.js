@@ -5,8 +5,9 @@ import Screenshot2 from './Screenshot2.webp'
 import Screenshot3 from './Screenshot3.webp'
 import Screenshot4 from './Screenshot4.webp'
 import Screenshot5 from './Screenshot5.webp'
-import Screenshot6 from './Screenshot6.webp'
+// import Screenshot6 from './Screenshot6.webp'
 import Screenshot7 from './Screenshot7.webp'
+import SwissolarLogo from './swissolar-logo.svg'
 
 function Partner() {
 
@@ -18,7 +19,7 @@ function Partner() {
                 <img src={Screenshot3} alt="My Way Better Biking" className='logoImg' />
                 <img src={Screenshot4} alt="Tesla" className='logoImg' />
                 <img src={Screenshot5} alt="Paul Ullrich AG" className='logoImg' />
-                <img src={Screenshot6} alt="Unser Bier" className='logoImg' />
+                <img src={SwissolarLogo} alt="Swissolar" className='logoImg' />
                 <img src={Screenshot7} alt="Global Footprint Network" className='logoImg' />
             </div>
             <div className="logo-slider">
@@ -27,7 +28,7 @@ function Partner() {
                 <img src={Screenshot3} alt="My Way Better Biking" className='logoImg' />
                 <img src={Screenshot4} alt="Tesla" className='logoImg' />
                 <img src={Screenshot5} alt="Paul Ullrich AG" className='logoImg' />
-                <img src={Screenshot6} alt="Unser Bier" className='logoImg' />
+                <img src={SwissolarLogo} alt="Swissolar" className='logoImg' />
                 <img src={Screenshot7} alt="Global Footprint Network" className='logoImg' />
             </div>
         </div>

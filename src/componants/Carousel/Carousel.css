@@ -1,0 +1,41 @@
+.carouselBtn {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.selectedBtn {
+    background-color: var(--dark-blue);
+}
+
+.carouselDiv {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImg {
+   height: 60vh;
+   max-width: 50vw;
+}
+
+.carouselBtnDiv {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .carouselDiv {
+        width: 100%;
+    }
+
+    .carouselImg {
+        height: auto;
+        width: 75vw;
+        max-width: 90vw;
+    }
+}

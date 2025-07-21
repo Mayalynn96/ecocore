@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import "./HaufigeFragen.css"
-import RightArrow from "../../arrow-right.svg";
 import QAndA from "../../../../componants/QAndA/QAndA"
 
 function HaufigeFragen() {

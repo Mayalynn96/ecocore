@@ -1,4 +1,49 @@
 #referenzenPageSection main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#referenzenPageSection h1 {
+    margin-top: 20px;
+}
+
+.carouselSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.carouselTxtDiv {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    height: 60vh;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 950px) {
+    .carouselSection {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .carouselTxtDiv {
+        width: 100%;
+    }
+
+    #referenzenPageSection {
+        height: auto;
+    }
+
+    #referenzenPageSection h1 {
+    margin: 20px;
+}
 }

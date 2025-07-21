@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Facebook from "./facebook.svg";
 import X from "./x-twitter.svg";
 import LinkedIn from "./linkedin.svg"
