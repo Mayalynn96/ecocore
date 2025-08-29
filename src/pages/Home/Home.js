@@ -7,7 +7,7 @@ import Hauptangebote from './sections/Hauptangebote/Hauptangebote';
 import Referenzen from './sections/Referenzen/Referenzen';
 import HaufigeFragen from './sections/HaufigeFragen/HaufigeFragen';
 import KundenMeinung from './sections/KundenMeinung/KundenMeinung';
-import Partner from './sections/Partner/Partner';
+import Partner from '../../componants/Partner/Partner';
 import Footer from '../../componants/Footer/Footer';
 
 function Home() {

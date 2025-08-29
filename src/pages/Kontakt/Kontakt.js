@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../../componants/Header/Header';
 import "./Kontakt.css"
 import Footer from '../../componants/Footer/Footer';
+import Partner from '../../componants/Partner/Partner';
 
 function Kontakt() {
     const [nameInput, setNameInput] = useState('');
@@ -69,6 +70,7 @@ function Kontakt() {
                     </div>
                 </section>
             </main>
+            <Partner />
             <Footer/>
         </section>
     )

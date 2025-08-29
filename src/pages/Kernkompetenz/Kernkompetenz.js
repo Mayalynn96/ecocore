@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../componants/Header/Header';
 import "./Kernkompetenz.css"
 import Footer from '../../componants/Footer/Footer';
+import Partner from '../../componants/Partner/Partner';
 
 function Kernkompetenz() {
 
@@ -55,6 +56,7 @@ function Kernkompetenz() {
                     </div>
                 </div>
             </main>
+            <Partner />
             <Footer />
        </section> 
     )

@@ -17,11 +17,15 @@ function WasIstEcocore() {
                     <div id='wasIstEcocore'>
                         <div className='paragraph'>
                         <h1>Was ist Eco Core?</h1>
-                        <p>Wir entwickeln maßgeschneiderte Photovoltaiklösungen für Private, 
-                            Unternehmen und Institutionen, realisieren innovative Architekturprojekte 
-                            mit und ohne Solarintegration und setzen weltweit nachhaltige Projekte in Entwicklungsländern 
-                            um – von Energie und Trinkwasser bis Bildung, oft unterstützt durch kreative Finanzierungsmodelle 
-                            wie Microfinancing oder Crowdfunding.</p>
+                        <p><b>Mehr Unabhängigkeit. Weniger Energiekosten. Nachhaltige Wertsteigerung.</b></p><br></br>
+                        <p>EcoCore entwickelt und realisiert <b> maßgeschneiderte Photovoltaiklösungen</b>, die Ihren Eigenverbrauch maximieren – 
+                            von eleganter Dach- und Fassadenintegration bis zu kompletten Energiesystemen mit <b>Batteriespeicher, 
+                            E-Ladestation und Smart-Home-Anbindung</b>.</p><br></br>
+                        <p>Durch die intelligente Vernetzung aller Komponenten – <b>PV-Anlage, Speicher, Ladeinfrastruktur und Gebäudetechnik</b> – 
+                            sichern Sie sich <b>höchste Energieeffizienz, maximale Unabhängigkeit vom Netz</b> und <b>die volle Nutzung Ihres eigenen Stroms.</b></p><br></br>
+                        <p>Ob <b>Privatperson, Unternehmen</b> oder <b>Institution</b> – mit EcoCore senken Sie nicht nur Ihre Stromkosten, sondern steigern 
+                            den Wert Ihrer Immobilie und leisten aktiv einen Beitrag zum Klimaschutz.</p><br></br>
+                        <p><b>Jetzt beraten lassen und Ihre persönliche Energielösung sichern.</b></p>
                         </div>
                         <div>
                             <button onClick={() => handleNavigation("Kernkompetenz")}>Mehr erfahren</button>

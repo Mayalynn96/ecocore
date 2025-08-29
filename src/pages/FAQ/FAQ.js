@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../../componants/Header/Header';
 import "./FAQ.css"
 import QAndA from '../../componants/QAndA/QAndA'
+import Partner from '../../componants/Partner/Partner';
+import Footer from '../../componants/Footer/Footer';
 
 function FAQ() {
     const faq = [
@@ -272,6 +274,8 @@ function FAQ() {
                     {QAndA(faq)}
                 </div>
             </main>
+            <Partner />
+            <Footer />
        </section> 
     )
 }
