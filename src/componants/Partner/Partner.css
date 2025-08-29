@@ -1,5 +1,5 @@
 .logo-slider img {
-    height: 15vh;
+    height: 10vh;
     margin: 0 2vw;
 }
 
@@ -15,8 +15,7 @@
     overflow: hidden;
     padding: 5vw 0;
     position: relative;
-    margin: 5vw 0;
-    height: 50vh;
+    margin: 0;
 }
 
 .logos:before {

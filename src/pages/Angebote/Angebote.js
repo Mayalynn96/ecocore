@@ -7,6 +7,8 @@ import Analyse from "./search-analysis.svg"
 import Project from "./save-world.svg"
 import Install from "./wrench.svg"
 import Finance from "./money.svg"
+import Partner from '../../componants/Partner/Partner';
+
 
 function Angebote() {
 
@@ -106,6 +108,7 @@ function Angebote() {
                     </div>
                 </div>
             </main>
+            <Partner />
             <Footer />
         </section>
     )

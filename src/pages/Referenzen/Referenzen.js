@@ -28,6 +28,7 @@ import LaufenstrasseIMG04 from './Laufenstrasse/IMG_04.jpg';
 import WaldenburgIMG01 from './Waldenburg/IMG_01.jpg';
 import WaldenburgIMG02 from './Waldenburg/IMG_02.jpg';
 import WaldenburgIMG03 from './Waldenburg/IMG_03.jpg';
+import Partner from '../../componants/Partner/Partner';
 
 function Referenzen() {
     const data = [
@@ -238,6 +239,7 @@ function Referenzen() {
 
                 })}
             </main>
+            <Partner />
             <Footer />
         </section>
     )
