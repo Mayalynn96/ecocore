@@ -25,7 +25,7 @@ function WasIstEcocore() {
                         </div>
                         <div>
                             <button onClick={() => handleNavigation("ecocore")}>Mehr erfahren</button>
-                            <button>Jetzt beratten lassen</button>
+                            <button>Jetzt beraten lassen</button>
                         </div>
                     </div>
                     <div id='firstImageSection'>

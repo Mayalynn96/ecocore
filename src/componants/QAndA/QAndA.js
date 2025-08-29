@@ -9,7 +9,7 @@ const FAQSection = (faqs) => {
         return (
             <div className='frageUndAntwort'>
                 <div className='frageDiv'>
-                    <h2>{question}</h2>
+                    <h3>{question}</h3>
                     <img src={Arrow} alt='arrow down' className='arrowDown' onClick={() => setIsOpen(!isOpen)} />
                 </div>
                 {isOpen &&
@@ -21,8 +21,13 @@ const FAQSection = (faqs) => {
 
     return (
         <div className='fragenDiv'>
-            {faqs.map((faq, index) => (
-                <FAQItem key={index} question={faq.question} answer={faq.answer} />
+            {faqs.map((theme, index) => (
+                <div className="themeDiv">
+                    <h2>{theme.title}</h2>
+                    {theme.questions.map((faq, index) => (
+                        <FAQItem key={index} question={faq.question} answer={faq.answer} />
+                    ))}
+                </div>
             ))}
         </div>
     );
