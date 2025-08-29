@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../../componants/Header/Header';
-import "./EcoCore.css"
+import "./Kernkompetenz.css"
 import Footer from '../../componants/Footer/Footer';
 
-function EcoCore() {
+function Kernkompetenz() {
 
     return (
        <section id='ecoCorePageSection'>
@@ -60,4 +60,4 @@ function EcoCore() {
     )
 }
 
-export default EcoCore
+export default Kernkompetenz

@@ -29,14 +29,14 @@ function Header() {
                     <p>core</p>
                 </div>
                 <div id='navLinksBtns'>
-                    <button onClick={() => redirectTo("ecocore")} className='navBtns'>eco core</button>
+                    <button onClick={() => redirectTo("kernkompetenz")} className='navBtns'>kernkompetenz</button>
                 <button onClick={() => redirectTo("angebote")} className='navBtns'>angebote</button>
                 <button onClick={() => redirectTo("referenzen")} className='navBtns'>referenzen</button>
                 <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
                 <button onClick={() => redirectTo("kontakt")} className='navBtns'>kontakt</button>
                 </div>
                 <div>
-                    <button id='bannerBtn'>Jetzt beraten lassen</button>
+                    <button onClick={() => redirectTo("kontakt")} id='bannerBtn'>Jetzt beraten lassen</button>
                 </div>
             </nav>
         </header>

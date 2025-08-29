@@ -24,8 +24,8 @@ function WasIstEcocore() {
                             wie Microfinancing oder Crowdfunding.</p>
                         </div>
                         <div>
-                            <button onClick={() => handleNavigation("ecocore")}>Mehr erfahren</button>
-                            <button>Jetzt beraten lassen</button>
+                            <button onClick={() => handleNavigation("Kernkompetenz")}>Mehr erfahren</button>
+                            <button onClick={() => handleNavigation("kontakt")}>Jetzt beraten lassen</button>
                         </div>
                     </div>
                     <div id='firstImageSection'>
