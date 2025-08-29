@@ -36,7 +36,7 @@ function Header() {
                 <button onClick={() => redirectTo("kontakt")} className='navBtns'>kontakt</button>
                 </div>
                 <div>
-                    <button id='bannerBtn'>Jetzt beratten lassen</button>
+                    <button id='bannerBtn'>Jetzt beraten lassen</button>
                 </div>
             </nav>
         </header>
