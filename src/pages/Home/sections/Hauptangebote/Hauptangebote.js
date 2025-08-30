@@ -17,15 +17,15 @@ function Hauptangebote() {
 
     return (
         <section id='hauptangeboteSection'>
-            <h1>Haupt Angebote</h1>
+            <h1>Kernkompetenzen</h1>
             <div id='hauptangeboteDiv'>
-                <IconBox text={'Photovoltaik'} icon={SolarEnergy} destination={"angebote#photovoltaik"}/>
-                <IconBox text={"Analyse"} icon={Analyse} destination={"angebote#analyse"}/>
-                <IconBox text={"Entwicklungs-projekte"} icon={Project} destination={"angebote#entwicklungsprojekte"}/>
-                <IconBox text={"Installation"} icon={Istall} destination={"angebote#installation"}/>
+                <IconBox text={'Photovoltaik'} icon={SolarEnergy} destination={"kernkompetenzen#photovoltaik"}/>
+                <IconBox text={"Analyse"} icon={Analyse} destination={"kernkompetenzen#analyse"}/>
+                <IconBox text={"Entwicklungs-projekte"} icon={Project} destination={"kernkompetenzen#entwicklungsprojekte"}/>
+                <IconBox text={"Installation"} icon={Istall} destination={"kernkompetenzen#installation"}/>
             </div>
             <div>
-                <button onClick={() => handleNavigation("angebote")}>Alle Angebote</button>
+                <button onClick={() => handleNavigation("kernkompetenzen")}>Alle Kernkompetenzen</button>
             </div>
         </section>
     )

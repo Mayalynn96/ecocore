@@ -29,7 +29,7 @@ function Header() {
                     <p>core</p>
                 </div>
                 <div id='navLinksBtns'>
-                    <button onClick={() => redirectTo("kernkompetenz")} className='navBtns'>kernkompetenz</button>
+                    <button onClick={() => redirectTo("kernkompetenzen")} className='navBtns'>kernkompetenzen</button>
                 <button onClick={() => redirectTo("angebote")} className='navBtns'>angebote</button>
                 <button onClick={() => redirectTo("referenzen")} className='navBtns'>referenzen</button>
                 <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
