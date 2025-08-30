@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.c985e4fc.css",
-    "main.js": "/ecocore/static/js/main.ba5eafdf.js",
+    "main.css": "/ecocore/static/css/main.a62d9411.css",
+    "main.js": "/ecocore/static/js/main.f7e78c9b.js",
     "static/media/img04.webp": "/ecocore/static/media/img04.1f958ebbaac8430eaa57.webp",
     "static/media/img01.webp": "/ecocore/static/media/img01.015cc87ca9cb37089eb1.webp",
     "static/media/img05.webp": "/ecocore/static/media/img05.91c5a44a18210ff07f75.webp",
@@ -23,7 +23,7 @@
     "static/media/Screenshot5.webp": "/ecocore/static/media/Screenshot5.740c174a68ff1a97aa74.webp",
     "static/media/Screenshot3.webp": "/ecocore/static/media/Screenshot3.116a5abe71c4941f3923.webp",
     "static/media/swissolar-logo.svg": "/ecocore/static/media/swissolar-logo.eb7043c88a6e33bab32d1e7504b1976b.svg",
-    "static/media/money.svg": "/ecocore/static/media/money.72357e4e8d01a322b4957447479ec55e.svg",
+    "static/media/money.svg": "/ecocore/static/media/money.9abf24f015fd22b58b7bef221237c791.svg",
     "static/media/solar-power.svg": "/ecocore/static/media/solar-power.94344e9cb709c129551e96595c969805.svg",
     "static/media/Screenshot4.webp": "/ecocore/static/media/Screenshot4.c0b72d917e86422526e1.webp",
     "static/media/save-world.svg": "/ecocore/static/media/save-world.a444fbc88224bf182e716db84e45b568.svg",
@@ -36,11 +36,11 @@
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.c985e4fc.css.map": "/ecocore/static/css/main.c985e4fc.css.map",
-    "main.ba5eafdf.js.map": "/ecocore/static/js/main.ba5eafdf.js.map"
+    "main.a62d9411.css.map": "/ecocore/static/css/main.a62d9411.css.map",
+    "main.f7e78c9b.js.map": "/ecocore/static/js/main.f7e78c9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c985e4fc.css",
-    "static/js/main.ba5eafdf.js"
+    "static/css/main.a62d9411.css",
+    "static/js/main.f7e78c9b.js"
   ]
 }
