@@ -31,6 +31,19 @@
     width: 20vw;
 }
 
+#angeboteMain section {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#angeboteMain li {
+    margin: 5px;
+}
+
 @media (max-width: 900px) {
     .angebotePageDiv {
         flex-direction: column;
