@@ -29,9 +29,129 @@ import WaldenburgIMG01 from './Waldenburg/IMG_01.jpg';
 import WaldenburgIMG02 from './Waldenburg/IMG_02.jpg';
 import WaldenburgIMG03 from './Waldenburg/IMG_03.jpg';
 import Partner from '../../componants/Partner/Partner';
+import RheinfeldenEinfamilienhaus01 from './Rheinfelden Einfamilienhaus/Rheinfelden1.jpg';
+import RheinfeldenEinfamilienhaus02 from './Rheinfelden Einfamilienhaus/Rheinfelden2.jpg';
+import RheinfeldenEinfamilienhaus03 from './Rheinfelden Einfamilienhaus/Rheinfelden3.jpg';
+import RheinfeldenNeubauIMG01 from './RheinfeldenNeubau/Rheinfelden Neubau 1.jpg';
+import RheinfeldenNeubauIMG02 from './RheinfeldenNeubau/Rheinfelden Neubau 2.jpg';
+import RheinfeldenNeubauIMG03 from './RheinfeldenNeubau/Rheinfelden Neubau 3.jpg';
+import FehraltorfIMG01 from './Fehraltorf Einfamilienhaus/Fehraltorf 1.jpg';
+import FehraltorfIMG02 from './Fehraltorf Einfamilienhaus/Fehraltorf 2.jpg';
+import FehraltorfIMG03 from './Fehraltorf Einfamilienhaus/Fehraltorf 3.jpg';
+import WallbachIMG01 from './Wallbach/Wallbach 1.jpg';
+import WallbachIMG02 from './Wallbach/Wallbach 2.jpg';
+import WallbachIMG03 from './Wallbach/Wallbach 3.jpg';
+import MöhlinIMG01 from './Möhlin/Möhlin Indach 1.jpg';
+import MöhlinIMG02 from './Möhlin/Möhlin Indach 2.jpg';
+import MöhlinIMG03 from './Möhlin/Möhlin Indach 3.jpg';
 
 function Referenzen() {
     const data = [
+        {
+            project: "Rheinfelden Bestehendes Einfamilienhaus",
+            text: `<p>Einfamilienhaus 28kwp volloptimierte mit 18kwh Speicher von inkl Backup system </p>`,
+            imgs: [
+                {
+                    src: RheinfeldenEinfamilienhaus01,
+                    alt: 'Rheinfelden Projekt Photo 1',
+                    id: 26,
+                },
+                {
+                    src: RheinfeldenEinfamilienhaus02,
+                    alt: 'Rheinfelden Projekt Photo 2',
+                    id: 27,
+                },
+                {
+                    src: RheinfeldenEinfamilienhaus03,
+                    alt: 'Rheinfelden Projekt Photo 3',
+                    id: 28,
+                }
+            ]
+        },
+        {
+            project: "Rheinfelden Neubau",
+            text: `<p>Teiloptimiert Flachdach 18kwp Leistung Enrgiemanagement Wärmepumpe</p>`,
+            imgs: [
+                {
+                    src: RheinfeldenNeubauIMG01,
+                    alt: 'Rheinfelden Neubau Projekt Photo 1',
+                    id: 29,
+                },
+                {
+                    src: RheinfeldenNeubauIMG02,
+                    alt: 'Rheinfelden Neubau Projekt Photo 2',
+                    id: 30,
+                },
+                {
+                    src: RheinfeldenNeubauIMG03,
+                    alt: 'Rheinfelden Neubau Projekt Photo 3',
+                    id: 31,
+                }
+            ]
+        },
+        {
+            project: "Fehraltorf Einfamilienhaus",
+            text: `<p>Volloptimiert mit 14kwh Speicher und Backupbox 18.9kwp Leistung</p>`,
+            imgs: [
+                {
+                    src: FehraltorfIMG01,
+                    alt: 'Fehraltorf Einfamilienhaus Projekt Photo 1',
+                    id: 32,
+                },
+                {
+                    src: FehraltorfIMG02,
+                    alt: 'Fehraltorf Einfamilienhaus Projekt Photo 2',
+                    id: 33,
+                },
+                {
+                    src: FehraltorfIMG03,
+                    alt: 'Fehraltorf Einfamilienhaus Projekt Photo 3',
+                    id: 34,
+                }
+            ]
+        },
+        {
+            project: "Wallbach",
+            text: `<p>Einfamilienhaus Indach anlage  15kwp leistung  Huawei</p>`,
+            imgs: [
+                {
+                    src: WallbachIMG01,
+                    alt: 'Wallbach Einfamilienhaus Projekt Photo 1',
+                    id: 35,
+                },
+                {
+                    src: WallbachIMG02,
+                    alt: 'Wallbach Einfamilienhaus Projekt Photo 2',
+                    id: 36,
+                },
+                {
+                    src: WallbachIMG03,
+                    alt: 'Wallbach Einfamilienhaus Projekt Photo 3',
+                    id: 37,
+                }
+            ]
+        },
+        {
+            project: "Möhlin Indach EFH",
+            text: `<p>12kwp mit speicher 14kwh Mit Energiemanagement WP und LAdestaion</p>`,
+            imgs: [
+                {
+                    src: MöhlinIMG01,
+                    alt: 'Möhlin Projekt Photo 1',
+                    id: 38,
+                },
+                {
+                    src: MöhlinIMG02,
+                    alt: 'Möhlin Projekt Photo 2',
+                    id: 39,
+                },
+                {
+                    src: MöhlinIMG03,
+                    alt: 'Möhlin Projekt Photo 3',
+                    id: 40,
+                }
+            ]
+        },
         {
             project: "Arlesheim",
             text: `<p>Aufdach-Anlage auf Privathaus</p>
