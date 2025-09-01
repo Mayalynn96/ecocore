@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.a62d9411.css",
-    "main.js": "/ecocore/static/js/main.f7e78c9b.js",
+    "main.css": "/ecocore/static/css/main.ae404de1.css",
+    "main.js": "/ecocore/static/js/main.9039d77d.js",
     "static/media/img04.webp": "/ecocore/static/media/img04.1f958ebbaac8430eaa57.webp",
     "static/media/img01.webp": "/ecocore/static/media/img01.015cc87ca9cb37089eb1.webp",
     "static/media/img05.webp": "/ecocore/static/media/img05.91c5a44a18210ff07f75.webp",
@@ -13,7 +13,22 @@
     "static/media/IMG_04.jpg": "/ecocore/static/media/IMG_04.2d1dde96bf17386a371d.jpg",
     "static/media/IMG_01.jpg": "/ecocore/static/media/IMG_01.ccd7e79290ae7d8bd592.jpg",
     "static/media/IMG_06.jpg": "/ecocore/static/media/IMG_06.4e25683fe98fc644dc27.jpg",
+    "static/media/Rheinfelden Neubau 3.jpg": "/ecocore/static/media/Rheinfelden Neubau 3.15390a60cc341eb53e87.jpg",
+    "static/media/Rheinfelden Neubau 1.jpg": "/ecocore/static/media/Rheinfelden Neubau 1.e3a883130b6262484f3b.jpg",
     "static/media/bannerC.webp": "/ecocore/static/media/bannerC.15c5c59e327e0ae19a2b.webp",
+    "static/media/Rheinfelden Neubau 2.jpg": "/ecocore/static/media/Rheinfelden Neubau 2.0b99a96f062d01bcd233.jpg",
+    "static/media/Möhlin Indach 1.jpg": "/ecocore/static/media/Möhlin Indach 1.d6e3dafb87a164729e27.jpg",
+    "static/media/Rheinfelden2.jpg": "/ecocore/static/media/Rheinfelden2.973cf658d8ad5b952b0a.jpg",
+    "static/media/Fehraltorf 1.jpg": "/ecocore/static/media/Fehraltorf 1.cc16e9cb40c0a55bf8f2.jpg",
+    "static/media/Wallbach 2.jpg": "/ecocore/static/media/Wallbach 2.5933a7bf063e7335c359.jpg",
+    "static/media/Möhlin Indach 3.jpg": "/ecocore/static/media/Möhlin Indach 3.2c84f75aec77b3635aaf.jpg",
+    "static/media/Wallbach 1.jpg": "/ecocore/static/media/Wallbach 1.0bb2fa4663c072887e80.jpg",
+    "static/media/Möhlin Indach 2.jpg": "/ecocore/static/media/Möhlin Indach 2.c3dc4b489487b881456c.jpg",
+    "static/media/Wallbach 3.jpg": "/ecocore/static/media/Wallbach 3.c815a0a3141bcdf95239.jpg",
+    "static/media/Rheinfelden3.jpg": "/ecocore/static/media/Rheinfelden3.cdbbcc1f8931c8061d83.jpg",
+    "static/media/Rheinfelden1.jpg": "/ecocore/static/media/Rheinfelden1.3ca533710824b28ec9fe.jpg",
+    "static/media/Fehraltorf 2.jpg": "/ecocore/static/media/Fehraltorf 2.65d8ecd4d2aa6230caeb.jpg",
+    "static/media/Fehraltorf 3.jpg": "/ecocore/static/media/Fehraltorf 3.9369185a3e53b67bcbb7.jpg",
     "static/media/firstImage.webp": "/ecocore/static/media/firstImage.8c776c69a459ec78d1fa.webp",
     "static/media/Banner2b.webp": "/ecocore/static/media/Banner2b.3b32c671dc13aeaf7106.webp",
     "static/media/Screenshot7.webp": "/ecocore/static/media/Screenshot7.e5939c17d6bc48b7b487.webp",
@@ -36,11 +51,11 @@
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.a62d9411.css.map": "/ecocore/static/css/main.a62d9411.css.map",
-    "main.f7e78c9b.js.map": "/ecocore/static/js/main.f7e78c9b.js.map"
+    "main.ae404de1.css.map": "/ecocore/static/css/main.ae404de1.css.map",
+    "main.9039d77d.js.map": "/ecocore/static/js/main.9039d77d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a62d9411.css",
-    "static/js/main.f7e78c9b.js"
+    "static/css/main.ae404de1.css",
+    "static/js/main.9039d77d.js"
   ]
 }
