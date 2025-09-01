@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/ecocore">
       <Routes>
       <Route index element={<Home />} />
       <Route path="*" element={<Navigate to="/" />} />
