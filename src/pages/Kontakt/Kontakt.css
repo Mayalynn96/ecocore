@@ -6,6 +6,12 @@
     margin: 10px;
 }
 
+#kontaktPageSection label {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
 #kontaktForm {
     display: flex;
     flex-direction: column;
