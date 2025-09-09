@@ -9,12 +9,21 @@
 #kontaktPageSection label {
     display: flex;
     justify-content: space-between;
-    margin: 5px 0;
+    padding: 5px;
+}
+
+#kontaktPageSection label:hover {
+    background-color: var(--primary-transparent) ;
 }
 
 #kontaktForm {
     display: flex;
     flex-direction: column;
+    width: 60vw;
+}
+
+#kontaktForm button {
+    width: 200px;
 }
 
 #kontaktForm h2{
@@ -34,8 +43,9 @@
 
 .pageSection {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
 }
 

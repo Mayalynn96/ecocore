@@ -41,7 +41,7 @@ function Kernkompetenzen() {
                     </ul>
                     <p><b>EcoCore</b> – für alle, die heute schon an morgen denken.</p>
                 </div>
-                <div>
+                <div id='alleKernkompetenzen'>
                     <div className='angebotePageDiv' id='photovoltaik'>
                         <div className='angeboteImgDiv'>
                             <img src={SolarEnergy} alt='Solar Energie' />

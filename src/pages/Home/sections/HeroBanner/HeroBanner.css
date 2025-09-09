@@ -9,7 +9,7 @@
 
 #heroDiv {
     background-color: var(--primary-color);
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@
 
 @media (max-width: 600px) {
     #heroDiv {
-    height: 30vh;
+    height: 35vh;
 }
 
 #heroImage {
