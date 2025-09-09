@@ -5,8 +5,8 @@
 
 .logo-slider {
     display: inline-block;
-    animation: 15s slide infinite linear;
-    -webkit-animation: 15s slide infinite linear;
+    animation: 25s slide infinite linear;
+    -webkit-animation: 25s slide infinite linear;
     width: fit-content;
 }
 
@@ -22,7 +22,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 40vw;
+    width: 35vw;
     height: 100%;
     background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
     content: "";
@@ -33,7 +33,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 40vw;
+    width: 35vw;
     height: 100%;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
     content: "";
@@ -56,6 +56,7 @@
 
 @media (max-width: 600px) {
     .logo-slider img {
-        height: 10vh;
+        max-height: 50px;
+        max-width: 35vw;
     }
 }

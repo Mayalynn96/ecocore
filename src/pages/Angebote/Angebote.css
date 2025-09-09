@@ -1,3 +1,5 @@
+
+
 #angebotePageSection main {
     display: flex;
     justify-content: center;
@@ -47,6 +49,7 @@
 @media (max-width: 900px) {
     .angebotePageDiv {
         flex-direction: column;
+        height: auto;
     }
 
     .angeboteImgDiv, .angeboteTextDiv {

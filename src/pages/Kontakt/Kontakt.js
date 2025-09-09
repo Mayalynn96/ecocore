@@ -157,18 +157,24 @@ function Kontakt() {
                         <h2>Formular</h2>
                         <form>
                             <h3>Kontakt- und Objektdaten</h3>
-                            <label>Name:</label>
+                            <label>Name:
                             <input value={nameInput} onChange={handleInputChange} id='nameInput'></input>
-                            <label>Vorname:</label>
+                            </label>
+                            <label>Vorname:
                             <input value={firstNameInput} onChange={handleInputChange} id='firstNameInput'></input>
-                            <label>Email:</label>
+                            </label>
+                            <label>Email:
                             <input value={emailInput} onChange={handleInputChange} id='emailInput'></input>
-                            <label>Telefon Number:</label>
+                            </label>
+                            <label>Telefon Number:
                             <input value={telNumberInput} onChange={handleInputChange} id='telNumberInput'></input>
-                            <label>Adresse:</label>
+                            </label>
+                            <label>Adresse:
                             <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
-                            <label>Liegenschaft befindet sich in:</label>
+                            </label>
+                            <label>Liegenschaft befindet sich in:
                             <input value={liegenschaftOrt} onChange={handleInputChange} id='liegenschaftOrt'></input>
+                            </label>
                             <h3>Gebäudetyp</h3>
                             <label>Einfamilienhaus (EFH)
                                 <input type="checkbox" name="gebaudetyp" value="Einfamilienhaus (EFH)" onChange={handleCheckOne}></input>
@@ -180,8 +186,9 @@ function Kontakt() {
                                 <input type="checkbox" name="gebaudetyp" value="Überbauung / Zusammenschluss (ZEV / VZEV)" onChange={handleCheckOne}></input>
                             </label>
                             <h3>Aktueller Stromverbrauch</h3>
-                            <label>Jahresstromverbrauch (kWh)</label>
+                            <label>Jahresstromverbrauch (kWh)
                             <input type="number" value={jahressverbrauch} onChange={handleInputChange} id='jahressverbrauch'></input>
+                            </label>
                             <label><b>Spezielle Verbraucher (Mehrfachauswahl Checkboxen):</b></label>
                             <label>Wärmepumpe
                                 <input type="checkbox" name="spezielleVerbaucher" value="Wärmepumpe"></input>

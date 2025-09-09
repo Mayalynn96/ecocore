@@ -42,7 +42,7 @@
 @media (max-width: 600px) {
     #ecocoreSection {
         flex-direction: column;
-        height: 90vh;
+        height: auto;
         width: 100%;
     }
 
