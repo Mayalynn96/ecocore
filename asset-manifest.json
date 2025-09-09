@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.ae404de1.css",
-    "main.js": "/ecocore/static/js/main.27147276.js",
+    "main.css": "/ecocore/static/css/main.4e66dd2b.css",
+    "main.js": "/ecocore/static/js/main.c88f5d50.js",
     "static/media/img04.webp": "/ecocore/static/media/img04.1f958ebbaac8430eaa57.webp",
     "static/media/img01.webp": "/ecocore/static/media/img01.015cc87ca9cb37089eb1.webp",
     "static/media/img05.webp": "/ecocore/static/media/img05.91c5a44a18210ff07f75.webp",
@@ -31,17 +31,25 @@
     "static/media/Fehraltorf 3.jpg": "/ecocore/static/media/Fehraltorf 3.9369185a3e53b67bcbb7.jpg",
     "static/media/firstImage.webp": "/ecocore/static/media/firstImage.8c776c69a459ec78d1fa.webp",
     "static/media/Banner2b.webp": "/ecocore/static/media/Banner2b.3b32c671dc13aeaf7106.webp",
+    "static/media/solarManager.webp": "/ecocore/static/media/solarManager.6bb998f97f54bb47b39d.webp",
+    "static/media/swisssolarLogo.webp": "/ecocore/static/media/swisssolarLogo.4cf8b784d2b98d3226a1.webp",
     "static/media/Screenshot7.webp": "/ecocore/static/media/Screenshot7.e5939c17d6bc48b7b487.webp",
     "static/media/halfSun.webp": "/ecocore/static/media/halfSun.d7892e62008b439a398d.webp",
     "static/media/Screenshot1.webp": "/ecocore/static/media/Screenshot1.1352984c645e61d1bd42.webp",
+    "static/media/energieSchweiz.webp": "/ecocore/static/media/energieSchweiz.c66255b83796e7a0649d.webp",
     "static/media/Screenshot2.webp": "/ecocore/static/media/Screenshot2.5c4126292d5aba82f849.webp",
+    "static/media/k2SystemLogo.svg": "/ecocore/static/media/k2SystemLogo.2412c802c9f6ad0171ed1dbd80b763dc.svg",
     "static/media/Screenshot5.webp": "/ecocore/static/media/Screenshot5.740c174a68ff1a97aa74.webp",
+    "static/media/suvaLogo.webp": "/ecocore/static/media/suvaLogo.a2882166e46bf3486ec0.webp",
     "static/media/Screenshot3.webp": "/ecocore/static/media/Screenshot3.116a5abe71c4941f3923.webp",
-    "static/media/swissolar-logo.svg": "/ecocore/static/media/swissolar-logo.eb7043c88a6e33bab32d1e7504b1976b.svg",
+    "static/media/huaweiLogo.webp": "/ecocore/static/media/huaweiLogo.1fd58ad6c65ad86400d3.webp",
+    "static/media/solaredge.svg": "/ecocore/static/media/solaredge.c0a09f1fa0bf4b161003ee0d2fb5ea43.svg",
+    "static/media/VKGLogo.svg": "/ecocore/static/media/VKGLogo.37c7fb8ca1424aa8b4ff846cd446f77d.svg",
     "static/media/money.svg": "/ecocore/static/media/money.9abf24f015fd22b58b7bef221237c791.svg",
     "static/media/solar-power.svg": "/ecocore/static/media/solar-power.94344e9cb709c129551e96595c969805.svg",
     "static/media/Screenshot4.webp": "/ecocore/static/media/Screenshot4.c0b72d917e86422526e1.webp",
     "static/media/save-world.svg": "/ecocore/static/media/save-world.a444fbc88224bf182e716db84e45b568.svg",
+    "static/media/energieFranken.svg": "/ecocore/static/media/energieFranken.a1028896426e0a42d34d558f30410d4e.svg",
     "static/media/search-analysis.svg": "/ecocore/static/media/search-analysis.9c34215f6f2ec30a71f07d8eb81a9861.svg",
     "static/media/wrench.svg": "/ecocore/static/media/wrench.407b6ce6b6b0d1abb50edc9c7294197a.svg",
     "static/media/logo.svg": "/ecocore/static/media/logo.3d487d121cab2f31cc6e7657c3be2992.svg",
@@ -51,11 +59,11 @@
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.ae404de1.css.map": "/ecocore/static/css/main.ae404de1.css.map",
-    "main.27147276.js.map": "/ecocore/static/js/main.27147276.js.map"
+    "main.4e66dd2b.css.map": "/ecocore/static/css/main.4e66dd2b.css.map",
+    "main.c88f5d50.js.map": "/ecocore/static/js/main.c88f5d50.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae404de1.css",
-    "static/js/main.27147276.js"
+    "static/css/main.4e66dd2b.css",
+    "static/js/main.c88f5d50.js"
   ]
 }
