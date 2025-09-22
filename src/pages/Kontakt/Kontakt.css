@@ -6,6 +6,10 @@
     margin: 10px;
 }
 
+#kontaktPageSection input {
+    width: 30vw;
+}
+
 #kontaktPageSection label {
     display: flex;
     justify-content: space-between;
@@ -54,4 +58,9 @@
     height: 70vh;
     width: 70vw;
 }
+
+#kontaktForm {
+    width: 100%;
+}
+
 }

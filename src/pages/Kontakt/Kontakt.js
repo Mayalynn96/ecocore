@@ -177,13 +177,13 @@ function Kontakt() {
                             </label>
                             <h3>Gebäudetyp</h3>
                             <label>Einfamilienhaus (EFH)
-                                <input type="checkbox" name="gebaudetyp" value="Einfamilienhaus (EFH)" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Einfamilienhaus (EFH)" onChange={handleCheckOne}></input>
                             </label>
                             <label>Mehrfamilienhaus (MFH)
-                                <input type="checkbox" name="gebaudetyp" value="Mehrfamilienhaus (MFH)" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Mehrfamilienhaus (MFH)" onChange={handleCheckOne}></input>
                             </label>
                             <label>Überbauung / Zusammenschluss (ZEV / VZEV)
-                                <input type="checkbox" name="gebaudetyp" value="Überbauung / Zusammenschluss (ZEV / VZEV)" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Überbauung / Zusammenschluss (ZEV / VZEV)" onChange={handleCheckOne}></input>
                             </label>
                             <h3>Aktueller Stromverbrauch</h3>
                             <label>Jahresstromverbrauch (kWh)
@@ -191,16 +191,16 @@ function Kontakt() {
                             </label>
                             <label><b>Spezielle Verbraucher (Mehrfachauswahl Checkboxen):</b></label>
                             <label>Wärmepumpe
-                                <input type="checkbox" name="spezielleVerbaucher" value="Wärmepumpe"></input>
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Wärmepumpe"></input>
                             </label>
                             <label>Boiler / Warmwasser
-                                <input type="checkbox" name="spezielleVerbaucher" value="Boiler / Warmwasser"></input>
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Boiler / Warmwasser"></input>
                             </label>
                             <label>Elektroauto
-                                <input type="checkbox" name="spezielleVerbaucher" value="Elektroauto"></input>
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Elektroauto"></input>
                             </label>
                             <label>Klimaanlage
-                                <input type="checkbox" name="spezielleVerbaucher" value="Klimaanlage"></input>
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Klimaanlage"></input>
                             </label>
                             <label>Sonstige
                                 <input onChange={handleInputChange} name="spezielleVerbaucher" id="spezielleVerbaucherSonstiges" value={spezielleVerbaucherSonstiges} ></input>
@@ -208,46 +208,46 @@ function Kontakt() {
                             <h3>Ziele & Prioritäten</h3>
                             <label><b>Wichtigstes Ziel:</b></label>
                             <label>Stromkosten sparen
-                                <input type="checkbox" name="wichtigesZiel" value="Stromkosten sparen" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Stromkosten sparen" onChange={handleCheckOne}></input>
                             </label>
                             <label>Unabhängigkeit steigern
-                                <input type="checkbox" name="wichtigesZiel" value="Unabhängigkeit steigern" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Unabhängigkeit steigern" onChange={handleCheckOne}></input>
                             </label>
                             <label>Nachhaltigkeit / Ökologie
-                                <input type="checkbox" name="wichtigesZiel" value="Nachhaltigkeit / Ökologie" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Nachhaltigkeit / Ökologie" onChange={handleCheckOne}></input>
                             </label>
                             <label><b>Speicherlösung :</b></label>
                             <label>Speicher von Anfang an
-                                <input type="checkbox" name="speicherlosung" value="Speicher von Anfang an" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Speicher von Anfang an" onChange={handleCheckOne}></input>
                             </label>
                             <label>Erst ohne Speicher starten
-                                <input type="checkbox" name="speicherlosung" value="Erst ohne Speicher starten" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Erst ohne Speicher starten" onChange={handleCheckOne}></input>
                             </label>
                             <h3>Finanzielle Rahmenbedingungen</h3>
                             <label><b>Finanzierung :</b></label>
                             <label>Kauf
-                                <input type="checkbox" name="finanzierung" value="Kauf" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="finanzierung" value="Kauf" onChange={handleCheckOne}></input>
                             </label>
                             <label>Finanzierung / Leasing prüfen
-                                <input type="checkbox" name="finanzierung" value="Finanzierung / Leasing prüfen" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="finanzierung" value="Finanzierung / Leasing prüfen" onChange={handleCheckOne}></input>
                             </label>
                             <h3>Erweiterungen & Zukunft</h3>
                             <label><b>Vorbereitung auf :</b></label>
                             <label>E-Mobilität (Wallbox)
-                                <input type="checkbox" name="vorbereitung" value="E-Mobilität (Wallbox)"></input>
+                                <input className='checkbox' type="checkbox" name="vorbereitung" value="E-Mobilität (Wallbox)"></input>
                             </label>
                             <label>Zukünftige Erweiterung PV
-                                <input type="checkbox" name="vorbereitung" value="Zukünftige Erweiterung PV"></input>
+                                <input className='checkbox' type="checkbox" name="vorbereitung" value="Zukünftige Erweiterung PV"></input>
                             </label>
                             <label><b>Backup-Lösung bei Stromausfall :</b></label>
                             <label>Ja
-                                <input type="checkbox" name="backupLosung" value="Ja" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="backupLosung" value="Ja" onChange={handleCheckOne}></input>
                             </label>
                             <label>Nein
-                                <input type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
                             </label>
                             <label>Vielleicht
-                                <input type="checkbox" name="backupLosung" value="Vielleicht" onChange={handleCheckOne}></input>
+                                <input className='checkbox' type="checkbox" name="backupLosung" value="Vielleicht" onChange={handleCheckOne}></input>
                             </label>
                         </form>
                         <button onClick={SendContactForm}>Senden</button>

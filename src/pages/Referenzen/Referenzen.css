@@ -32,11 +32,14 @@
 @media screen and (max-width: 950px) {
     .carouselSection {
         flex-direction: column;
+        flex-direction: column-reverse;
         margin: 0;
     }
 
     .carouselTxtDiv {
         width: 100%;
+        height: auto;
+        margin: 20px;
     }
 
     #referenzenPageSection {
