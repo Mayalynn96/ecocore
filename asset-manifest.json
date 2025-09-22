@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.4e66dd2b.css",
-    "main.js": "/ecocore/static/js/main.c88f5d50.js",
+    "main.css": "/ecocore/static/css/main.2a37ce76.css",
+    "main.js": "/ecocore/static/js/main.bc5f62fd.js",
     "static/media/img04.webp": "/ecocore/static/media/img04.1f958ebbaac8430eaa57.webp",
     "static/media/img01.webp": "/ecocore/static/media/img01.015cc87ca9cb37089eb1.webp",
     "static/media/img05.webp": "/ecocore/static/media/img05.91c5a44a18210ff07f75.webp",
@@ -59,11 +59,11 @@
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.4e66dd2b.css.map": "/ecocore/static/css/main.4e66dd2b.css.map",
-    "main.c88f5d50.js.map": "/ecocore/static/js/main.c88f5d50.js.map"
+    "main.2a37ce76.css.map": "/ecocore/static/css/main.2a37ce76.css.map",
+    "main.bc5f62fd.js.map": "/ecocore/static/js/main.bc5f62fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e66dd2b.css",
-    "static/js/main.c88f5d50.js"
+    "static/css/main.2a37ce76.css",
+    "static/js/main.bc5f62fd.js"
   ]
 }
