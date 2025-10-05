@@ -9,7 +9,7 @@ const FAQSection = (faqs) => {
         return (
             <div className='frageUndAntwort'>
                 <div className='frageDiv'>
-                    <h3>{question}</h3>
+                    <h3 onClick={() => setIsOpen(!isOpen)}>{question}</h3>
                     <img src={Arrow} alt='arrow down' className='arrowDown' onClick={() => setIsOpen(!isOpen)} />
                 </div>
                 {isOpen &&

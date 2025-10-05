@@ -1,11 +1,11 @@
 #kundenMeinungSection {
     overflow: hidden;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 #banner2Image {
     min-width: 100%;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 #kundenMeinungDiv {

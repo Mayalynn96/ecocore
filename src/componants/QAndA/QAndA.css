@@ -3,6 +3,10 @@
     margin: 5vw 0;
 }
 
+.frageDiv h3{
+    cursor: pointer;
+}
+
 .frageUndAntwort {
     border-bottom: solid var(--darkText) 0.15vw ;
 }
@@ -12,7 +16,6 @@
     width: 3vw;
     cursor: pointer;
 }
-
 
 .arrowDown:active {
     transform: translateY(0.5vw);

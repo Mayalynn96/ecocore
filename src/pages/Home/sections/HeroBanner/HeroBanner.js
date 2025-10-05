@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImage from "./bannerC.webp";
 import './HeroBanner.css'
+import EcocoreLogo from './EcocoreLogo.webp'
 
 function HeroBanner() {
 
@@ -9,8 +10,7 @@ function HeroBanner() {
             <img src={HeroImage} alt='HeroImage' id='heroImage' />
             <div id='logoAndSlogan'>
                 <div className='logoDivBig'>
-                    <p style={{ color: '#569728' }}>eco</p>
-                    <p>core</p>
+                    <img id='EcocoreLogoBanner' src={EcocoreLogo} alt='Ecocore Logo'></img>
                 </div>
                 <div id='slogan'>
                     <p>Intelligent investieren – mit der Kraft der Sonne!</p>

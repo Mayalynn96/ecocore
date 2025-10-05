@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from "emailjs-com";
 import Header from '../../componants/Header/Header';
 import "./Kontakt.css"
@@ -6,6 +6,17 @@ import Footer from '../../componants/Footer/Footer';
 import Partner from '../../componants/Partner/Partner';
 
 function Kontakt() {
+    useEffect(() => {
+            window.scrollTo(0, 0);
+            document.body.scrollTop = 0;
+            const href = window.location.href.substring(
+                window.location.href.lastIndexOf('#') + 1,
+            );
+            if (window.location.href.lastIndexOf('#') > 0) {
+                document.getElementById(href)?.scrollIntoView();
+            }
+        })
+        
     const [nameInput, setNameInput] = useState('');
     const [firstNameInput, setFirstNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
@@ -153,6 +164,10 @@ function Kontakt() {
             <main>
                 <h1>Kontakt</h1>
                 <section className='pageSection'>
+                    <div>
+                        <h2>Sonnendach Map</h2>
+                        <iframe id='sonnendachCH' title="sonnendachMap" src='//www.uvek-gis.admin.ch/BFE/sonnendach/loader.html?E=2660000&N=1190000&zoom=1&lang=de'></iframe>
+                    </div>
                     <div id='kontaktForm'>
                         <h2>Formular</h2>
                         <form>
@@ -251,10 +266,6 @@ function Kontakt() {
                             </label>
                         </form>
                         <button onClick={SendContactForm}>Senden</button>
-                    </div>
-                    <div>
-                        <h2>Sonnendach Map</h2>
-                        <iframe id='sonnendachCH' title="sonnendachMap" src='//www.uvek-gis.admin.ch/BFE/sonnendach/loader.html?E=2660000&N=1190000&zoom=1&lang=de'></iframe>
                     </div>
                 </section>
             </main>

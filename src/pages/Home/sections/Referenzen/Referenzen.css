@@ -4,13 +4,16 @@
 
 #imageGalleryHome { 
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #referenzenSection {
  display: flex;
  flex-direction: column;
  align-items: center;
- height: 90vh;
+ min-height: 90vh;
  width: 100vw;
 }
 

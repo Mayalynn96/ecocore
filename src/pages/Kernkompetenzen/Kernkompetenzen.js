@@ -8,6 +8,7 @@ import Analyse from "./search-analysis.svg";
 import Project from "./save-world.svg";
 import Install from "./wrench.svg";
 import Finance from "./money.svg";
+import EcocoreLogo from './EcocoreLogo.webp'
 
 function Kernkompetenzen() {
     useEffect(() => {
@@ -26,8 +27,7 @@ function Kernkompetenzen() {
             <Header />
             <main>
                 <div id='ecocorePageLogo'>
-                    <p style={{ color: '#569728' }}>eco</p>
-                    <p>core</p>
+                    <img id='ecocoreLogo' src={EcocoreLogo} alt='Ecocore Logo'></img>
                 </div>
                 <div className='titleForPage'>
                     <h2>Unsere Kernkompetenzen</h2>
@@ -44,7 +44,7 @@ function Kernkompetenzen() {
                 <div id='alleKernkompetenzen'>
                     <div className='angebotePageDiv' id='photovoltaik'>
                         <div className='angeboteImgDiv'>
-                            <img src={SolarEnergy} alt='Solar Energie' />
+                            <img className='KernkompetenzImg' src={SolarEnergy} alt='Solar Energie' />
                         </div>
                         <div className='angeboteTextDiv'>
                             <h2>Photovoltaik – Ihr Weg zur eigenen Energie</h2><br></br>
@@ -69,12 +69,12 @@ function Kernkompetenzen() {
                                 rentable Photovoltaiklösung</b>.</p>
                         </div>
                         <div className='angeboteImgDiv'>
-                            <img src={Analyse} alt='Analyse' />
+                            <img className='KernkompetenzImg' src={Analyse} alt='Analyse' />
                         </div>
                     </div>
                     <div className='angebotePageDiv' id='installation'>
                         <div className='angeboteImgDiv'>
-                            <img src={Install} alt='Analyse' />
+                            <img className='KernkompetenzImg' src={Install} alt='Analyse' />
                         </div>
                         <div className='angeboteTextDiv'>
                             <h2>Installation – präzise, sicher und termingerecht</h2><br></br>
@@ -99,12 +99,12 @@ function Kernkompetenzen() {
                                 werden – so profitieren Sie bereits während der Bauphase von dieser Förderung.</p>
                         </div>
                         <div className='angeboteImgDiv'>
-                            <img src={Finance} alt='finanzierung' />
+                            <img className='KernkompetenzImg' src={Finance} alt='finanzierung' />
                         </div>
                     </div>
                     <div className='angebotePageDiv' id='entwicklungsprojekte'>
                         <div className='angeboteImgDiv'>
-                            <img src={Project} alt='Entwicklungsprojekte' />
+                            <img className='KernkompetenzImg' src={Project} alt='Entwicklungsprojekte' />
                         </div>
                         <div className='angeboteTextDiv'>
                             <h2>Entwicklungsprojekte – gemeinsam für eine nachhaltige Zukunft</h2><br></br>

@@ -10,6 +10,10 @@ header {
     margin: 0;
 }
 
+#ecocoreLogo {
+    width: 20vw;
+}
+
 .navLinks {
     display: flex;
     width: 100%;

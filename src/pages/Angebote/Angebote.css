@@ -14,7 +14,7 @@
 
 .angebotePageDiv {
     display: flex;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .angeboteImgDiv, .angeboteTextDiv {
@@ -35,7 +35,7 @@
 
 #angeboteMain section {
     width: 80vw;
-    height: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;

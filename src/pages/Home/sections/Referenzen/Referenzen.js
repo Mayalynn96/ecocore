@@ -7,35 +7,41 @@ import Example2 from "./ReferenzBilder/img02.webp";
 import Example3 from "./ReferenzBilder/img03.webp";
 import Example4 from "./ReferenzBilder/img04.webp";
 import Example5 from "./ReferenzBilder/img05.webp";
-import ImageGallery from "react-image-gallery";
-// import stylesheet if you're not already using CSS @import
-import "react-image-gallery/styles/css/image-gallery.css";
+import Carousel from '../../../../componants/Carousel/Carousel';
 
 
 function Referenzen() {
 
-    const images = [
-        {
-            original: Example1,
-            originalAlt: "example1"
-        },
-        {
-            original: Example2,
-            originalAlt: "example2"
-        },
-        {
-            original: Example3,
-            originalAlt: "example3"
-        },
-        {
-            original: Example4,
-            originalAlt: "example4"
-        },
-        {
-            original: Example5,
-            originalAlt: "example5"
-        }
-    ];
+    const data = {
+
+            imgs: [
+                {
+                    src: Example1,
+                    alt: 'Arlesheim Projekt Photo 1',
+                    id: 1,
+                },
+                {
+                    src: Example2,
+                    alt: 'Arlesheim Projekt Photo 2',
+                    id: 2,
+                },
+                {
+                    src: Example3,
+                    alt: 'Arlesheim Projekt Photo 3',
+                    id: 3,
+                },
+                {
+                    src: Example4,
+                    alt: 'Arlesheim Projekt Photo 4',
+                    id: 4,
+                },
+                {
+                    src: Example5,
+                    alt: 'Arlesheim Projekt Photo 5',
+                    id: 5,
+                }
+            ]
+        };
 
     const navigate = useNavigate();
 
@@ -47,7 +53,7 @@ function Referenzen() {
         <section id='referenzenSection'>
             <h1>Referenzen</h1>
             <div id="imageGalleryHome">
-                <ImageGallery items={images} size={'30vw'} />
+                <Carousel imgArray={data.imgs} />
             </div>
             <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIconRight'/>
             <div>

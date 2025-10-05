@@ -21,7 +21,7 @@ function Hauptangebote() {
             <div id='hauptangeboteDiv'>
                 <IconBox text={'Photovoltaik'} icon={SolarEnergy} destination={"kernkompetenzen#photovoltaik"}/>
                 <IconBox text={"Analyse"} icon={Analyse} destination={"kernkompetenzen#analyse"}/>
-                <IconBox text={"Entwicklungs-projekte"} icon={Project} destination={"kernkompetenzen#entwicklungsprojekte"}/>
+                <IconBox text={"Entwicklungsprojekte"} icon={Project} destination={"kernkompetenzen#entwicklungsprojekte"}/>
                 <IconBox text={"Installation"} icon={Istall} destination={"kernkompetenzen#installation"}/>
             </div>
             <div>

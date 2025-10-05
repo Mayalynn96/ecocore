@@ -2,6 +2,7 @@ import React, {useRef} from 'react';
 import './Header.css'
 import { useNavigate } from "react-router-dom";
 import {FaBars} from "react-icons/fa"
+import EcocoreLogo from "./EcocoreLogo.webp"
 
 function Header() {
     const navRef = useRef();
@@ -25,15 +26,14 @@ function Header() {
             </button>
             <nav className='navLinks' ref={navRef}>
                 <div className='logoDiv' onClick={() => redirectTo("home")}>
-                    <p style={{ color: '#569728' }}>eco</p>
-                    <p>core</p>
+                    <img id='ecocoreLogo' src={EcocoreLogo} alt='Ecocore Logo'></img>
                 </div>
                 <div id='navLinksBtns'>
-                    <button onClick={() => redirectTo("kernkompetenzen")} className='navBtns'>kernkompetenzen</button>
-                <button onClick={() => redirectTo("angebote")} className='navBtns'>angebote</button>
-                <button onClick={() => redirectTo("referenzen")} className='navBtns'>referenzen</button>
+                    <button onClick={() => redirectTo("kernkompetenzen")} className='navBtns'>Kernkompetenzen</button>
+                <button onClick={() => redirectTo("angebote")} className='navBtns'>Angebote</button>
+                <button onClick={() => redirectTo("referenzen")} className='navBtns'>Referenzen</button>
                 <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
-                <button onClick={() => redirectTo("kontakt")} className='navBtns'>kontakt</button>
+                <button onClick={() => redirectTo("kontakt")} className='navBtns'>Kontakt</button>
                 </div>
                 <div>
                     <button onClick={() => redirectTo("kontakt")} id='bannerBtn'>Jetzt beraten lassen</button>

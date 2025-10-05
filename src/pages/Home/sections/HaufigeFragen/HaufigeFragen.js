@@ -20,15 +20,6 @@ function HaufigeFragen() {
                         `<p>Ja – in den meisten Fällen sehr. Mit einer Solaranlage produzieren Sie Ihren eigenen Strom, 
                         senken Ihre Energiekosten und machen sich unabhängiger von steigenden Strompreisen. Schon nach etwa 10 
                         Jahren hat sich eine Anlage amortisiert – und sie produziert mindestens 25–30 Jahre zuverlässig Strom.</p>`
-                },
-                {
-                    question: "Welche Förderungen bekomme ich in der Schweiz?",
-                    answer: `
-                        <p>Über die nationale Einmalvergütung (EIV) erhalten Sie rund 20–30 % der Investitionskosten zurück. 
-                        Zusätzlich unterstützen viele Kantone oder Gemeinden mit weiteren Beiträgen.</P>
-
-                        <p><b>👉 EcoCore übernimmt die Abklärungen für Sie – fragen Sie uns für eine konkrete Berechnung Ihrer Förderung an.</b></p>
-                        `
                 }
             ]
         },
@@ -48,6 +39,19 @@ function HaufigeFragen() {
                             </ul>
                         <p>👉 Insgesamt sollten Sie bei einem Einfamilienhaus mit <b>ca. 1–2 Wochen Gesamtdauer</b> rechnen – wobei die 
                         eigentliche Dachmontage nur wenige Tage beansprucht. EcoCore koordiniert alle Schritte für Sie.</p>`
+                }
+            ]
+        },
+        {
+            title: "C. Zusatznutzen & Technik",
+            questions: [
+                {
+                    question: "Kann ich mit meiner Solaranlage auch mein Elektroauto laden?",
+                    answer:
+                        `<p>Ja – genau dafür ist Photovoltaik bestens geeignet. Mit einer intelligenten Wallbox laden Sie Ihr 
+                Elektroauto bevorzugt mit eigenem Solarstrom. So fahren Sie fast kostenlos und klimafreundlich.</p>
+
+                <p><b>👉 EcoCore integriert Ladelösungen direkt – <a href="kontakt">lassen Sie sich von uns beraten.</a></b></p>`
                 }
             ]
         }

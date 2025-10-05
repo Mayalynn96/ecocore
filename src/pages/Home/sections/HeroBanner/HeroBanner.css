@@ -7,6 +7,10 @@
     animation: fadeIn 3s;
 }
 
+#EcocoreLogoBanner{
+    width: 40vw;
+}
+
 #heroDiv {
     background-color: var(--primary-color);
     height: 80vh;

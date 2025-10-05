@@ -28,7 +28,7 @@ function WasIstEcocore() {
                         <p><b>Jetzt beraten lassen und Ihre persönliche Energielösung sichern.</b></p>
                         </div>
                         <div>
-                            <button onClick={() => handleNavigation("Kernkompetenz")}>Mehr erfahren</button>
+                            <button onClick={() => handleNavigation("Kernkompetenzen")}>Mehr erfahren</button>
                             <button onClick={() => handleNavigation("kontakt")}>Jetzt beraten lassen</button>
                         </div>
                     </div>

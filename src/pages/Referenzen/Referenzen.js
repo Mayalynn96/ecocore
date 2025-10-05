@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Header from '../../componants/Header/Header';
 import "./Referenzen.css"
 import Carousel from '../../componants/Carousel/Carousel';
@@ -46,18 +46,28 @@ import MöhlinIMG02 from './Möhlin/Möhlin Indach 2.jpg';
 import MöhlinIMG03 from './Möhlin/Möhlin Indach 3.jpg';
 
 function Referenzen() {
+    useEffect(() => {
+            window.scrollTo(0, 0);
+            document.body.scrollTop = 0;
+            const href = window.location.href.substring(
+                window.location.href.lastIndexOf('#') + 1,
+            );
+            if (window.location.href.lastIndexOf('#') > 0) {
+                document.getElementById(href)?.scrollIntoView();
+            }
+        })
     const data = [
         {
             project: "Rheinfelden Bestehendes Einfamilienhaus",
             text: `<p>Einfamilienhaus 28kwp volloptimierte mit 18kwh Speicher von inkl Backup system </p>`,
             imgs: [
                 {
-                    src: RheinfeldenEinfamilienhaus01,
+                    src: RheinfeldenEinfamilienhaus02,
                     alt: 'Rheinfelden Projekt Photo 1',
                     id: 26,
                 },
                 {
-                    src: RheinfeldenEinfamilienhaus02,
+                    src: RheinfeldenEinfamilienhaus01,
                     alt: 'Rheinfelden Projekt Photo 2',
                     id: 27,
                 },
@@ -70,7 +80,7 @@ function Referenzen() {
         },
         {
             project: "Rheinfelden Neubau",
-            text: `<p>Teiloptimiert Flachdach 18kwp Leistung Enrgiemanagement Wärmepumpe</p>`,
+            text: `<p>Teiloptimiert Flachdach 18kwp Leistung Energiemanagement Wärmepumpe</p>`,
             imgs: [
                 {
                     src: RheinfeldenNeubauIMG01,
@@ -133,7 +143,7 @@ function Referenzen() {
         },
         {
             project: "Möhlin Indach EFH",
-            text: `<p>12kwp mit speicher 14kwh Mit Energiemanagement WP und LAdestaion</p>`,
+            text: `<p>12kwp mit speicher 14kwh Mit Energiemanagement WP und Ladestation</p>`,
             imgs: [
                 {
                     src: MöhlinIMG01,

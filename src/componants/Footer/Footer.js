@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Facebook from "./facebook.svg";
 import X from "./x-twitter.svg";
 import LinkedIn from "./linkedin.svg"
+import EcocoreLogo from './EcocoreLogo.webp'
 
 function Footer() {
     const navigate = useNavigate();
@@ -21,8 +22,7 @@ function Footer() {
         <footer>
             <div id='footerContent'>
                 <div className='logoDiv' onClick={() => handleNavigation("home")}>
-                    <p style={{ color: '#569728' }}>eco</p>
-                    <p>core</p>
+                    <img id='EcocoreLogoFooter' src={EcocoreLogo} alt='EcocoreLogo'></img>
                 </div>
                 <div id='footerAdress'>
                     <div onClick={handleClick} id='footerAdressClick'>

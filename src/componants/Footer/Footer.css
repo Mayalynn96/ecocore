@@ -3,6 +3,10 @@ footer {
     color: var(--secondary-color);
 }
 
+#EcocoreLogoFooter {
+    width: 10vw;
+}
+
 #footerAdressClick {
     cursor: pointer;
 }
