@@ -33,6 +33,11 @@ header {
     background-color: var(--dark-blue);
 }
 
+.navBtns a{
+    color: var(--light-grey);
+    text-decoration: none;
+}
+
 .navBtns:hover {
     color: var(--light-blue);
 }

@@ -30,3 +30,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+#PopUpBtns a{
+    color: var(--ligth-grey);
+    text-decoration: none;
+}
