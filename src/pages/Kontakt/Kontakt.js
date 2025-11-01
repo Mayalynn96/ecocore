@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import emailjs from "emailjs-com";
 import Header from '../../componants/Header/Header';
 import "./Kontakt.css"
@@ -6,30 +6,19 @@ import Footer from '../../componants/Footer/Footer';
 import Partner from '../../componants/Partner/Partner';
 
 function Kontakt() {
-    useEffect(() => {
-            window.scrollTo(0, 0);
-            document.body.scrollTop = 0;
-            const href = window.location.href.substring(
-                window.location.href.lastIndexOf('#') + 1,
-            );
-            if (window.location.href.lastIndexOf('#') > 0) {
-                document.getElementById(href)?.scrollIntoView();
-            }
-        })
-        
     const [nameInput, setNameInput] = useState('');
     const [firstNameInput, setFirstNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
     const [telNumberInput, setTelNumberInput] = useState('');
     const [adressInput, setAdressInput] = useState('');
     // const [messageInput, setMessageInput] = useState('');
-    const [liegenschaftOrt, setLiegenschaftOrt] = useState('');
     const [gebaudetyp, setGebaudetyp] = useState('');
     const [jahressverbrauch, setJahressverbrauch] = useState('');
+    const [aktuelleHeizart, setAktuelleHeizart] = useState('');
     const [spezielleVerbaucherSonstiges, setSpezielleVerbraucherSonstiges] = useState('');
+    const [aktuelleHeizartSonstiges, setAktuelleHeizartSonstiges] = useState('');
     const [wichtigesZiel, setWichtigesZiel] = useState('');
     const [speicherlosung, setSpeicherlosung] = useState('');
-    const [finanzierung, setFinanzierung] = useState('');
     const [backupLosung, setBackupLosung] = useState('');
 
     // input handler for each state
@@ -46,12 +35,12 @@ function Kontakt() {
             setAdressInput(e.target.value)
         } else if (e.target.id === "messageInput") {
             // setMessageInput(e.target.value)
-        } else if (e.target.id === "liegenschaftOrt") {
-            setLiegenschaftOrt(e.target.value)
         } else if (e.target.id === "jahressverbrauch") {
             setJahressverbrauch(e.target.value)
         } else if (e.target.id === "spezielleVerbaucherSonstiges") {
             setSpezielleVerbraucherSonstiges(e.target.value)
+        } else if (e.target.id === "aktuelleHeizartSonstiges") {
+            setAktuelleHeizartSonstiges(e.target.value)
         }
     }
 
@@ -62,13 +51,13 @@ function Kontakt() {
         setTelNumberInput("");
         setAdressInput("");
         // setMessageInput("");
-        setLiegenschaftOrt("");
         setGebaudetyp("");
         setJahressverbrauch("");
+        setAktuelleHeizart("");
         setSpezielleVerbraucherSonstiges("");
+        setAktuelleHeizartSonstiges("");
         setWichtigesZiel("");
         setSpeicherlosung("");
-        setFinanzierung("");
         setBackupLosung("");
     }
 
@@ -82,12 +71,16 @@ function Kontakt() {
 
         if (e.target.name === "gebaudetyp") {
             setGebaudetyp(e.target.value)
+        } else if(e.target.name === "aktuelleHeizart") {
+            if(e.target.value === "sonstige"){
+                setAktuelleHeizart(aktuelleHeizartSonstiges)
+            } else {
+                setAktuelleHeizart(e.target.value)
+            }
         } else if (e.target.name === "wichtigesZiel") {
             setWichtigesZiel(e.target.value)
         } else if (e.target.name === "speicherlosung") {
             setSpeicherlosung(e.target.value)
-        } else if (e.target.name === "finanzierung") {
-            setFinanzierung(e.target.value)
         } else if (e.target.name === "backupLosung") {
             setBackupLosung(e.target.value)
         }
@@ -111,29 +104,18 @@ function Kontakt() {
             spezielleVerbaucherAll.push("sonstiges: " + spezielleVerbaucherSonstiges)
         }
 
-        const vorbereitungBoxes = document.getElementsByName("vorbereitung");
-        const vorbereitungAll = []
-
-        for (let i = 0; i < vorbereitungBoxes.length; i++) {
-            if (vorbereitungBoxes[i].checked === true) {
-                vorbereitungAll.push(vorbereitungBoxes[i].value)
-            }
-        }
-
         const formData = {
             name: nameInput,
             firstName: firstNameInput,
             email: emailInput,
             tel: telNumberInput,
             adress: adressInput,
-            liegenschaftOrt: liegenschaftOrt,
             gebaudetyp: gebaudetyp,
             jahressverbrauch: jahressverbrauch,
+            aktuelleHeizart: aktuelleHeizart,
             spezielleVerbaucher: spezielleVerbaucherAll,
             wichtigesZiel: wichtigesZiel,
             speicherlosung: speicherlosung,
-            finanzierung: finanzierung,
-            vorbereitung: vorbereitungAll,
             backupLosung: backupLosung
         }
 
@@ -164,10 +146,10 @@ function Kontakt() {
             <main>
                 <h1>Kontakt</h1>
                 <section className='pageSection'>
-                    <div>
+                    {/* <div>
                         <h2>Sonnendach Map</h2>
                         <iframe id='sonnendachCH' title="sonnendachMap" src='//www.uvek-gis.admin.ch/BFE/sonnendach/loader.html?E=2660000&N=1190000&zoom=1&lang=de'></iframe>
-                    </div>
+                    </div> */}
                     <div id='kontaktForm'>
                         <h2>Formular</h2>
                         <form>
@@ -187,9 +169,6 @@ function Kontakt() {
                             <label>Adresse:
                             <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
                             </label>
-                            <label>Liegenschaft befindet sich in:
-                            <input value={liegenschaftOrt} onChange={handleInputChange} id='liegenschaftOrt'></input>
-                            </label>
                             <h3>Gebäudetyp</h3>
                             <label>Einfamilienhaus (EFH)
                                 <input className='checkbox' type="checkbox" name="gebaudetyp" value="Einfamilienhaus (EFH)" onChange={handleCheckOne}></input>
@@ -203,6 +182,25 @@ function Kontakt() {
                             <h3>Aktueller Stromverbrauch</h3>
                             <label>Jahresstromverbrauch (kWh)
                             <input type="number" value={jahressverbrauch} onChange={handleInputChange} id='jahressverbrauch'></input>
+                            </label>
+                            <label><b>Aktuelle Heizart:</b></label>
+                            <label>Wärmepumpe
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Wärmepumpe" onChange={handleCheckOne}></input>
+                            </label>
+                            <label>Gas
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Gas" onChange={handleCheckOne}></input>
+                            </label>
+                            <label>Heizöl
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Heizöl" onChange={handleCheckOne}></input>
+                            </label>
+                            <label>Strom
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Strom" onChange={handleCheckOne}></input>
+                            </label>
+                            <label >Sonstige
+                                <div id='sonstigeTextAndCheckbox'>
+                                    <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="sonstige" onChange={handleCheckOne}></input>
+                                <input onChange={handleInputChange} name="aktuelleHeizart" id="aktuelleHeizartSonstiges" value={aktuelleHeizartSonstiges} ></input>
+                                </div>
                             </label>
                             <label><b>Spezielle Verbraucher (Mehrfachauswahl Checkboxen):</b></label>
                             <label>Wärmepumpe
@@ -238,31 +236,12 @@ function Kontakt() {
                             <label>Erst ohne Speicher starten
                                 <input className='checkbox' type="checkbox" name="speicherlosung" value="Erst ohne Speicher starten" onChange={handleCheckOne}></input>
                             </label>
-                            <h3>Finanzielle Rahmenbedingungen</h3>
-                            <label><b>Finanzierung :</b></label>
-                            <label>Kauf
-                                <input className='checkbox' type="checkbox" name="finanzierung" value="Kauf" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Finanzierung / Leasing prüfen
-                                <input className='checkbox' type="checkbox" name="finanzierung" value="Finanzierung / Leasing prüfen" onChange={handleCheckOne}></input>
-                            </label>
-                            <h3>Erweiterungen & Zukunft</h3>
-                            <label><b>Vorbereitung auf :</b></label>
-                            <label>E-Mobilität (Wallbox)
-                                <input className='checkbox' type="checkbox" name="vorbereitung" value="E-Mobilität (Wallbox)"></input>
-                            </label>
-                            <label>Zukünftige Erweiterung PV
-                                <input className='checkbox' type="checkbox" name="vorbereitung" value="Zukünftige Erweiterung PV"></input>
-                            </label>
                             <label><b>Backup-Lösung bei Stromausfall :</b></label>
                             <label>Ja
                                 <input className='checkbox' type="checkbox" name="backupLosung" value="Ja" onChange={handleCheckOne}></input>
                             </label>
                             <label>Nein
                                 <input className='checkbox' type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Vielleicht
-                                <input className='checkbox' type="checkbox" name="backupLosung" value="Vielleicht" onChange={handleCheckOne}></input>
                             </label>
                         </form>
                         <button onClick={SendContactForm}>Senden</button>

@@ -32,7 +32,7 @@ function Kernkompetenzen() {
                 <div className='titleForPage'>
                     <h2>Unsere Kernkompetenzen</h2>
                     <p>Wir liefern Ihnen nicht nur Technik – wir liefern <b>Mehrwert</b>.</p>
-                    <p>Mit <b>jahrelanger Erfahrung, innovativer Technologie</b> und einem klaren Fokus auf <b>Nachhaltigkeit</b>
+                    <p>Mit <b>jahrelanger Erfahrung, innovativer Technologie</b> und einem klaren Fokus auf <b>Nachhaltigkeit </b>
                         bieten wir Lösungen, <b>Ihnen mehr Unabhängigkeit, geringere Energiekosten und eine nachhaltige Wertsteigerung</b> sichern:</p>
                     <ul id='titleListKernkompetenzen'>
                         <li><b>Photovoltaiklösungen</b> – individuell geplant, perfekt installiert, maximal effizient.</li>
@@ -80,9 +80,9 @@ function Kernkompetenzen() {
                             <h2>Installation – präzise, sicher und termingerecht</h2><br></br>
                             <p>Wir gewährleisten eine <b>fachgerechte, effiziente und sichere Installation</b> Ihrer Photovoltaikanlage – vom ersten 
                                 Handgriff bis zur Inbetriebnahme. Unser erfahrenes Montageteam arbeitet mit <b>hochwertigen Komponenten</b> und 
-                                <b>modernster Technik</b>, um einen <b>zuverlässigen und langlebigen Betrieb</b> sicherzustellen.</p><br></br>
+                                <b> modernster Technik</b>, um einen <b>zuverlässigen und langlebigen Betrieb</b> sicherzustellen.</p><br></br>
                             <p>Dabei legen wir Wert auf eine <b>saubere Ausführung, minimale Eingriffe</b> in die bestehende Bausubstanz und eine 
-                                <b>perfekte Abstimmung</b> aller Systemkomponenten. Ob <b>Einfamilienhaus, Firmendach</b> oder <b>Großprojekt</b> – wir 
+                                <b> perfekte Abstimmung</b> aller Systemkomponenten. Ob <b>Einfamilienhaus, Firmendach</b> oder <b>Großprojekt</b> – wir 
                                 realisieren Ihre Anlage <b>professionell, präzise </b>und <b>pünktlich</b>.</p>
                         </div>
                     </div>
@@ -94,8 +94,8 @@ function Kernkompetenzen() {
                                 Bereich <b>erneuerbare Energien</b> fördern.</p><br></br>
                             <p>Ob <b>Direktkauf, zinsgünstiges Darlehen</b> oder <b>maßgeschneiderte Finanzierungsmodelle</b> – wir finden gemeinsam mit Ihnen 
                                 die passende Lösung. Zusätzlich beraten wir Sie zu <b>aktuellen Förderprogrammen, steuerlichen Vorteilen</b> und 
-                                <b>Einspeisevergütungen</b>, damit sich Ihre Investition <b>langfristig lohnt</b>.</p><br></br>
-                            <p>💡 <b>Extra-Service:</b> Je nach Anlage und Situation kann die <b>Einmalvergütung des Bundes (Pronovo)</b> von uns <b>vorgezogen</b> 
+                                <b> Einspeisevergütungen</b>, damit sich Ihre Investition <b>langfristig lohnt</b>.</p><br></br>
+                            <p>💡 <b>Extra-Service:</b> Je nach Anlage und Situation kann die <b>Einmalvergütung des Bundes (Pronovo)</b> von uns <b>vorgezogen </b> 
                                 werden – so profitieren Sie bereits während der Bauphase von dieser Förderung.</p>
                         </div>
                         <div className='angeboteImgDiv'>

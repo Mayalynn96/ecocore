@@ -48,7 +48,6 @@ function Angebote() {
                             <p><b>Schlüsselfertige 10 kWp-Anlage</b> (inkl. Material, Montage, Gerüst, Koordination, Abnahme) <b>24’200.– CHF (exkl. MwSt.)</b></p>
                         </li>
                         <li>
-                            <p><b></b></p>
                             <p>10 kWp × 360.– = <b>3’600.– CHF</b></p>
                         </li>
                         <li>
