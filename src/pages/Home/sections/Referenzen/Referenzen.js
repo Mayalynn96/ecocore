@@ -53,7 +53,7 @@ function Referenzen() {
         <section id='referenzenSection'>
             <h1>Referenzen</h1>
             <div id="imageGalleryHome">
-                <Carousel imgArray={data.imgs} />
+                <Carousel imgArray={data.imgs} imgsId='mainPageCaroussel'/>
             </div>
             <img src={Logo} alt='Logo'id='logo2' className='backgroundSunIconRight'/>
             <div>

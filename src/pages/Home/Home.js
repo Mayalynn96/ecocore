@@ -9,6 +9,7 @@ import HaufigeFragen from './sections/HaufigeFragen/HaufigeFragen';
 import KundenMeinung from './sections/KundenMeinung/KundenMeinung';
 import Partner from '../../componants/Partner/Partner';
 import Footer from '../../componants/Footer/Footer';
+import PopUp from '../../componants/PopUp/PopUp';
 
 function Home() {
     useEffect(() => {
@@ -24,6 +25,7 @@ function Home() {
 
     return (
         <section id='mainSection'>
+            <PopUp />
             <HeroBanner />
             <Header />
             <main>
