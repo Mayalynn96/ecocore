@@ -34,6 +34,7 @@ function Header() {
                 <button onClick={() => redirectTo("referenzen")} className='navBtns'>Referenzen</button>
                 <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
                 <button onClick={() => redirectTo("kontakt")} className='navBtns'>Kontakt</button>
+                <button className='navBtns'><a href='https://ecocorefenster.ch/' rel="noopener noreferrer">Ecocore Fenster</a></button>
                 </div>
                 <div>
                     <button onClick={() => redirectTo("kontakt")} id='bannerBtn'>Jetzt beraten lassen</button>

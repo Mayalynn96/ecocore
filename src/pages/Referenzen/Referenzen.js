@@ -348,7 +348,7 @@ function Referenzen() {
                     if ((index % 2) !== 0) {
                         return (
                             <section className='carouselSection reversed' key={index}>
-                                <Carousel imgArray={referenze.imgs} />
+                                <Carousel imgArray={referenze.imgs} imgsId={index}/>
                                 <div className='carouselTxtDiv'>
                                     <h2>{referenze.project}</h2>
                                     <div dangerouslySetInnerHTML={{ __html: referenze.text }}></div>
@@ -358,7 +358,7 @@ function Referenzen() {
                     } else {
                         return (
                             <section className='carouselSection' key={index}>
-                                <Carousel imgArray={referenze.imgs} />
+                                <Carousel imgArray={referenze.imgs} imgsId={index} />
                                 <div className='carouselTxtDiv'>
                                     <h2>{referenze.project}</h2>
                                     <div dangerouslySetInnerHTML={{ __html: referenze.text }}></div>
