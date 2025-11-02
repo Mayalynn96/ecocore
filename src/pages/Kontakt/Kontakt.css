@@ -16,6 +16,11 @@
     padding: 5px;
 }
 
+#sonstigeTextAndCheckbox {
+    flex-direction: column;
+    text-align: right;
+}
+
 #kontaktPageSection label:hover {
     background-color: var(--primary-transparent) ;
 }

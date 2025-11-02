@@ -58,8 +58,8 @@ function Referenzen() {
         })
     const data = [
         {
-            project: "Rheinfelden Bestehendes Einfamilienhaus",
-            text: `<p>Einfamilienhaus 28kwp volloptimierte mit 18kwh Speicher von inkl Backup system </p>`,
+            project: "Rheinfelden – Bestehendes Einfamilienhaus",
+            text: `<p>Aufdach-Anlage mit 28 kWp Leistung, volloptimiert, mit 18 kWh Speicher und integriertem Backup-System.</p>`,
             imgs: [
                 {
                     src: RheinfeldenEinfamilienhaus02,
@@ -79,8 +79,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Rheinfelden Neubau",
-            text: `<p>Teiloptimiert Flachdach 18kwp Leistung Energiemanagement Wärmepumpe</p>`,
+            project: "Rheinfelden - Neubau",
+            text: `<p>Flachdach-Anlage mit 18 kWp Leistung, teiloptimiert, mit Energiemanagement und Wärmepumpe.</p>`,
             imgs: [
                 {
                     src: RheinfeldenNeubauIMG01,
@@ -100,8 +100,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Fehraltorf Einfamilienhaus",
-            text: `<p>Volloptimiert mit 14kwh Speicher und Backupbox 18.9kwp Leistung</p>`,
+            project: "Fehraltorf - Einfamilienhaus",
+            text: `<p>Aufdach-Anlage mit 18.9 kWp Leistung, volloptimiert, mit 14 kWh Speicher und Backup-Box.</p>`,
             imgs: [
                 {
                     src: FehraltorfIMG01,
@@ -121,8 +121,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Wallbach",
-            text: `<p>Einfamilienhaus Indach anlage  15kwp leistung  Huawei</p>`,
+            project: "Wallbach – Einfamilienhaus",
+            text: `<p>Indach-Anlage mit 15 kWp Leistung, System Huawei.</p>`,
             imgs: [
                 {
                     src: WallbachIMG01,
@@ -142,8 +142,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Möhlin Indach EFH",
-            text: `<p>12kwp mit speicher 14kwh Mit Energiemanagement WP und Ladestation</p>`,
+            project: "Möhlin – Einfamilienhaus",
+            text: `<p>Indach-Anlage mit 12 kWp Leistung, mit 14 kWh Speicher, System Huawei, Energiemanagement für Wärmepumpe und Ladestation.</p>`,
             imgs: [
                 {
                     src: MöhlinIMG01,
@@ -163,9 +163,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Arlesheim",
-            text: `<p>Aufdach-Anlage auf Privathaus</p>
-                    <p>Leistung ca. 24.36 kWp</p>`,
+            project: "Arlesheim – Einfamilienhaus",
+            text: `<p>Aufdach-Anlage mit 24.36 kWp Leistung.</p>`,
             imgs: [
                 {
                     src: ArlesheimIMG01,
@@ -185,12 +184,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "EFH Arlesheim",
-            text: `<p>Anbau und Sanierung EFH in Arlesheim - Totalsanierung Altbau von 1946</p>
-                        <p>Anbau Sockelgeschoss, Anbau Wohnraum Windfang und Wintergarten im Erdgeschoss</p>
-                        <p>Aufdach-Anlage auf Privathaus mit Süd-Ost-Ausrichtung, Leistung ca. 4.5 kWp</p>
-                        <p>Erweiterung Anlage 2017 in Südwest-Ausrichtung, Leistung 4.5 kWp</p>
-                        <p>Total Anlage ca. 9 kWp</p>`,
+            project: "Arlesheim – Einfamilienhaus",
+            text: `<p>Anbau und Totalsanierung eines EFH von 1946, inklusive Erweiterung um Sockelgeschoss, Wohnraumanbau, Windfang und Wintergarten./p>`,
             imgs: [
                 {
                     src: EFHArlesheimIMG01,
@@ -225,10 +220,8 @@ function Referenzen() {
             ]
         },
         {
-            project: 'Basel',
-            text: `<p>Ost-West Flachdach PV-Anlage auf einem MFH</p>
-                    <p>Mit 9,74 kWp mit Solaredge (Moduloptimierer) in Basel.</p>
-                    <p>Die Module sind europäischer Herkunft.</p>`,
+            project: 'Basel – Mehrfamilienhaus',
+            text: `<p>Ost-West-Flachdachanlage mit 9.74 kWp Leistung, mit SolarEdge Moduloptimierern. Die Module sind europäischer Herkunft.</p>`,
             imgs: [
                 {
                     src: BaselIMG01,
@@ -253,10 +246,8 @@ function Referenzen() {
             ]
         },
         {
-            project: "Riehen",
-            text: `<p>Ost-West Flachdach PV-Anlage auf einem Zweifamilienhaus</p>
-            <p>Mit 9,74 kWp mit Solaredge (Moduloptimierer) in Riehen.</p>
-            <p>Die Module sind europäischer Herkunft.</p>`,
+            project: "Riehen – Zweifamilienhaus",
+            text: `<p>Ost-West-Flachdachanlage mit 9.74 kWp Leistung, mit SolarEdge Moduloptimierern. Die Module sind europäischer Herkunft.</p>`,
             imgs: [
                 {
                     src: RiehenIMG01,
@@ -286,10 +277,8 @@ function Referenzen() {
             ]
         },
         {
-            project: 'Laufenstrasse',
-            text: `<p>Aufdach-Anlage auf unserem Bürogebäude</p>
-            <p>Ost-West Ausrichtung mit Modul-Optimierer</p>
-            <p>Leistung ca. 17.5 kWp</p>`,
+            project: 'Basel – Laufenstrasse (Bürogebäude)',
+            text: `<p>Aufdach-Anlage mit Ost-West-Ausrichtung und Moduloptimierern. Leistung ca. 17.5 kWp.</p>`,
             imgs: [
                 {
                     src: LaufenstrasseIMG01,
@@ -314,10 +303,8 @@ function Referenzen() {
             ]
         },
         {
-            project: 'Waldenburg',
-            text: `<p>Indach – Anlage mit individuell gestalteten Modulen</p>
-            <p>Ost- Ausrichtung mit Modul-Optimierer</p>
-            <p>Leistung ca. 30 kWp</p>`,
+            project: 'Waldenburg – Einfamilienhaus',
+            text: `<p>Indach-Anlage mit 30 kWp Leistung, individuell gestaltete Module, Ost-Ausrichtung, mit Moduloptimierern.</p>`,
             imgs: [
                 {
                     src: WaldenburgIMG01,

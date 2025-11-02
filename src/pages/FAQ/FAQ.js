@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Header from '../../componants/Header/Header';
 import "./FAQ.css"
 import QAndA from '../../componants/QAndA/QAndA'
@@ -7,15 +7,15 @@ import Footer from '../../componants/Footer/Footer';
 
 function FAQ() {
     useEffect(() => {
-            window.scrollTo(0, 0);
-            document.body.scrollTop = 0;
-            const href = window.location.href.substring(
-                window.location.href.lastIndexOf('#') + 1,
-            );
-            if (window.location.href.lastIndexOf('#') > 0) {
-                document.getElementById(href)?.scrollIntoView();
-            }
-        })
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+        const href = window.location.href.substring(
+            window.location.href.lastIndexOf('#') + 1,
+        );
+        if (window.location.href.lastIndexOf('#') > 0) {
+            document.getElementById(href)?.scrollIntoView();
+        }
+    })
 
     const faq = [
         {
@@ -283,6 +283,11 @@ function FAQ() {
                 <h1>FAQ</h1>
                 <div>
                     {QAndA(faq)}
+                </div>
+                <div>
+                    <h2>Noch Fragen?</h2>
+                    <p>EcoCore berät Sie persönlich und unverbindlich.
+                        Nutzen Sie unser <a href="kontakt">Kontaktformular</a> oder rufen Sie uns an – wir zeigen Ihnen, was Ihre Dachfläche leisten kann.</p>
                 </div>
             </main>
             <Partner />
