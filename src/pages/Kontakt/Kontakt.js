@@ -72,11 +72,7 @@ function Kontakt() {
         if (e.target.name === "gebaudetyp") {
             setGebaudetyp(e.target.value)
         } else if(e.target.name === "aktuelleHeizart") {
-            if(e.target.value === "sonstige"){
-                setAktuelleHeizart(aktuelleHeizartSonstiges)
-            } else {
-                setAktuelleHeizart(e.target.value)
-            }
+           setAktuelleHeizart(e.target.value)
         } else if (e.target.name === "wichtigesZiel") {
             setWichtigesZiel(e.target.value)
         } else if (e.target.name === "speicherlosung") {
@@ -104,15 +100,33 @@ function Kontakt() {
             spezielleVerbaucherAll.push("sonstiges: " + spezielleVerbaucherSonstiges)
         }
 
+        const verfugbarkeitBoxes = document.getElementsByName("verfugbarkeit");
+        const verfugbarkeitAll = []
+
+        for (let i = 0; i < verfugbarkeitBoxes.length; i++) {
+            if (verfugbarkeitBoxes[i].checked === true) {
+                verfugbarkeitAll.push(verfugbarkeitBoxes[i].value)
+            }
+        }
+
+        const aktuelleHeizartFinal = () => {
+            if(aktuelleHeizart === 'sonstige'){
+                return aktuelleHeizartSonstiges
+            } else {
+                return aktuelleHeizart
+            }
+        }
+
         const formData = {
             name: nameInput,
             firstName: firstNameInput,
             email: emailInput,
             tel: telNumberInput,
             adress: adressInput,
+            verfugbarkeit: verfugbarkeitAll,
             gebaudetyp: gebaudetyp,
             jahressverbrauch: jahressverbrauch,
-            aktuelleHeizart: aktuelleHeizart,
+            aktuelleHeizart: aktuelleHeizartFinal(),
             spezielleVerbaucher: spezielleVerbaucherAll,
             wichtigesZiel: wichtigesZiel,
             speicherlosung: speicherlosung,
@@ -168,6 +182,19 @@ function Kontakt() {
                             </label>
                             <label>Adresse:
                             <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
+                            </label>
+                            <label><b>Verfügbarkeit für Gespräch</b></label>
+                            <label>Morgens
+                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Morgens"></input>
+                            </label>
+                            <label>Mittags
+                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Mittags"></input>
+                            </label>
+                            <label>Nachmittags
+                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Nachmittags"></input>
+                            </label>
+                            <label>Abends
+                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Abends"></input>
                             </label>
                             <h3>Gebäudetyp</h3>
                             <label>Einfamilienhaus (EFH)
