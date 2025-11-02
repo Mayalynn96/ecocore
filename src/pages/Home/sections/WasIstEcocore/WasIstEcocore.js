@@ -21,8 +21,8 @@ function WasIstEcocore() {
                         <p>EcoCore entwickelt und realisiert <b> maßgeschneiderte Photovoltaiklösungen</b>, die Ihren Eigenverbrauch maximieren – 
                             von eleganter Dach- und Fassadenintegration bis zu kompletten Energiesystemen mit <b>Batteriespeicher, 
                             E-Ladestation und Smart-Home-Anbindung</b>.</p><br></br>
-                        <p>Durch die intelligente Vernetzung aller Komponenten – <b>PV-Anlage, Speicher, Ladeinfrastruktur und Gebäudetechnik</b> – 
-                            sichern Sie sich <b>höchste Energieeffizienz, maximale Unabhängigkeit vom Netz</b> und <b>die volle Nutzung Ihres eigenen Stroms.</b></p><br></br>
+                        <p>Dank intelligenter Vernetzung von <b>PV, Speicher, Ladeinfrastruktur und Gebäudetechnik</b>
+                             erreichen Sie <b>maximale Effizienz, Unabhängigkeit</b> und Eigenstromnutzung.</p><br></br>
                         <p>Ob <b>Privatperson, Unternehmen</b> oder <b>Institution</b> – mit EcoCore senken Sie nicht nur Ihre Stromkosten, sondern steigern 
                             den Wert Ihrer Immobilie und leisten aktiv einen Beitrag zum Klimaschutz.</p><br></br>
                         <p><b>Jetzt beraten lassen und Ihre persönliche Energielösung sichern.</b></p>
