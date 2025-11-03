@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../../componants/Header/Header';
 import "./FAQ.css"
 import QAndA from '../../componants/QAndA/QAndA'
 import Partner from '../../componants/Partner/Partner';
 import Footer from '../../componants/Footer/Footer';
+import SonnenDachMap from '../../componants/SonnenDachMap/SonnenDachMap';
 
 function FAQ() {
     useEffect(() => {
@@ -16,6 +17,12 @@ function FAQ() {
             document.getElementById(href)?.scrollIntoView();
         }
     })
+    
+    const [sonnenDachIsOpen, setSonnenDachIsOpen] = useState(false)
+
+    const openSonnenDachMap = () => {
+        setSonnenDachIsOpen(true)
+    }
 
     const faq = [
         {
@@ -35,7 +42,8 @@ function FAQ() {
                 je nach Dachgrösse, Ausrichtung und Technik. Damit können viele Haushalte <b>30–80 % ihres Strombedarfs</b>
                 direkt mit Solarstrom abdecken.</p>
 
-                <p>👉 Auf der <b><a href="kontakt/#sonnendachCH">Sonnendach-Map</a></b> sehen Sie, wie viel Ihr Hausdach leisten kann.</p>`
+                <p>👉 Auf der Sonnendach-Map (Knopf oben) sehen Sie, wie viel Ihr Hausdach leisten kann.</p>`,
+                hasBtn: true
                 },
                 {
                     question: "Wie hoch ist der typische Ertrag einer Solaranlage?",
@@ -281,6 +289,7 @@ function FAQ() {
             <Header />
             <main>
                 <h1>FAQ</h1>
+                <button id='SonnenDachBtnFix' onClick={openSonnenDachMap}>Sonnendach Map öffnen</button>
                 <div>
                     {QAndA(faq)}
                 </div>
@@ -290,6 +299,7 @@ function FAQ() {
                         Nutzen Sie unser <a href="kontakt">Kontaktformular</a> oder rufen Sie uns an – wir zeigen Ihnen, was Ihre Dachfläche leisten kann.</p>
                 </div>
             </main>
+            <SonnenDachMap isOpen={sonnenDachIsOpen} setIsOpen={setSonnenDachIsOpen}/>
             <Partner />
             <Footer />
         </section>

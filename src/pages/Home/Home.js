@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from '../../componants/Header/Header';
 import HeroBanner from './sections/HeroBanner/HeroBanner'
 import './Home.css'
@@ -12,6 +12,8 @@ import Footer from '../../componants/Footer/Footer';
 import PopUp from '../../componants/PopUp/PopUp';
 
 function Home() {
+    const [isOpen, setIsOpen] = useState(true)
+
     useEffect(() => {
             window.scrollTo(0, 0);
             document.body.scrollTop = 0;
@@ -25,7 +27,7 @@ function Home() {
 
     return (
         <section id='mainSection'>
-            <PopUp />
+            <PopUp isOpen={isOpen} setIsOpen={setIsOpen} />
             <HeroBanner />
             <Header />
             <main>
