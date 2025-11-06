@@ -32,11 +32,11 @@ function Footer() {
                     <p>+41 78 422 67 87</p>
                     <p>info@ecocore.ch</p>
                 </div>
-                <div id='footerSocialMedia'>
+                {/* <div id='footerSocialMedia'>
                     <img src={LinkedIn} alt='linkedIn' className='icon' />
                     <img src={X} alt='x' className='icon' />
                     <img src={Facebook} alt='facebook' className='icon' />
-                </div>
+                </div> */}
             </div>
             <div>
 

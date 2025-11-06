@@ -1,17 +1,22 @@
-import React, { useState} from 'react';
+import React, { useState, useEffect} from 'react';
 import emailjs from "emailjs-com";
 import Header from '../../componants/Header/Header';
 import "./Kontakt.css"
 import Footer from '../../componants/Footer/Footer';
 import Partner from '../../componants/Partner/Partner';
+import SonnenDachMap from '../../componants/SonnenDachMap/SonnenDachMap';
 
 function Kontakt() {
+    useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}, []);
+
     const [nameInput, setNameInput] = useState('');
     const [firstNameInput, setFirstNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
     const [telNumberInput, setTelNumberInput] = useState('');
     const [adressInput, setAdressInput] = useState('');
-    // const [messageInput, setMessageInput] = useState('');
+    const [messageInput, setMessageInput] = useState('');
     const [gebaudetyp, setGebaudetyp] = useState('');
     const [jahressverbrauch, setJahressverbrauch] = useState('');
     const [aktuelleHeizart, setAktuelleHeizart] = useState('');
@@ -34,7 +39,7 @@ function Kontakt() {
         } else if (e.target.id === "adressInput") {
             setAdressInput(e.target.value)
         } else if (e.target.id === "messageInput") {
-            // setMessageInput(e.target.value)
+            setMessageInput(e.target.value)
         } else if (e.target.id === "jahressverbrauch") {
             setJahressverbrauch(e.target.value)
         } else if (e.target.id === "spezielleVerbaucherSonstiges") {
@@ -50,7 +55,7 @@ function Kontakt() {
         setEmailInput("");
         setTelNumberInput("");
         setAdressInput("");
-        // setMessageInput("");
+        setMessageInput("");
         setGebaudetyp("");
         setJahressverbrauch("");
         setAktuelleHeizart("");
@@ -130,7 +135,8 @@ function Kontakt() {
             spezielleVerbaucher: spezielleVerbaucherAll,
             wichtigesZiel: wichtigesZiel,
             speicherlosung: speicherlosung,
-            backupLosung: backupLosung
+            backupLosung: backupLosung,
+            message: messageInput
         }
 
         emailjs.send(
@@ -154,16 +160,20 @@ function Kontakt() {
         console.log(formData)
     }
 
+    const openSonnenDachMap = () => {
+        setIsOpen(true)
+    }
+
+    const [isOpen, setIsOpen] = useState(false)
+
     return (
         <section id='kontaktPageSection'>
             <Header />
             <main>
+                <SonnenDachMap isOpen={isOpen} setIsOpen={setIsOpen}/>
+                <button onClick={openSonnenDachMap}>Sonnendach Map öffnen</button>
                 <h1>Kontakt</h1>
                 <section className='pageSection'>
-                    {/* <div>
-                        <h2>Sonnendach Map</h2>
-                        <iframe id='sonnendachCH' title="sonnendachMap" src='//www.uvek-gis.admin.ch/BFE/sonnendach/loader.html?E=2660000&N=1190000&zoom=1&lang=de'></iframe>
-                    </div> */}
                     <div id='kontaktForm'>
                         <h2>Formular</h2>
                         <form>
@@ -269,6 +279,9 @@ function Kontakt() {
                             </label>
                             <label>Nein
                                 <input className='checkbox' type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
+                            </label>
+                            <label>Sonstige info
+                                <input onChange={handleInputChange} name="messageInput" id="messageInput" value={messageInput} ></input>
                             </label>
                         </form>
                         <button onClick={SendContactForm}>Senden</button>

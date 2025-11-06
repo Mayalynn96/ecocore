@@ -1,16 +1,21 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './PopUp.css'
 import EcocoreLogo from "./EcocoreLogo.webp"
 
-function PopUp() {
+function PopUp({isOpen, setIsOpen}) {
 // Adding useNavigate to navigate to homepage
     const closePopUp = () => {
-        const popUp = document.getElementById('PopUpBackground');
-        console.log(popUp)
-        popUp.style.display = 'none'
+        setIsOpen(false)
     }
 
-    return (
+    useEffect(() => {
+        if (isOpen) document.body.style.overflow = "hidden";
+        else document.body.style.overflow = "";
+        return () => (document.body.style.overflow = "");
+      }, [isOpen]);
+
+    if(isOpen){
+        return (
         <div id='PopUpBackground'>
             <div id='PopUpMainDiv'>
                 <img id='PopUpLogo' src={EcocoreLogo} alt='Ecocore Logo'></img>
@@ -21,6 +26,9 @@ function PopUp() {
             </div>
         </div>
     )
+    } else {
+        return null
+    }
 }
 
 export default PopUp
