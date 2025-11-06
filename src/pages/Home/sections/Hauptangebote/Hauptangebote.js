@@ -25,7 +25,7 @@ function Hauptangebote() {
                 <IconBox text={"Installation"} icon={Istall} destination={"kernkompetenzen#installation"}/>
             </div>
             <div>
-                <button onClick={() => handleNavigation("kernkompetenzen")}>Alle Kernkompetenzen</button>
+                <button onClick={() => handleNavigation("kernkompetenzen")}>Mehr erfahren</button>
             </div>
         </section>
     )
