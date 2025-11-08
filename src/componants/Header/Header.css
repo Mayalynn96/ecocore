@@ -2,11 +2,11 @@ header {
     display: flex;
     background-color: var(--primary-color);
     justify-content: space-between;
-    height: 10vh;
+    height: 12vh;
     align-items: center;
     position: sticky;
     top: 0;
-    z-index: 200;
+    z-index: 300;
     margin: 0;
 }
 
@@ -67,9 +67,13 @@ header {
     background-color: var(--light-blue);
 }
 
-@media (max-width: 1018px) {}
+@media (max-width: 1400px) {
+    .navBtns {
+    font-size: 15px;
+}
+}
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     #navBtn {
         visibility: visible;
     }

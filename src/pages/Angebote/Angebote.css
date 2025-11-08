@@ -1,69 +1,78 @@
 
 
-#angebotePageSection main {
+#angeboteMain {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-}
-
-.angeboteTextDiv p {
-    color: var(--dark-blue);
-}
-
-.angebotePageDiv {
-    display: flex;
-    height: auto;
-    margin: 5%;
-}
-
-.angeboteImgDiv, .angeboteTextDiv {
-    width: 45vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.angeboteTextDiv {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.angeboteImgDiv img {
-    width: 20vw;
+    margin: 20px;
 }
 
 #angeboteMain section {
     width: 80vw;
-    min-height: 50vh;
+    /* min-height: 50vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
-#angeboteMain li {
-    margin: 5px;
+#angeboteMain section p {
+    margin: 20px;
 }
 
+#angeboteMain section h3 {
+    margin: 20px;
+}
+
+#angeboteProcessDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.AngeboteProcess {
+   display: flex;
+   align-items: center;
+}
+
+.AngeboteProcess p {
+    font-size: 18px;
+}
+
+.AngeboteArrow {
+    height: 10vh;
+}
+
+.angeboteImgs {
+    height: 50vh;
+    margin: 20px;
+}
+
+.AngebotePointsSection p{
+    width: 100%;
+}
+
+.AngebotePointsSection ul {
+    width: 100%;
+    padding-left: 20px;
+}
 @media (max-width: 900px) {
-    .angebotePageDiv {
-        flex-direction: column;
-        height: auto;
-    }
+    .AngeboteArrow {
+    transform: rotate(90deg);
+    height: 7vh;
+}
+#angeboteProcessDiv {
+    flex-direction: column;
+    align-items: center;
+}
+.AngeboteProcess p {
+    font-size: 14px;
+}
 
-    .angeboteImgDiv, .angeboteTextDiv {
-        width: 90vw;
-        margin: 20px;
-    }
-
-    .angeboteImgDiv img {
-        width: 50vw;
-    }
-
-    .reverse-column {
-    flex-direction: column-reverse;
-   }
+.angeboteImgs {
+    height: 25vh;
+}
 
 }

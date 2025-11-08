@@ -78,11 +78,21 @@
     margin: 5px;
 }
 
+.angebotePageDiv {
+    display: flex;
+    margin: 20px 50px;
+    align-items: center;
+}
+
 @media (max-width: 900px)  {
    .kernkompetenz {
     flex-direction: column;
     text-align: center;
    } 
+
+   .angebotePageDiv {
+    flex-direction: column;
+   }
 
    .reverse-column {
     flex-direction: column-reverse;

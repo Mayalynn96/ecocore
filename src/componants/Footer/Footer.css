@@ -1,6 +1,10 @@
 footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 #EcocoreLogoFooter {
@@ -13,7 +17,7 @@ footer {
 
 #footerAdress {
     display: flex;
-    width: 50vw;
+    width: 80vw;
     justify-content: space-around;
     align-items: center;
 }
@@ -53,6 +57,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+    footer {
+        height: 25vh;
+    }
+
     #footerContent {
         flex-direction: column;
         align-items: center;
@@ -61,6 +69,11 @@ footer {
     #footerSocialMedia img {
         height: 25px;
         width: 25px;
+    }
+
+    #EcocoreLogoFooter{
+        height: 5vh;
+        width: auto;
     }
 
     #footerAdress {
@@ -88,7 +101,7 @@ footer {
     }
 
     .logoDiv {
-        width: 100vw;
+        width: 100%;
         justify-content: center;
         margin: 0;
         padding: 0;
