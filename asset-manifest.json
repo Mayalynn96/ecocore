@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.6d03097d.css",
-    "main.js": "/ecocore/static/js/main.1811b6f5.js",
+    "main.css": "/ecocore/static/css/main.11072274.css",
+    "main.js": "/ecocore/static/js/main.2aebd7dd.js",
     "static/media/IMG_05.jpg": "/ecocore/static/media/IMG_05.2ab4eea29bfdff20a73e.jpg",
     "static/media/IMG_03.jpg": "/ecocore/static/media/IMG_03.9827d17513d55e967094.jpg",
     "static/media/Screenshot2.jpg": "/ecocore/static/media/Screenshot2.c9563fee3ed245b6be82.jpg",
@@ -41,6 +41,7 @@
     "static/media/k2SystemLogo.svg": "/ecocore/static/media/k2SystemLogo.2412c802c9f6ad0171ed1dbd80b763dc.svg",
     "static/media/Screenshot5.webp": "/ecocore/static/media/Screenshot5.740c174a68ff1a97aa74.webp",
     "static/media/suvaLogo.webp": "/ecocore/static/media/suvaLogo.a2882166e46bf3486ec0.webp",
+    "static/media/process-improvement.svg": "/ecocore/static/media/process-improvement.842feaac240f6b3c5fbbad357cb5e1d1.svg",
     "static/media/huaweiLogo.webp": "/ecocore/static/media/huaweiLogo.1fd58ad6c65ad86400d3.webp",
     "static/media/solaredge.svg": "/ecocore/static/media/solaredge.c0a09f1fa0bf4b161003ee0d2fb5ea43.svg",
     "static/media/VKGLogo.svg": "/ecocore/static/media/VKGLogo.37c7fb8ca1424aa8b4ff846cd446f77d.svg",
@@ -55,13 +56,14 @@
     "index.html": "/ecocore/index.html",
     "static/media/linkedin.svg": "/ecocore/static/media/linkedin.2ed19cc12eebd88e221c23117b00dc55.svg",
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
+    "static/media/right-arrow.svg": "/ecocore/static/media/right-arrow.18d99985b513f7017caee7cd13cb7390.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.6d03097d.css.map": "/ecocore/static/css/main.6d03097d.css.map",
-    "main.1811b6f5.js.map": "/ecocore/static/js/main.1811b6f5.js.map"
+    "main.11072274.css.map": "/ecocore/static/css/main.11072274.css.map",
+    "main.2aebd7dd.js.map": "/ecocore/static/js/main.2aebd7dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d03097d.css",
-    "static/js/main.1811b6f5.js"
+    "static/css/main.11072274.css",
+    "static/js/main.2aebd7dd.js"
   ]
 }
