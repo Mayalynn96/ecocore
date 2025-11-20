@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.11072274.css",
-    "main.js": "/ecocore/static/js/main.2aebd7dd.js",
+    "main.css": "/ecocore/static/css/main.eef45f89.css",
+    "main.js": "/ecocore/static/js/main.8d7dad90.js",
     "static/media/IMG_05.jpg": "/ecocore/static/media/IMG_05.2ab4eea29bfdff20a73e.jpg",
     "static/media/IMG_03.jpg": "/ecocore/static/media/IMG_03.9827d17513d55e967094.jpg",
     "static/media/Screenshot2.jpg": "/ecocore/static/media/Screenshot2.c9563fee3ed245b6be82.jpg",
@@ -31,6 +31,7 @@
     "static/media/Fehraltorf 3.jpg": "/ecocore/static/media/Fehraltorf 3.9369185a3e53b67bcbb7.jpg",
     "static/media/firstImage.webp": "/ecocore/static/media/firstImage.8c776c69a459ec78d1fa.webp",
     "static/media/Banner2b.webp": "/ecocore/static/media/Banner2b.3b32c671dc13aeaf7106.webp",
+    "static/media/ecocoreFensterLogoLast.webp": "/ecocore/static/media/ecocoreFensterLogoLast.f17ddbeeca0c440efd04.webp",
     "static/media/solarManager.webp": "/ecocore/static/media/solarManager.6bb998f97f54bb47b39d.webp",
     "static/media/swisssolarLogo.webp": "/ecocore/static/media/swisssolarLogo.4cf8b784d2b98d3226a1.webp",
     "static/media/EcocoreLogo.webp": "/ecocore/static/media/EcocoreLogo.03b3eb5f041a8d74b887.webp",
@@ -47,23 +48,24 @@
     "static/media/VKGLogo.svg": "/ecocore/static/media/VKGLogo.37c7fb8ca1424aa8b4ff846cd446f77d.svg",
     "static/media/money.svg": "/ecocore/static/media/money.9abf24f015fd22b58b7bef221237c791.svg",
     "static/media/solar-power.svg": "/ecocore/static/media/solar-power.94344e9cb709c129551e96595c969805.svg",
-    "static/media/save-world.svg": "/ecocore/static/media/save-world.a444fbc88224bf182e716db84e45b568.svg",
+    "static/media/save-world.svg": "/ecocore/static/media/save-world.3efb2c610702ef527309e1af9336c0ee.svg",
     "static/media/energieFranken.svg": "/ecocore/static/media/energieFranken.a1028896426e0a42d34d558f30410d4e.svg",
     "static/media/search-analysis.svg": "/ecocore/static/media/search-analysis.9c34215f6f2ec30a71f07d8eb81a9861.svg",
     "static/media/wrench.svg": "/ecocore/static/media/wrench.407b6ce6b6b0d1abb50edc9c7294197a.svg",
     "static/media/logo.svg": "/ecocore/static/media/logo.3d487d121cab2f31cc6e7657c3be2992.svg",
     "static/media/star.svg": "/ecocore/static/media/star.0e5dbb4a7fff49598c926afd55bd6e24.svg",
+    "static/media/sun (2).svg": "/ecocore/static/media/sun (2).b11c266efe071b0869e194a50315559c.svg",
     "index.html": "/ecocore/index.html",
     "static/media/linkedin.svg": "/ecocore/static/media/linkedin.2ed19cc12eebd88e221c23117b00dc55.svg",
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/right-arrow.svg": "/ecocore/static/media/right-arrow.18d99985b513f7017caee7cd13cb7390.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.11072274.css.map": "/ecocore/static/css/main.11072274.css.map",
-    "main.2aebd7dd.js.map": "/ecocore/static/js/main.2aebd7dd.js.map"
+    "main.eef45f89.css.map": "/ecocore/static/css/main.eef45f89.css.map",
+    "main.8d7dad90.js.map": "/ecocore/static/js/main.8d7dad90.js.map"
   },
   "entrypoints": [
-    "static/css/main.11072274.css",
-    "static/js/main.2aebd7dd.js"
+    "static/css/main.eef45f89.css",
+    "static/js/main.8d7dad90.js"
   ]
 }
