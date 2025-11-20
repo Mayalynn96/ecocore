@@ -12,7 +12,6 @@ function Kontakt() {
 }, []);
 
     const [nameInput, setNameInput] = useState('');
-    const [firstNameInput, setFirstNameInput] = useState('');
     const [emailInput, setEmailInput] = useState('');
     const [telNumberInput, setTelNumberInput] = useState('');
     const [adressInput, setAdressInput] = useState('');
@@ -22,7 +21,6 @@ function Kontakt() {
     const [aktuelleHeizart, setAktuelleHeizart] = useState('');
     const [spezielleVerbaucherSonstiges, setSpezielleVerbraucherSonstiges] = useState('');
     const [aktuelleHeizartSonstiges, setAktuelleHeizartSonstiges] = useState('');
-    const [wichtigesZiel, setWichtigesZiel] = useState('');
     const [speicherlosung, setSpeicherlosung] = useState('');
     const [backupLosung, setBackupLosung] = useState('');
 
@@ -30,8 +28,6 @@ function Kontakt() {
     const handleInputChange = (e) => {
         if (e.target.id === "nameInput") {
             setNameInput(e.target.value)
-        } else if (e.target.id === "firstNameInput") {
-            setFirstNameInput(e.target.value)
         } else if (e.target.id === "emailInput") {
             setEmailInput(e.target.value)
         } else if (e.target.id === "telNumberInput") {
@@ -51,7 +47,6 @@ function Kontakt() {
 
     const handleFormSubmit = () => {
         setNameInput("");
-        setFirstNameInput("");
         setEmailInput("");
         setTelNumberInput("");
         setAdressInput("");
@@ -61,7 +56,6 @@ function Kontakt() {
         setAktuelleHeizart("");
         setSpezielleVerbraucherSonstiges("");
         setAktuelleHeizartSonstiges("");
-        setWichtigesZiel("");
         setSpeicherlosung("");
         setBackupLosung("");
     }
@@ -78,8 +72,6 @@ function Kontakt() {
             setGebaudetyp(e.target.value)
         } else if(e.target.name === "aktuelleHeizart") {
            setAktuelleHeizart(e.target.value)
-        } else if (e.target.name === "wichtigesZiel") {
-            setWichtigesZiel(e.target.value)
         } else if (e.target.name === "speicherlosung") {
             setSpeicherlosung(e.target.value)
         } else if (e.target.name === "backupLosung") {
@@ -105,15 +97,6 @@ function Kontakt() {
             spezielleVerbaucherAll.push("sonstiges: " + spezielleVerbaucherSonstiges)
         }
 
-        const verfugbarkeitBoxes = document.getElementsByName("verfugbarkeit");
-        const verfugbarkeitAll = []
-
-        for (let i = 0; i < verfugbarkeitBoxes.length; i++) {
-            if (verfugbarkeitBoxes[i].checked === true) {
-                verfugbarkeitAll.push(verfugbarkeitBoxes[i].value)
-            }
-        }
-
         const aktuelleHeizartFinal = () => {
             if(aktuelleHeizart === 'sonstige'){
                 return aktuelleHeizartSonstiges
@@ -124,16 +107,13 @@ function Kontakt() {
 
         const formData = {
             name: nameInput,
-            firstName: firstNameInput,
             email: emailInput,
             tel: telNumberInput,
             adress: adressInput,
-            verfugbarkeit: verfugbarkeitAll,
             gebaudetyp: gebaudetyp,
             jahressverbrauch: jahressverbrauch,
             aktuelleHeizart: aktuelleHeizartFinal(),
             spezielleVerbaucher: spezielleVerbaucherAll,
-            wichtigesZiel: wichtigesZiel,
             speicherlosung: speicherlosung,
             backupLosung: backupLosung,
             message: messageInput
@@ -178,11 +158,8 @@ function Kontakt() {
                         <h2>Formular</h2>
                         <form>
                             <h3>Kontakt- und Objektdaten</h3>
-                            <label>Name:
+                            <label>Name / Vorname:
                             <input value={nameInput} onChange={handleInputChange} id='nameInput'></input>
-                            </label>
-                            <label>Vorname:
-                            <input value={firstNameInput} onChange={handleInputChange} id='firstNameInput'></input>
                             </label>
                             <label>Email:
                             <input value={emailInput} onChange={handleInputChange} id='emailInput'></input>
@@ -190,21 +167,8 @@ function Kontakt() {
                             <label>Telefon Number:
                             <input value={telNumberInput} onChange={handleInputChange} id='telNumberInput'></input>
                             </label>
-                            <label>Adresse:
+                            <label>Objektadresse:
                             <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
-                            </label>
-                            <label><b>Verfügbarkeit für Gespräch</b></label>
-                            <label>Morgens
-                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Morgens"></input>
-                            </label>
-                            <label>Mittags
-                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Mittags"></input>
-                            </label>
-                            <label>Nachmittags
-                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Nachmittags"></input>
-                            </label>
-                            <label>Abends
-                                <input className='checkbox' type="checkbox" name="verfugbarkeit" value="Abends"></input>
                             </label>
                             <h3>Gebäudetyp</h3>
                             <label>Einfamilienhaus (EFH)
@@ -212,9 +176,6 @@ function Kontakt() {
                             </label>
                             <label>Mehrfamilienhaus (MFH)
                                 <input className='checkbox' type="checkbox" name="gebaudetyp" value="Mehrfamilienhaus (MFH)" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Überbauung / Zusammenschluss (ZEV / VZEV)
-                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Überbauung / Zusammenschluss (ZEV / VZEV)" onChange={handleCheckOne}></input>
                             </label>
                             <h3>Aktueller Stromverbrauch</h3>
                             <label>Jahresstromverbrauch (kWh)
@@ -224,14 +185,8 @@ function Kontakt() {
                             <label>Wärmepumpe
                                 <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Wärmepumpe" onChange={handleCheckOne}></input>
                             </label>
-                            <label>Gas
+                            <label>Oel/Gas
                                 <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Gas" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Heizöl
-                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Heizöl" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Strom
-                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Strom" onChange={handleCheckOne}></input>
                             </label>
                             <label >Sonstige
                                 <div id='sonstigeTextAndCheckbox'>
@@ -240,47 +195,36 @@ function Kontakt() {
                                 </div>
                             </label>
                             <label><b>Spezielle Verbraucher (Mehrfachauswahl Checkboxen):</b></label>
-                            <label>Wärmepumpe
-                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Wärmepumpe"></input>
+                            <label>Boiler 
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Boiler"></input>
                             </label>
-                            <label>Boiler / Warmwasser
-                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Boiler / Warmwasser"></input>
-                            </label>
-                            <label>Elektroauto
-                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Elektroauto"></input>
+                            <label>E-Auto
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="E-Auto"></input>
                             </label>
                             <label>Klimaanlage
                                 <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Klimaanlage"></input>
                             </label>
+                            <label>Pool / Jacuzzi
+                                <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Pool / Jacuzzi"></input>
+                            </label>
                             <label>Sonstige
                                 <input onChange={handleInputChange} name="spezielleVerbaucher" id="spezielleVerbaucherSonstiges" value={spezielleVerbaucherSonstiges} ></input>
                             </label>
-                            <h3>Ziele & Prioritäten</h3>
-                            <label><b>Wichtigstes Ziel:</b></label>
-                            <label>Stromkosten sparen
-                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Stromkosten sparen" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Unabhängigkeit steigern
-                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Unabhängigkeit steigern" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Nachhaltigkeit / Ökologie
-                                <input className='checkbox' type="checkbox" name="wichtigesZiel" value="Nachhaltigkeit / Ökologie" onChange={handleCheckOne}></input>
-                            </label>
                             <label><b>Speicherlösung :</b></label>
-                            <label>Speicher von Anfang an
-                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Speicher von Anfang an" onChange={handleCheckOne}></input>
+                            <label>Ja
+                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Ja" onChange={handleCheckOne}></input>
                             </label>
-                            <label>Erst ohne Speicher starten
-                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Erst ohne Speicher starten" onChange={handleCheckOne}></input>
+                            <label>Nein
+                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Nein" onChange={handleCheckOne}></input>
                             </label>
-                            <label><b>Backup-Lösung bei Stromausfall :</b></label>
+                            <label><b>Notstromversorgung :</b></label>
                             <label>Ja
                                 <input className='checkbox' type="checkbox" name="backupLosung" value="Ja" onChange={handleCheckOne}></input>
                             </label>
                             <label>Nein
                                 <input className='checkbox' type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
                             </label>
-                            <label>Sonstige info
+                            <label><b>Sonstige info:</b>
                                 <input onChange={handleInputChange} name="messageInput" id="messageInput" value={messageInput} ></input>
                             </label>
                         </form>

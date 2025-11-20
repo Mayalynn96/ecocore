@@ -38,7 +38,7 @@ function HaufigeFragen() {
                                 <li><b>Abnahme & Netzanschluss:</b> erfolgt durch den Netzbetreiber, abhängig von Terminverfügbarkeit.</li>
                             </ul>
                         <p>👉 Insgesamt sollten Sie bei einem Einfamilienhaus mit <b>ca. 1–2 Wochen Gesamtdauer</b> rechnen – wobei die 
-                        eigentliche Dachmontage nur wenige Tage beansprucht. EcoCore koordiniert alle Schritte für Sie.</p>`
+                        eigentliche Dachmontage nur wenige Tage beansprucht. <span className='eco'>eco</span><span className='core'>core</span> koordiniert alle Schritte für Sie.</p>`
                 }
             ]
         },
@@ -51,7 +51,7 @@ function HaufigeFragen() {
                         `<p>Ja – genau dafür ist Photovoltaik bestens geeignet. Mit einer intelligenten Wallbox laden Sie Ihr 
                 Elektroauto bevorzugt mit eigenem Solarstrom. So fahren Sie fast kostenlos und klimafreundlich.</p>
 
-                <p><b>👉 EcoCore integriert Ladelösungen direkt – <a href="kontakt">lassen Sie sich von uns beraten.</a></b></p>`
+                <p><b>👉 <span className='eco'>eco</span><span className='core'>core</span> integriert Ladelösungen direkt – <a href="kontakt">lassen Sie sich von uns beraten.</a></b></p>`
                 }
             ]
         }

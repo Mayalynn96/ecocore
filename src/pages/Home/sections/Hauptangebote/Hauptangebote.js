@@ -4,7 +4,7 @@ import './Hauptangebote.css'
 import IconBox from '../../../../componants/IconBox/IconBox';
 import SolarEnergy from "./solar-power.svg"
 import Analyse from "./search-analysis.svg"
-import Project from "./save-world.svg"
+import Money from "./money.svg"
 import Istall from "./wrench.svg"
 
 
@@ -21,8 +21,8 @@ function Hauptangebote() {
             <div id='hauptangeboteDiv'>
                 <IconBox text={'Photovoltaik'} icon={SolarEnergy} destination={"kernkompetenzen#photovoltaik"}/>
                 <IconBox text={"Analyse"} icon={Analyse} destination={"kernkompetenzen#analyse"}/>
-                <IconBox text={"Entwicklungsprojekte"} icon={Project} destination={"kernkompetenzen#entwicklungsprojekte"}/>
                 <IconBox text={"Installation"} icon={Istall} destination={"kernkompetenzen#installation"}/>
+                <IconBox text={"Finanzierung"} icon={Money} destination={"kernkompetenzen#Finanzierung"}/>
             </div>
             <div>
                 <button onClick={() => handleNavigation("kernkompetenzen")}>Mehr erfahren</button>

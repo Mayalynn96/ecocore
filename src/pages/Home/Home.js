@@ -15,6 +15,12 @@ function Home() {
     const [isOpen, setIsOpen] = useState(true)
 
     useEffect(() => {
+        if (localStorage.getItem("hasBeenOpen")){
+        setIsOpen(false)
+    }
+    },[])
+
+    useEffect(() => {
             window.scrollTo(0, 0);
             document.body.scrollTop = 0;
             const href = window.location.href.substring(

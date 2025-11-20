@@ -26,8 +26,8 @@ function Angebote() {
             <main id='angeboteMain'>
                 <h1>Angebote</h1>
                 <section>
-                    <h2>Der EcoCore-Prozess – Ihr Weg zur eigenen Photovoltaikanlage</h2>
-                    <p>Mit <b>EcoCore</b> erhalten Sie nicht einfach eine Solaranlage, sondern eine <b>durchdachte Gesamtlösung</b> – 
+                    <h2>Der <span className='eco'>eco</span><span className='core'>core</span>-Prozess – Ihr Weg zur eigenen Photovoltaikanlage</h2>
+                    <p>Mit <span className='eco'>eco</span><span className='core'>core</span> erhalten Sie nicht einfach eine Solaranlage, sondern eine <b>durchdachte Gesamtlösung</b> – 
                     von der ersten Beratung bis zur Inbetriebnahme. Unser strukturierter Prozess sorgt für <b>Transparenz,
                      Planungssicherheit und höchste Qualität.</b></p>
                     <p><b>💡 Hinweis:</b><br></br>
@@ -36,7 +36,7 @@ function Angebote() {
                      und technischer Ausstattung variieren. </p>
                 </section>
                 <section>
-                    <h3>Der bewährte EcoCore-Prozess</h3>
+                    <h3>Der bewährte <span className='eco'>eco</span><span className='core'>core</span>-Prozess</h3>
                     <div id='angeboteProcessDiv'>
                         <div className='AngeboteProcess'>
                             <p><b>1. Beratung & Erstgespräch</b></p>
@@ -105,7 +105,7 @@ function Angebote() {
                     <p><b>Förderbeitrag (Pronovo EIV):</b><br></br>
                     Richtwert gemäss Stand 2025 ≈ CHF 360.– / kWp (Stand Januar 2025).<br></br>
                     Die definitive Höhe wird durch Pronovo beim Antrag festgelegt.<br></br>
-                    <b>EcoCore</b> übernimmt die Anmeldung und Berechnung der jeweils aktuellen Fördersumme.</p>
+                    <span className='eco'>eco</span><span className='core'>core</span> übernimmt die Anmeldung und Berechnung der jeweils aktuellen Fördersumme.</p>
                     <p><b>Beispielrechnung:</b><br></br>
                     10 kWp × CHF 360.– = <b>CHF 3 600.– Förderbeitrag</b></p>
                     <p><b>➡ Effektive Investition:</b> ca. <b>CHF 20 600.– exkl. MwSt.</b></p>
@@ -140,7 +140,7 @@ function Angebote() {
                     </ul></p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>Ihr Vorteil mit EcoCore</h3>
+                    <h3>Ihr Vorteil mit <span className='eco'>eco</span><span className='core'>core</span></h3>
                     <p>✔ Alles aus einer Hand – von Beratung bis Inbetriebnahme<br></br>
                     ✔ Fördermittel & Bewilligungen inklusive<br></br>
                     ✔ Hochwertige Komponenten mit Langzeitgarantie<br></br>
@@ -150,9 +150,9 @@ function Angebote() {
                 </section>
                 <section className='AngebotePointsSection'>
                     <h3>Aus Sonnenlicht wird Unabhängigkeit</h3>
-                    <p><b>EcoCore</b> begleitet Sie von der ersten Idee bis zum laufenden System – effizient, sicher und nachhaltig.</p>
+                    <p><span className='eco'>eco</span><span className='core'>core</span> begleitet Sie von der ersten Idee bis zum laufenden System – effizient, sicher und nachhaltig.</p>
                     <p>Jetzt ist der richtige Zeitpunkt, Ihre Energiezukunft zu gestalten.</p>
-                    <p><b>Kontaktieren Sie uns – wir beraten Sie persönlich und unverbindlich.</b></p>
+                    <p><a href="kontakt"><b>Kontaktieren Sie uns – wir beraten Sie persönlich und unverbindlich.</b></a></p>
                 </section>
             </main>
             <Partner />

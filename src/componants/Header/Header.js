@@ -1,8 +1,9 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import './Header.css'
 import { useNavigate } from "react-router-dom";
-import {FaBars} from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
 import EcocoreLogo from "./EcocoreLogo.webp"
+import EcocoreFensterLogo from './ecocoreFensterLogoLast.webp'
 
 function Header() {
     const navRef = useRef();
@@ -30,14 +31,14 @@ function Header() {
                 </div>
                 <div id='navLinksBtns'>
                     <button onClick={() => redirectTo("kernkompetenzen")} className='navBtns'>Kernkompetenzen</button>
-                <button onClick={() => redirectTo("angebote")} className='navBtns'>Angebote</button>
-                <button onClick={() => redirectTo("referenzen")} className='navBtns'>Referenzen</button>
-                <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
-                <button onClick={() => redirectTo("kontakt")} className='navBtns'>Kontakt</button>
-                <button className='navBtns'><a href='https://ecocorefenster.ch/' rel="noopener noreferrer">Ecocore Fenster</a></button>
+                    <button onClick={() => redirectTo("angebote")} className='navBtns'>Angebote</button>
+                    <button onClick={() => redirectTo("referenzen")} className='navBtns'>Referenzen</button>
+                    <button onClick={() => redirectTo("FAQ")} className='navBtns'>FAQ</button>
+                    <button onClick={() => redirectTo("kontakt")} className='navBtns'>Kontakt</button>
+                    <a href='https://ecocorefenster.ch/' rel="noopener noreferrer"><img src={EcocoreFensterLogo} alt='ecocore Fenster Logo' id='ecocoreFensterLogo' /></a>
                 </div>
                 <div>
-                    <button onClick={() => redirectTo("kontakt")} id='bannerBtn'>Jetzt beraten lassen</button>
+                    <button onClick={() => redirectTo("kontakt")} id='bannerBtn'>Beratung</button>
                 </div>
             </nav>
         </header>

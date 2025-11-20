@@ -5,6 +5,7 @@ import QAndA from '../../componants/QAndA/QAndA'
 import Partner from '../../componants/Partner/Partner';
 import Footer from '../../componants/Footer/Footer';
 import SonnenDachMap from '../../componants/SonnenDachMap/SonnenDachMap';
+import sunImg from './sun (2).svg'
 
 function FAQ() {
     useEffect(() => {
@@ -42,7 +43,7 @@ function FAQ() {
                 je nach Dachgrösse, Ausrichtung und Technik. Damit können viele Haushalte <b>30–80 % ihres Strombedarfs</b>
                 direkt mit Solarstrom abdecken.</p>
 
-                <p>👉 Auf der Sonnendach-Map (Knopf oben) sehen Sie, wie viel Ihr Hausdach leisten kann.</p>`,
+                <p>👉 Auf der Sonnendach-Map sehen Sie, wie viel Ihr Hausdach leisten kann. Um die Map zu öffnen drücken sie auf die Sonne oben links</p>`,
                 hasBtn: true
                 },
                 {
@@ -73,7 +74,7 @@ function FAQ() {
                 <p>Über die nationale Einmalvergütung (EIV) erhalten Sie rund 20–30 % der Investitionskosten zurück. 
                 Zusätzlich unterstützen viele Kantone oder Gemeinden mit weiteren Beiträgen.</P>
 
-                <p><a href="kontakt"><b>👉 EcoCore übernimmt die Abklärungen für Sie – fragen Sie uns für eine konkrete Berechnung Ihrer Förderung an.</b></a></p>
+                <p><a href="kontakt"><b>👉 <span className='eco'>eco</span><span className='core'>core</span> übernimmt die Abklärungen für Sie – fragen Sie uns für eine konkrete Berechnung Ihrer Förderung an.</b></a></p>
                 `
                 }
             ]
@@ -93,7 +94,7 @@ function FAQ() {
                         <li><b>Abnahme & Netzanschluss:</b> erfolgt durch den Netzbetreiber, abhängig von Terminverfügbarkeit.</li>
                     </ul>
                 <p>👉 Insgesamt sollten Sie bei einem Einfamilienhaus mit <b>ca. 1–2 Wochen Gesamtdauer</b> rechnen – wobei die 
-                eigentliche Dachmontage nur wenige Tage beansprucht. EcoCore koordiniert alle Schritte für Sie.</p>`
+                eigentliche Dachmontage nur wenige Tage beansprucht. <span className='eco'>eco</span><span className='core'>core</span> koordiniert alle Schritte für Sie.</p>`
                 },
                 {
                     question: "Muss ich für die Anlage etwas bewilligen lassen?",
@@ -102,12 +103,12 @@ function FAQ() {
                 parallel montiert werden.</p>
 
                 <p>👉 <b>Ausnahme:</b> Wenn sich Ihr Haus in einer <b>Kernzone oder in einem denkmalgeschützten Bereich</b> befindet, 
-                können zusätzliche Bewilligungen nötig sein. <b>EcoCore kümmert sich auch darum</b> und übernimmt für Sie alle Formalitäten.</p>`
+                können zusätzliche Bewilligungen nötig sein. <b><span className='eco'>eco</span><span className='core'>core</span> kümmert sich auch darum</b> und übernimmt für Sie alle Formalitäten.</p>`
                 },
                 {
-                    question: "Muss ich mich um etwas kümmern – oder erledigt EcoCore alles für mich?",
+                    question: "Muss ich mich um etwas kümmern – oder erledigt ecocore alles für mich?",
                     answer:
-                        `<p>Nein – Sie brauchen sich um nichts zu kümmern. EcoCore übernimmt die gesamte Abwicklung:</p>
+                        `<p>Nein – Sie brauchen sich um nichts zu kümmern. <span className='eco'>eco</span><span className='core'>core</span> übernimmt die gesamte Abwicklung:</p>
                     <ul>
                         <li>Planung & Beratung</li>
                         <li>Bewilligungen & Förderanträge</li>
@@ -149,7 +150,7 @@ function FAQ() {
                         `<p>Ja – genau dafür ist Photovoltaik bestens geeignet. Mit einer intelligenten Wallbox laden Sie Ihr 
                 Elektroauto bevorzugt mit eigenem Solarstrom. So fahren Sie fast kostenlos und klimafreundlich.</p>
 
-                <p><b>👉 EcoCore integriert Ladelösungen direkt – <a href="kontakt">lassen Sie sich von uns beraten.</a></b></p>`
+                <p><b>👉 <span className='eco'>eco</span><span className='core'>core</span> integriert Ladelösungen direkt – <a href="kontakt">lassen Sie sich von uns beraten.</a></b></p>`
                 },
                 {
                     question: "Was kann meine PV-Anlage sonst noch für mich leisten?",
@@ -188,7 +189,7 @@ function FAQ() {
             <p>Ja – die Technik entwickelt sich genau in diese Richtung. Mit <b>Vehicle-to-Home (V2H)</b> oder <b>Vehicle-to-Load (V2L)</b>
             kann die Batterie eines Elektroautos nicht nur geladen, sondern auch wieder Strom ins Haus zurückspeisen.</p>
 
-            <p><b>👉 EcoCore verfolgt die Entwicklung genau – <a href="kontakt">wir beraten Sie</a>, wenn diese Lösungen verfügbar und sinnvoll sind.</b></p>
+            <p><b>👉 <span className='eco'>eco</span><span className='core'>core</span> verfolgt die Entwicklung genau – <a href="kontakt">wir beraten Sie</a>, wenn diese Lösungen verfügbar und sinnvoll sind.</b></p>
             `
                 },
                 {
@@ -200,7 +201,7 @@ function FAQ() {
             <p>Ein <b>VZEV (Virtueller ZEV)</b> geht noch einen Schritt weiter: Hier können auch mehrere Liegenschaften, 
             die nicht direkt am gleichen Netzanschluss hängen, virtuell zusammengeschlossen werden.</p>
 
-            <p><b>👉 EcoCore unterstützt Eigentümergemeinschaften bei der Einrichtung eines ZEV – <a href="kontakt">kontaktieren Sie uns für Details.</a></b></p>
+            <p><b>👉 <span className='eco'>eco</span><span className='core'>core</span> unterstützt Eigentümergemeinschaften bei der Einrichtung eines ZEV – <a href="kontakt">kontaktieren Sie uns für Details.</a></b></p>
             `
                 }
             ]
@@ -236,10 +237,10 @@ function FAQ() {
                     `
                 },
                 {
-                    question: "Wie berücksichtigt EcoCore das Thema Brandschutz?",
+                    question: "Wie berücksichtigt ecocore das Thema Brandschutz?",
                     answer:
                         `
-                <p>Brandschutz ist ein zentraler Bestandteil unserer Planung. EcoCore sorgt dafür, dass alle Anlagen 
+                <p>Brandschutz ist ein zentraler Bestandteil unserer Planung. <span className='eco'>eco</span><span className='core'>core</span> sorgt dafür, dass alle Anlagen 
                 den geltenden Vorschriften entsprechen:</p>
                     <ul>
                         <li><b>Dach- und Fassadenanlagen:</b> Umsetzung gemäss <b>VKF-Brandschutzrichtlinien</b> und Anforderungen der Gebäudeversicherung.</li>
@@ -248,13 +249,13 @@ function FAQ() {
                         <li><b>Speicherlösungen:</b> Batteriesysteme mit neuesten Sicherheitsstandards, inkl. <b>Temperatur- und Brandüberwachung.</b></li>
                         <li><b>Dokumentation & Versicherung:</b> Vollständige Nachweise für Versicherungen und Behörden.</li>
                     </ul>
-                <p><b>👉 EcoCore plant Ihre Anlage so, dass sie nicht nur effizient, sondern auch maximal sicher ist.</b></p>
+                <p><b>👉 <span className='eco'>eco</span><span className='core'>core</span> plant Ihre Anlage so, dass sie nicht nur effizient, sondern auch maximal sicher ist.</b></p>
                 `
                 },
                 {
-                    question: "Welche weiteren Punkte berücksichtigt EcoCore bei Planung und Umsetzung?",
+                    question: "Welche weiteren Punkte berücksichtigt ecocore bei Planung und Umsetzung?",
                     answer: `
-                <p>Bei EcoCore geht es nicht nur um die Module auf dem Dach – wir achten auf eine <b>ganzheitliche, sichere und saubere Umsetzung:</b></p>
+                <p>Bei <span className='eco'>eco</span><span className='core'>core</span> geht es nicht nur um die Module auf dem Dach – wir achten auf eine <b>ganzheitliche, sichere und saubere Umsetzung:</b></p>
                     <ul>
                         <li><b>Hausanschluss & Netzverträglichkeit</b></li>
                         <li><b>SUVA-konforme Gerüste & Absturzsicherung</b></li>
@@ -268,9 +269,9 @@ function FAQ() {
                 `
                 },
                 {
-                    question: "Warum soll ich mich für EcoCore entscheiden?",
+                    question: "Warum soll ich mich für ecocore entscheiden?",
                     answer: `
-                <p>Weil Sie einen regionalen Partner mit viel Erfahrung erhalten. EcoCore steht für:</p>
+                <p>Weil Sie einen regionalen Partner mit viel Erfahrung erhalten. <span className='eco'>eco</span><span className='core'>core</span> steht für:</p>
                     <ul>
                         <li>Persönliche Beratung & individuelle Planung</li>
                         <li>Hochwertige, langlebige Komponenten</li>
@@ -289,13 +290,13 @@ function FAQ() {
             <Header />
             <main>
                 <h1>FAQ</h1>
-                <button id='SonnenDachBtnFix' onClick={openSonnenDachMap}>Sonnendach Map öffnen</button>
+                <img src={sunImg} alt='Sonne' id='SonnenDachBtnFix' onClick={openSonnenDachMap}/>
                 <div>
                     {QAndA(faq)}
                 </div>
                 <div>
                     <h2>Noch Fragen?</h2>
-                    <p>EcoCore berät Sie persönlich und unverbindlich.
+                    <p><span className='eco'>eco</span><span className='core'>core</span> berät Sie persönlich und unverbindlich.
                         Nutzen Sie unser <a href="kontakt">Kontaktformular</a> oder rufen Sie uns an – wir zeigen Ihnen, was Ihre Dachfläche leisten kann.</p>
                 </div>
             </main>

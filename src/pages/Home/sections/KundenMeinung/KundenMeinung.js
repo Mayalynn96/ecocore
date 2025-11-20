@@ -16,7 +16,7 @@ function KundenMeinung() {
                     <img src={Star} alt='Stern' className='star' />
                     <img src={Star} alt='Stern' className='star' />
                 </div>
-                <p id='kundenMeinungText'>Ich bin absolut begeistert von meiner Erfahrung mit Eco Core!
+                <p id='kundenMeinungText'>Ich bin absolut begeistert von meiner Erfahrung mit ecocore!
                     Von der ersten Beratung bis zur Installation unserer Solaranlage
                     lief alles reibungslos und professionell. Das Team war sehr kompetent,
                     freundlich und hat sich für all unsere Fragen Zeit genommen.</p>

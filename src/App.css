@@ -14,6 +14,18 @@
   --green: #569728;
 }
 
+.eco{
+  color: var(--green);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.core{
+  color: var(--dark-grey);
+  font-weight: bold;
+  font-size: larger;
+}
+
 h1 {
   color: var(--light-blue);
   font-size: 36px;

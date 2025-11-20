@@ -33,14 +33,14 @@ function Kernkompetenzen() {
                     <h2>Unsere Kernkompetenzen</h2>
                     <p>Wir liefern Ihnen nicht nur Technik – wir liefern <b>Mehrwert</b>.</p>
                     <p>Mit <b>jahrelanger Erfahrung, innovativer Technologie</b> und einem klaren Fokus auf <b>Nachhaltigkeit </b>
-                        bieten wir Lösungen, <b>Ihnen mehr Unabhängigkeit, geringere Energiekosten und eine nachhaltige Wertsteigerung</b> sichern:</p>
+                        bieten wir Lösungen, die <b>Ihnen mehr Unabhängigkeit, geringere Energiekosten und eine nachhaltige Wertsteigerung</b> Ihrer Immobilie ermöglichen:</p>
                     <ul id='titleListKernkompetenzen'>
                         <li><b>Photovoltaiklösungen</b> – individuell geplant, perfekt installiert, maximal effizient.</li>
                         <li><b>Energiesysteme</b> – intelligente Kombination aus Speicher, Ladepunkt und Smart-Home-Steuerung.</li>
                         <li><b>Entwicklungsprojekte</b> – sinnvolle Investitionen in eine nachhaltige Zukunft weltweit.</li>
                         <li><b>Sicherheit & Qualität</b> - Planung und Umsetzung gemäss VKF-<i>Brandschutzrichtlinien durch eidg. dipl. Brandschutzfachmann.</i> ergänzen</li>
                     </ul>
-                    <p><b>EcoCore</b> – für alle, die heute schon an morgen denken.</p>
+                    <p><span className='eco'>eco</span><span className='core'>core</span> – für alle, die heute schon an morgen denken.</p>
                 </div>
                 <div id='alleKernkompetenzen'>
                     <div className='angebotePageDiv' id='photovoltaik'>
@@ -91,7 +91,7 @@ function Kernkompetenzen() {
                     <div className='angebotePageDiv reverse-column' id='Finanzierung'>
                         <div className='angeboteTextDiv'>
                             <h2>Finanzierung – Ihr Weg zur eigenen Solaranlage</h2><br></br>
-                            <p>EcoCore unterstützt Sie nicht nur technisch, sondern auch <b>finanziell</b> auf dem Weg zu Ihrer eigenen Photovoltaikanlage.
+                            <p><span className='eco'>eco</span><span className='core'>core</span> unterstützt Sie nicht nur technisch, sondern auch <b>finanziell</b> auf dem Weg zu Ihrer eigenen Photovoltaikanlage.
                                 Wir arbeiten mit <b>ausgewählten Banken, Darlehensgebern und Investoren</b> zusammen, die gezielt Projekte im
                                 Bereich <b>erneuerbare Energien</b> fördern.</p><br></br>
                             <p>Ob <b>Direktkauf, zinsgünstiges Darlehen</b> oder <b>maßgeschneiderte Finanzierungsmodelle</b> – wir finden gemeinsam mit Ihnen

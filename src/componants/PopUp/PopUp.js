@@ -6,6 +6,7 @@ function PopUp({isOpen, setIsOpen}) {
 // Adding useNavigate to navigate to homepage
     const closePopUp = () => {
         setIsOpen(false)
+        localStorage.setItem('hasBeenOpen', JSON.stringify(true));
     }
 
     useEffect(() => {

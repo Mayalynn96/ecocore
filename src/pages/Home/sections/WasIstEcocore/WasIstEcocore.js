@@ -16,14 +16,14 @@ function WasIstEcocore() {
                     <img src={Logo} alt='logo' id='logo1' className='backgroundSunIcon'/>
                     <div id='wasIstEcocore'>
                         <div className='paragraph'>
-                        <h1>Was ist Eco Core?</h1>
+                        <h1>Was ist <span className='eco'>eco</span><span className='core'>core</span>?</h1>
                         <p><b>Mehr Unabhängigkeit. Weniger Energiekosten. Nachhaltige Wertsteigerung.</b></p><br></br>
-                        <p>EcoCore entwickelt und realisiert <b> maßgeschneiderte Photovoltaiklösungen</b>, die Ihren Eigenverbrauch maximieren – 
+                        <p><span className='eco'>eco</span><span className='core'>core</span> entwickelt und realisiert <b> maßgeschneiderte Photovoltaiklösungen</b>, die Ihren Eigenverbrauch maximieren – 
                             von eleganter Dach- und Fassadenintegration bis zu kompletten Energiesystemen mit <b>Batteriespeicher, 
                             E-Ladestation und Smart-Home-Anbindung</b>.</p><br></br>
-                        <p>Dank intelligenter Vernetzung von <b>PV, Speicher, Ladeinfrastruktur und Gebäudetechnik</b>
+                        <p>Dank intelligenter Vernetzung von <b>PV, Speicher, Ladeinfrastruktur und Gebäudetechnik </b>
                              erreichen Sie <b>maximale Effizienz, Unabhängigkeit</b> und Eigenstromnutzung.</p><br></br>
-                        <p>Ob <b>Privatperson, Unternehmen</b> oder <b>Institution</b> – mit EcoCore senken Sie nicht nur Ihre Stromkosten, sondern steigern 
+                        <p>Ob <b>Privatperson, Unternehmen</b> oder <b>Institution</b> – mit <span className='eco'>eco</span><span className='core'>core</span> senken Sie nicht nur Ihre Stromkosten, sondern steigern 
                             den Wert Ihrer Immobilie und leisten aktiv einen Beitrag zum Klimaschutz.</p><br></br>
                         <p><b>Jetzt beraten lassen und Ihre persönliche Energielösung sichern.</b></p>
                         </div>
