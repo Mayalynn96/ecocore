@@ -16,13 +16,8 @@ function Kontakt() {
     const [telNumberInput, setTelNumberInput] = useState('');
     const [adressInput, setAdressInput] = useState('');
     const [messageInput, setMessageInput] = useState('');
-    const [gebaudetyp, setGebaudetyp] = useState('');
     const [jahressverbrauch, setJahressverbrauch] = useState('');
     const [aktuelleHeizart, setAktuelleHeizart] = useState('');
-    const [spezielleVerbaucherSonstiges, setSpezielleVerbraucherSonstiges] = useState('');
-    const [aktuelleHeizartSonstiges, setAktuelleHeizartSonstiges] = useState('');
-    const [speicherlosung, setSpeicherlosung] = useState('');
-    const [backupLosung, setBackupLosung] = useState('');
 
     // input handler for each state
     const handleInputChange = (e) => {
@@ -38,10 +33,6 @@ function Kontakt() {
             setMessageInput(e.target.value)
         } else if (e.target.id === "jahressverbrauch") {
             setJahressverbrauch(e.target.value)
-        } else if (e.target.id === "spezielleVerbaucherSonstiges") {
-            setSpezielleVerbraucherSonstiges(e.target.value)
-        } else if (e.target.id === "aktuelleHeizartSonstiges") {
-            setAktuelleHeizartSonstiges(e.target.value)
         }
     }
 
@@ -51,13 +42,8 @@ function Kontakt() {
         setTelNumberInput("");
         setAdressInput("");
         setMessageInput("");
-        setGebaudetyp("");
         setJahressverbrauch("");
         setAktuelleHeizart("");
-        setSpezielleVerbraucherSonstiges("");
-        setAktuelleHeizartSonstiges("");
-        setSpeicherlosung("");
-        setBackupLosung("");
     }
 
     const handleCheckOne = (e) => {
@@ -68,21 +54,23 @@ function Kontakt() {
         }
         e.target.checked = true
 
-        if (e.target.name === "gebaudetyp") {
-            setGebaudetyp(e.target.value)
-        } else if(e.target.name === "aktuelleHeizart") {
+        if(e.target.name === "aktuelleHeizart") {
            setAktuelleHeizart(e.target.value)
-        } else if (e.target.name === "speicherlosung") {
-            setSpeicherlosung(e.target.value)
-        } else if (e.target.name === "backupLosung") {
-            setBackupLosung(e.target.value)
-        }
+        } 
 
 
     }
 
     const SendContactForm = (e) => {
         e.preventDefault();
+
+        if(nameInput === ''){
+            alert("Bitter geben sie uns einen Namen um dieses Formular zu senden!")
+            return
+        } else if (emailInput === '' && telNumberInput === '') {
+            alert("Bitter geben sie uns eine E-Mail-Adresse order Telefonnummer um dieses Formular zu senden!")
+            return
+        }
 
         const spezielleVerbaucherBoxes = document.getElementsByName("spezielleVerbaucher");
         const spezielleVerbaucherAll = []
@@ -93,29 +81,14 @@ function Kontakt() {
             }
         }
 
-        if (spezielleVerbaucherSonstiges) {
-            spezielleVerbaucherAll.push("sonstiges: " + spezielleVerbaucherSonstiges)
-        }
-
-        const aktuelleHeizartFinal = () => {
-            if(aktuelleHeizart === 'sonstige'){
-                return aktuelleHeizartSonstiges
-            } else {
-                return aktuelleHeizart
-            }
-        }
-
         const formData = {
             name: nameInput,
             email: emailInput,
             tel: telNumberInput,
             adress: adressInput,
-            gebaudetyp: gebaudetyp,
             jahressverbrauch: jahressverbrauch,
-            aktuelleHeizart: aktuelleHeizartFinal(),
+            aktuelleHeizart: aktuelleHeizart,
             spezielleVerbaucher: spezielleVerbaucherAll,
-            speicherlosung: speicherlosung,
-            backupLosung: backupLosung,
             message: messageInput
         }
 
@@ -170,29 +143,16 @@ function Kontakt() {
                             <label>Objektadresse:
                             <input value={adressInput} onChange={handleInputChange} id='adressInput'></input>
                             </label>
-                            <h3>Gebäudetyp</h3>
-                            <label>Einfamilienhaus (EFH)
-                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Einfamilienhaus (EFH)" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Mehrfamilienhaus (MFH)
-                                <input className='checkbox' type="checkbox" name="gebaudetyp" value="Mehrfamilienhaus (MFH)" onChange={handleCheckOne}></input>
-                            </label>
                             <h3>Aktueller Stromverbrauch</h3>
                             <label>Jahresstromverbrauch (kWh)
                             <input type="number" value={jahressverbrauch} onChange={handleInputChange} id='jahressverbrauch'></input>
                             </label>
                             <label><b>Aktuelle Heizart:</b></label>
-                            <label>Wärmepumpe
-                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Wärmepumpe" onChange={handleCheckOne}></input>
+                            <label>Wärmepumpe / Strom
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Wärmepumpe / Strom" onChange={handleCheckOne}></input>
                             </label>
-                            <label>Oel/Gas
-                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Gas" onChange={handleCheckOne}></input>
-                            </label>
-                            <label >Sonstige
-                                <div id='sonstigeTextAndCheckbox'>
-                                    <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="sonstige" onChange={handleCheckOne}></input>
-                                <input onChange={handleInputChange} name="aktuelleHeizart" id="aktuelleHeizartSonstiges" value={aktuelleHeizartSonstiges} ></input>
-                                </div>
+                            <label>Oel / Gas / Holz / Andere
+                                <input className='checkbox' type="checkbox" name="aktuelleHeizart" value="Oel / Gas / Holz / Andere" onChange={handleCheckOne}></input>
                             </label>
                             <label><b>Spezielle Verbraucher (Mehrfachauswahl Checkboxen):</b></label>
                             <label>Boiler 
@@ -206,23 +166,6 @@ function Kontakt() {
                             </label>
                             <label>Pool / Jacuzzi
                                 <input className='checkbox' type="checkbox" name="spezielleVerbaucher" value="Pool / Jacuzzi"></input>
-                            </label>
-                            <label>Sonstige
-                                <input onChange={handleInputChange} name="spezielleVerbaucher" id="spezielleVerbaucherSonstiges" value={spezielleVerbaucherSonstiges} ></input>
-                            </label>
-                            <label><b>Speicherlösung :</b></label>
-                            <label>Ja
-                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Ja" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Nein
-                                <input className='checkbox' type="checkbox" name="speicherlosung" value="Nein" onChange={handleCheckOne}></input>
-                            </label>
-                            <label><b>Notstromversorgung :</b></label>
-                            <label>Ja
-                                <input className='checkbox' type="checkbox" name="backupLosung" value="Ja" onChange={handleCheckOne}></input>
-                            </label>
-                            <label>Nein
-                                <input className='checkbox' type="checkbox" name="backupLosung" value="Nein" onChange={handleCheckOne}></input>
                             </label>
                             <label><b>Sonstige info:</b>
                                 <input onChange={handleInputChange} name="messageInput" id="messageInput" value={messageInput} ></input>

@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import Header from '../../componants/Header/Header';
 import "./Angebote.css"
 import Footer from '../../componants/Footer/Footer';
-import Arrow from './right-arrow.svg'
 import Process from './process-improvement.svg'
 
 import Partner from '../../componants/Partner/Partner';
@@ -39,32 +38,35 @@ function Angebote() {
                     <h3>Der bewährte <span className='eco'>eco</span><span className='core'>core</span>-Prozess</h3>
                     <div id='angeboteProcessDiv'>
                         <div className='AngeboteProcess'>
-                            <p><b>1. Beratung & Erstgespräch</b></p>
+                            <p><b>1. Beratung &
+                                <br></br> Erstgespräch</b></p>
                         </div>
-                        <img src={Arrow} alt='Pfeil' className='AngeboteArrow'/>
                         <div className='AngeboteProcess'>
                             <p><b>2. Analyse</b></p>
                         </div>
-                        <img src={Arrow} alt='Pfeil' className='AngeboteArrow'/>
                         <div className='AngeboteProcess'>
                             <p><b>3. Planung</b></p>
                         </div>
-                        <img src={Arrow} alt='Pfeil' className='AngeboteArrow'/>
                         <div className='AngeboteProcess'>
                             <p><b>4. Installation</b></p>
                         </div>
-                        <img src={Arrow} alt='Pfeil' className='AngeboteArrow'/>
                         <div className='AngeboteProcess'>
-                            <p><b>5. Förderung & Wirkung</b></p>
+                            <p><b>5. Förderung</b></p>
+                        </div>
+                        <div className='AngeboteProcess'>
+                            <p><b>6. Wirkung</b></p>
                         </div>
                     </div>
                 </section>
                 <img src={Process} alt='Prozess' className='angeboteImgs'/>
                 <section className='AngebotePointsSection'>
-                    <h3>1. Beratung & Erstangebot – Ihr Start in die Energiezukunft</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>1. Beratung & Erstangebot – Ihr Start in die Energiezukunft</h3>
+                    </div>
                     <p><b>Leistungsumfang:</b><br></br>
                     Das erste Beratungsgespräch sowie eine auf Ihren Angaben basierende Erstofferte sind <b>kostenlos und unverbindlich</b>.<br></br>
                     Wir analysieren Ihre Grunddaten und erstellen eine erste technische sowie wirtschaftliche Einschätzung.</p>
+                    <div id='kostenfrei'></div>
                     <p><b>Kostenregelung:</b><br></br>
                     Wenn Sie eine detaillierte Projektierung mit Vor-Ort-Termin, Dachvermessung, Anschluss- und Förderabklärungen wünschen, 
                     erarbeiten wir ein verbindliches Angebot.<br></br>
@@ -73,21 +75,27 @@ function Angebote() {
                     <p><b>👉 Ihr Vorteil:</b> fundierte Entscheidungsgrundlage ohne Risiko – Sie zahlen nur, wenn wir im Detail planen.</p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>2. Analyse – Grundlagen für Ihr Projekt</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>2. Analyse – Grundlagen für Ihr Projekt</h3>
+                    </div>
                     <p><b>Leistungsumfang:</b><br></br>
                     Erfassung von Dachfläche, Ausrichtung, Neigung, Verschattung und Stromverbrauch.<br></br>
                     Berechnung von Ertrag, Eigenverbrauch und Wirtschaftlichkeit.</p>
                     <p>Die Analyse bildet die Grundlage für die technische und wirtschaftliche Optimierung Ihres Projekts.</p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>3. Planung – Ihre massgeschneiderte Lösung</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>3. Planung – Ihre massgeschneiderte Lösung</h3>
+                    </div>
                     <p><b>Leistungsumfang:</b><br></br>
                     Individuelle Systemplanung, technische Schemata, Förder- und Netzabklärungen, Einreichung sämtlicher Bewilligungen.</p>
                     <p>Ziel ist eine perfekt abgestimmte Lösung, die alle Komponenten – von Modulen über Speicher bis zur Gebäudetechnik
                          – optimal integriert.</p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>4. Installation – Präzise, sicher, termingerecht</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>4. Installation – Präzise, sicher, termingerecht</h3>
+                    </div>
                     <p><b>Leistungsumfang:</b>
                     <ul>
                         <li>Premium-Solarmodule (10 kWp)</li>
@@ -98,7 +106,9 @@ function Angebote() {
                     <p><b>➡ Schlüsselfertige 10 kWp-Anlage:</b> CHF 24 200.– exkl. MwSt.</p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>5. Förderung & Finanzierung – Ihr finanzieller Vorteil</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>5. Förderung & Finanzierung – Ihr finanzieller Vorteil</h3>
+                    </div>
                     <p><b>Leistungsumfang:</b><br></br>
                     Abwicklung der nationalen <b>Einmalvergütung (EIV)</b> über Pronovo sowie Unterstützung bei Finanzierungs- 
                     oder Leasinglösungen.</p>
@@ -111,7 +121,9 @@ function Angebote() {
                     <p><b>➡ Effektive Investition:</b> ca. <b>CHF 20 600.– exkl. MwSt.</b></p>
                 </section>
                 <section className='AngebotePointsSection'>
-                    <h3>6. Wirkung – Ihre Energie rechnet sich</h3>
+                    <div className='AngeboteSteps'>
+                        <h3>6. Wirkung – Ihre Energie rechnet sich</h3>
+                    </div>
                     <p><b>Ergebnis:</b>
                     <ul>
                         <li>Eigenproduktion ≈ 10 000 kWh / Jahr</li>
