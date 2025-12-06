@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecocore/static/css/main.2223ec6e.css",
+    "main.css": "/ecocore/static/css/main.62270ca7.css",
     "main.js": "/ecocore/static/js/main.f26e92cd.js",
     "static/media/IMG_05.jpg": "/ecocore/static/media/IMG_05.2ab4eea29bfdff20a73e.jpg",
     "static/media/IMG_03.jpg": "/ecocore/static/media/IMG_03.9827d17513d55e967094.jpg",
@@ -60,11 +60,11 @@
     "static/media/facebook.svg": "/ecocore/static/media/facebook.a84abe3a77fe8a7fb9effa225c2d2171.svg",
     "static/media/x-twitter.svg": "/ecocore/static/media/x-twitter.7fe4e0633c63cf7917958618cab3b3ed.svg",
     "static/media/down-arrow.svg": "/ecocore/static/media/down-arrow.23f1d9686060343b0a8c4b3be4dcd6b4.svg",
-    "main.2223ec6e.css.map": "/ecocore/static/css/main.2223ec6e.css.map",
+    "main.62270ca7.css.map": "/ecocore/static/css/main.62270ca7.css.map",
     "main.f26e92cd.js.map": "/ecocore/static/js/main.f26e92cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2223ec6e.css",
+    "static/css/main.62270ca7.css",
     "static/js/main.f26e92cd.js"
   ]
 }
